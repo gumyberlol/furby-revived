@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VFX_Hose_WaterJet
+  m_Shader: {fileID: 4800000, guid: 709fb4a8ffea1254a8159bc3e32f76c5, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _TextureA
+        second:
+          m_Texture: {fileID: 2800000, guid: 8a83dea5a89105f44831144e79c4ba97, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1, y: 1}
+      data:
+        first:
+          name: _TextureB
+        second:
+          m_Texture: {fileID: 2800000, guid: c325ccbdcf8a8b247ad7700e4a56ae4c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1, y: 1}
+    m_Floats:
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _WiggleStrength
+        second: 0.01
+      data:
+        first:
+          name: _TextureMix
+        second: 1
+      data:
+        first:
+          name: _ScrollX
+        second: 0
+      data:
+        first:
+          name: _ScrollY
+        second: 0
+      data:
+        first:
+          name: _Scroll2X
+        second: 0
+      data:
+        first:
+          name: _Scroll2Y
+        second: 0
+      data:
+        first:
+          name: _SineAmplX
+        second: 0
+      data:
+        first:
+          name: _SineAmplY
+        second: 0
+      data:
+        first:
+          name: _SineFreqX
+        second: 0
+      data:
+        first:
+          name: _SineFreqY
+        second: 0
+      data:
+        first:
+          name: _SineAmplX2
+        second: 0
+      data:
+        first:
+          name: _SineAmplY2
+        second: 0
+      data:
+        first:
+          name: _SineFreqX2
+        second: 0
+      data:
+        first:
+          name: _SineFreqY2
+        second: 0
+      data:
+        first:
+          name: _MMultiplier
+        second: 2.57
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      data:
+        first:
+          name: _2ndLayer
+        second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5137255}

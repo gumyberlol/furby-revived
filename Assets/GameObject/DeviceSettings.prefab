@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: DeviceSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be66dc48968a113e36095169bdd1204, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_AndroidDatabase: {fileID: 1709254077376921, guid: 76860aee6e99b3e418acd906c2307fde, type: 2}
+  m_iPhoneDatabase: {fileID: 1709254077376921, guid: c8860a88df93ade49ba7ce1463b44aec, type: 2}
+  m_DefaultEditor:
+    m_DisplayName: Editor Device
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  m_DefaultAndroid:
+    m_DisplayName: Default Android
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.5
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  m_DefaultIDevice:
+    m_DisplayName: Default iDevice
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.5
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  m_DeviceIsKnown: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

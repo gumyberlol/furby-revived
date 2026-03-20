@@ -1,0 +1,738 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_PopupMenus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 515bc5e4010bbd84190acafc4a54c6ed, type: 2}
+  sprites:
+  - name: SHARED_AppPattern_TriDown_noAlpha
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 291
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 291
+      width: 80
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Cross02
+    outer:
+      serializedVersion: 2
+      x: 735
+      y: 685
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 735
+      y: 685
+      width: 80
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_swatchWhite_D
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 304
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 304
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_iconEggSmall
+    outer:
+      serializedVersion: 2
+      x: 719
+      y: 472
+      width: 76
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 719
+      y: 472
+      width: 76
+      height: 99
+    paddingLeft: 0.17105263
+    paddingRight: 0.15789473
+    paddingTop: 0.11111111
+    paddingBottom: 0.121212125
+  - name: GUI_Popup_eggs_eggCarton
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 2
+      width: 253
+      height: 296
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 2
+      width: 253
+      height: 296
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Scales
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 550
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 550
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Cubes
+    outer:
+      serializedVersion: 2
+      x: 863
+      y: 561
+      width: 40
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 863
+      y: 561
+      width: 40
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Houndstooth
+    outer:
+      serializedVersion: 2
+      x: 735
+      y: 574
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 735
+      y: 574
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Vortex
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 11
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 11
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_bannerSide
+    outer:
+      serializedVersion: 2
+      x: 467
+      y: 32
+      width: 276
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 467
+      y: 32
+      width: 276
+      height: 86
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Dash_IconCarton
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 373
+      width: 75
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 373
+      width: 75
+      height: 97
+    paddingLeft: 0.04
+    paddingRight: 0.026666667
+    paddingTop: 0.010309278
+    paddingBottom: 0.020618556
+  - name: GUI_Shared_buttonExitBG
+    outer:
+      serializedVersion: 2
+      x: 745
+      y: 6
+      width: 130
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 745
+      y: 6
+      width: 130
+      height: 131
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.053435113
+  - name: GUI_Shared_buttonExit
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 643
+      width: 61
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 818
+      y: 643
+      width: 61
+      height: 60
+    paddingLeft: 0.32786885
+    paddingRight: 0.3114754
+    paddingTop: 0.33333334
+    paddingBottom: 0.33333334
+  - name: GUI_Shared_bannerThick
+    outer:
+      serializedVersion: 2
+      x: 879
+      y: 839
+      width: 19
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 882
+      y: 839
+      width: 13
+      height: 184
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_swipeBarRail
+    outer:
+      serializedVersion: 2
+      x: 777
+      y: 580
+      width: 14
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 777
+      y: 580
+      width: 14
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Popup_games_sing
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 619
+      width: 315
+      height: 404
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 619
+      width: 315
+      height: 404
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Popup_games_hide
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 300
+      width: 333
+      height: 317
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 300
+      width: 333
+      height: 317
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Popup_games_furball
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 705
+      width: 297
+      height: 318
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 705
+      width: 297
+      height: 318
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Chevron
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 11
+      width: 37
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 11
+      width: 37
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_Bolts
+    outer:
+      serializedVersion: 2
+      x: 900
+      y: 767
+      width: 45
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 900
+      y: 767
+      width: 45
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_popUpEgg
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 338
+      width: 156
+      height: 201
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 338
+      width: 156
+      height: 201
+    paddingLeft: 0.057692308
+    paddingRight: 0.06410257
+    paddingTop: 0.029850746
+    paddingBottom: 0.07462686
+  - name: GUI_popUpFurby
+    outer:
+      serializedVersion: 2
+      x: 638
+      y: 139
+      width: 139
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 638
+      y: 139
+      width: 139
+      height: 131
+    paddingLeft: 0.07913669
+    paddingRight: 0.07194245
+    paddingTop: 0.07633588
+    paddingBottom: 0.099236645
+  - name: GUI_popUpEggWhite
+    outer:
+      serializedVersion: 2
+      x: 467
+      y: 120
+      width: 169
+      height: 216
+    inner:
+      serializedVersion: 2
+      x: 467
+      y: 120
+      width: 169
+      height: 216
+    paddingLeft: 0.02366864
+    paddingRight: 0.01183432
+    paddingTop: 0.009259259
+    paddingBottom: 0.018518519
+  - name: GUI_popUpBow
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 705
+      width: 69
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 705
+      width: 69
+      height: 60
+    paddingLeft: 0.04347826
+    paddingRight: 0.028985508
+    paddingTop: 0.016666668
+    paddingBottom: 0.033333335
+  - name: GUI_popUpFurbyWhite
+    outer:
+      serializedVersion: 2
+      x: 494
+      y: 398
+      width: 149
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 494
+      y: 398
+      width: 149
+      height: 141
+    paddingLeft: 0.040268455
+    paddingRight: 0.033557046
+    paddingTop: 0.035460994
+    paddingBottom: 0.056737587
+  - name: GUI_popUpDictionary
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 541
+      width: 241
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 541
+      width: 241
+      height: 162
+    paddingLeft: 0.024896266
+    paddingRight: 0.012448133
+    paddingTop: 0.043209877
+    paddingBottom: 0.043209877
+  - name: GUI_popUpSpeech
+    outer:
+      serializedVersion: 2
+      x: 638
+      y: 272
+      width: 150
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 638
+      y: 272
+      width: 150
+      height: 124
+    paddingLeft: 0.026666667
+    paddingRight: 0.04
+    paddingTop: 0.024193548
+    paddingBottom: 0.032258064
+  - name: GUI_popUpSpeechRough
+    outer:
+      serializedVersion: 2
+      x: 579
+      y: 573
+      width: 154
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 579
+      y: 573
+      width: 154
+      height: 130
+    paddingLeft: 0.0064935065
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.015384615
+  - name: GUI_popUpSoundwave
+    outer:
+      serializedVersion: 2
+      x: 645
+      y: 399
+      width: 116
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 645
+      y: 399
+      width: 116
+      height: 44
+    paddingLeft: 0.03448276
+    paddingRight: 0.03448276
+    paddingTop: 0.045454547
+    paddingBottom: 0.1590909
+  - name: GUI_popUpSpeechRound
+    outer:
+      serializedVersion: 2
+      x: 735
+      y: 616
+      width: 81
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 735
+      y: 616
+      width: 81
+      height: 67
+    paddingLeft: 0.012345679
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.014925373
+  - name: GUI_Popup_Eggbackground
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 15
+      width: 209
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 15
+      width: 209
+      height: 283
+    paddingLeft: 0.062200956
+    paddingRight: 0.057416268
+    paddingTop: 0.028268551
+    paddingBottom: 0.03180212
+  - name: GUI_Popup_iconFurby
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 155
+      width: 119
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 155
+      width: 119
+      height: 115
+    paddingLeft: 0.016806724
+    paddingRight: 0.016806724
+    paddingTop: 0
+    paddingBottom: 0.008695652
+  - name: GUI_Popup_iconDeviceBase
+    outer:
+      serializedVersion: 2
+      x: 645
+      y: 445
+      width: 72
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 645
+      y: 445
+      width: 72
+      height: 126
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Popup_iconDeviceScreen
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 937
+      width: 60
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 937
+      width: 60
+      height: 86
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Popup_iconArrow
+    outer:
+      serializedVersion: 2
+      x: 881
+      y: 650
+      width: 53
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 881
+      y: 650
+      width: 53
+      height: 53
+    paddingLeft: 0.0754717
+    paddingRight: 0.056603774
+    paddingTop: 0.056603774
+    paddingBottom: 0.0754717
+  - name: GUI_Popup_iconQR
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 53
+      width: 104
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 53
+      width: 104
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_help_eggProduct_gift
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 1
+      width: 45
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 1
+      width: 45
+      height: 50
+    paddingLeft: 0.22222222
+    paddingRight: 0.2
+    paddingTop: 0.12
+    paddingBottom: 0.16
+  - name: GUI_help_lock
+    outer:
+      serializedVersion: 2
+      x: 602
+      y: 338
+      width: 34
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 602
+      y: 338
+      width: 34
+      height: 58
+    paddingLeft: 0.44117647
+    paddingRight: 0.44117647
+    paddingTop: 0.03448276
+    paddingBottom: 0.06896552
+  - name: GUI_help_productBaby
+    outer:
+      serializedVersion: 2
+      x: 494
+      y: 343
+      width: 106
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 494
+      y: 343
+      width: 106
+      height: 53
+    paddingLeft: 0.11320755
+    paddingRight: 0.094339624
+    paddingTop: 0.094339624
+    paddingBottom: 0.11320755
+  - name: GUI_furbyScan_icon
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 485
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 485
+      width: 64
+      height: 63
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.015873017
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

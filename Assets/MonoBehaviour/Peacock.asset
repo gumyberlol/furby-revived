@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Peacock
+  m_EditorClassIdentifier:
+  m_adultType: 7
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 1947f702cf413f6489675b5daa109e02, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: cbbd7447e1a8424488dd065fa9d93f36, type: 2}
+    EyeColor: {fileID: 11400000, guid: ab63a783237527c4cafe59b4bc33b609, type: 2}
+    EarColor: {fileID: 11400000, guid: cbbd7447e1a8424488dd065fa9d93f36, type: 2}
+    EyelidColor: {fileID: 11400000, guid: cbbd7447e1a8424488dd065fa9d93f36, type: 2}
+    FurbySpriteName: CH_furbyAdult_Peacock
+  m_tribe: {fileID: 11400000, guid: ffd68193adc0b854182a5613737fd234, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 070000000200000009000000030000000b0000000500000006000000000000000a0000000800000004000000010000001300000014000000100000000f000000120000001100000015000000160000001800000017000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 5b3ef201d33834a4693f4a724772ea4d, type: 2}
+  - {fileID: 11400000, guid: 43d1adbdb32f10d4c8ef80e2886f408e, type: 2}
+  - {fileID: 11400000, guid: e708136db42ccd44a964994a199c1523, type: 2}
+  - {fileID: 11400000, guid: 86e08fc00e90a3748a683754f4fbd090, type: 2}
+  - {fileID: 11400000, guid: 763711eb3efc1774783a58d13b1fefd0, type: 2}
+  - {fileID: 11400000, guid: aa5928d32a0903b448d0d3bdbdefbe40, type: 2}
+  - {fileID: 11400000, guid: 1f722bf6cb26a944d81594b2a931dcfa, type: 2}
+  - {fileID: 11400000, guid: 67d513380b44d6a4c97ff7f04a7052b2, type: 2}
+  m_maxFurbyBabiesOfType: 5

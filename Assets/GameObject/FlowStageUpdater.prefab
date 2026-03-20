@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: FlowStageUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.842041, y: 0.44325256, z: -0.54981995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4326eaffe9c7b681bed5570dbe38093, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_stageTriggers:
+  - Current: 0
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Utilities/Firehose.unity
+    Next: 256
+  - Current: 256
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Dashboard/Dashboard.unity
+    Next: 512
+  - Current: 512
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggTransfer.unity
+    Next: 768
+  - Current: 512
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+    Next: 1024
+  - Current: 768
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+    Next: 1024
+  - Current: 1024
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Incubator.unity
+    Next: 1280
+  - Current: 1280
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Dashboard/BabyName.unity
+    Next: 1536
+  - Current: 1536
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Nurture/Playroom.unity
+    Next: 1792
+  - Current: 1792
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Utilities/Blender.unity
+    Next: 1920
+  - Current: 1920
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Nurture/Playroom.unity
+    Next: 2048
+  - Current: 2048
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Utilities/Salon2/Salon2.unity
+    Next: 2176
+  - Current: 2176
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Nurture/Playroom.unity
+    Next: 2304
+  - Current: 2304
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Dashboard/Dashboard.unity
+    Next: 2560
+  - Current: 2560
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+    Next: 2816
+  - Current: 2816
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/FriendsBook/FriendsBook.unity
+    Next: 3072
+  - Current: 3072
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+    Next: 3200
+  - Current: 3200
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Incubator.unity
+    Next: 3328
+  - Current: 3328
+    LevelTrigger:
+      m_path: Assets/Furby/Scenes/Screens/Dashboard/Dashboard.unity
+    Next: 3584
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

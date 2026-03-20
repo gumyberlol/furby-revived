@@ -1,0 +1,670 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: PROP_salon_atlasSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 6d88ddb9c2129f54bb7be1c139179604, type: 2}
+  sprites:
+  - name: PROP_salon_showergel
+    outer:
+      serializedVersion: 2
+      x: 851
+      y: 65
+      width: 63
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 851
+      y: 65
+      width: 63
+      height: 196
+    paddingLeft: 0.96825397
+    paddingRight: 1.2063493
+    paddingTop: 0.010204081
+    paddingBottom: 0.010204081
+  - name: PROP_salon_soap
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 38
+      width: 146
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 38
+      width: 146
+      height: 108
+    paddingLeft: 0.1849315
+    paddingRight: 0.1849315
+    paddingTop: 0.42592594
+    paddingBottom: 0.42592594
+  - name: PROP_salon_comb
+    outer:
+      serializedVersion: 2
+      x: 188
+      y: 82
+      width: 192
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 188
+      y: 82
+      width: 192
+      height: 182
+    paddingLeft: 0.026041666
+    paddingRight: 0.015625
+    paddingTop: 0.06593407
+    paddingBottom: 0.032967035
+  - name: PROP_salon_candyfloss
+    outer:
+      serializedVersion: 2
+      x: 833
+      y: 263
+      width: 69
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 833
+      y: 263
+      width: 69
+      height: 183
+    paddingLeft: 0.942029
+    paddingRight: 0.95652175
+    paddingTop: 0.043715846
+    paddingBottom: 0.04918033
+  - name: PROP_salon_pinkhairbrush
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 423
+      width: 184
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 423
+      width: 184
+      height: 105
+    paddingLeft: 0.02173913
+    paddingRight: 0.06521739
+    paddingTop: 0.41904762
+    paddingBottom: 0.4857143
+  - name: PROP_salon_ketchup
+    outer:
+      serializedVersion: 2
+      x: 916
+      y: 123
+      width: 63
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 916
+      y: 123
+      width: 63
+      height: 162
+    paddingLeft: 1.0793651
+    paddingRight: 1.0952381
+    paddingTop: 0.11728395
+    paddingBottom: 0.11728395
+  - name: PROP_salon_microphone
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 463
+      width: 60
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 463
+      width: 60
+      height: 156
+    paddingLeft: 1.2666667
+    paddingRight: 1.0666667
+    paddingTop: 0.17307693
+    paddingBottom: 0.10897436
+  - name: PROP_salon_flyswat
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 90
+      width: 132
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 90
+      width: 132
+      height: 160
+    paddingLeft: 0.2651515
+    paddingRight: 0.25
+    paddingTop: 0.125
+    paddingBottom: 0.125
+  - name: PROP_salon_leoppardprintbrush
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 420
+      width: 189
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 420
+      width: 189
+      height: 130
+    paddingLeft: 0.037037037
+    paddingRight: 0.02116402
+    paddingTop: 0.35384616
+    paddingBottom: 0.18461539
+  - name: PROP_salon_glitter
+    outer:
+      serializedVersion: 2
+      x: 203
+      y: 687
+      width: 200
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 203
+      y: 687
+      width: 200
+      height: 159
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.08176101
+    paddingBottom: 0.17610063
+  - name: PROP_salon_toiletroll
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 823
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 823
+      width: 200
+      height: 200
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_salon_discoball
+    outer:
+      serializedVersion: 2
+      x: 904
+      y: 287
+      width: 74
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 904
+      y: 287
+      width: 74
+      height: 159
+    paddingLeft: 0.8378378
+    paddingRight: 0.8648649
+    paddingTop: 0.12578617
+    paddingBottom: 0.13207547
+  - name: PROP_salon_mud
+    outer:
+      serializedVersion: 2
+      x: 401
+      y: 885
+      width: 186
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 401
+      y: 885
+      width: 186
+      height: 138
+    paddingLeft: 0.048387095
+    paddingRight: 0.02688172
+    paddingTop: 0.19565217
+    paddingBottom: 0.2536232
+  - name: PROP_salon_hedgehog
+    outer:
+      serializedVersion: 2
+      x: 203
+      y: 848
+      width: 196
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 203
+      y: 848
+      width: 196
+      height: 175
+    paddingLeft: 0.0051020407
+    paddingRight: 0.015306123
+    paddingTop: 0.034285713
+    paddingBottom: 0.108571425
+  - name: PROP_salon_sponge
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 148
+      width: 160
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 148
+      width: 160
+      height: 142
+    paddingLeft: 0.11875
+    paddingRight: 0.13125
+    paddingTop: 0.22535211
+    paddingBottom: 0.18309858
+  - name: PROP_salon_hairdryer
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 419
+      width: 172
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 419
+      width: 172
+      height: 200
+    paddingLeft: 0.12790698
+    paddingRight: 0.034883723
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_salon_rake
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 552
+      width: 189
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 552
+      width: 189
+      height: 133
+    paddingLeft: 0.015873017
+    paddingRight: 0.04232804
+    paddingTop: 0.22556391
+    paddingBottom: 0.2781955
+  - name: PROP_salon_talcumpowder
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 530
+      width: 99
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 530
+      width: 99
+      height: 196
+    paddingLeft: 0.45454547
+    paddingRight: 0.56565654
+    paddingTop: 0.0051020407
+    paddingBottom: 0.015306123
+  - name: PROP_salon_washingpowder
+    outer:
+      serializedVersion: 2
+      x: 405
+      y: 705
+      width: 140
+      height: 178
+    inner:
+      serializedVersion: 2
+      x: 405
+      y: 705
+      width: 140
+      height: 178
+    paddingLeft: 0.20714286
+    paddingRight: 0.22142857
+    paddingTop: 0.061797753
+    paddingBottom: 0.061797753
+  - name: PROP_salon_chocolatesauce
+    outer:
+      serializedVersion: 2
+      x: 743
+      y: 438
+      width: 88
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 743
+      y: 438
+      width: 88
+      height: 190
+    paddingLeft: 0.6363636
+    paddingRight: 0.6363636
+    paddingTop: 0.02631579
+    paddingBottom: 0.02631579
+  - name: PROP_salon_underpants
+    outer:
+      serializedVersion: 2
+      x: 763
+      y: 916
+      width: 143
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 763
+      y: 916
+      width: 143
+      height: 107
+    paddingLeft: 0.2027972
+    paddingRight: 0.1958042
+    paddingTop: 0.42990655
+    paddingBottom: 0.43925235
+  - name: PROP_salon_deodorant
+    outer:
+      serializedVersion: 2
+      x: 678
+      y: 77
+      width: 87
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 678
+      y: 77
+      width: 87
+      height: 180
+    paddingLeft: 0.62068963
+    paddingRight: 0.6781609
+    paddingTop: 0.055555556
+    paddingBottom: 0.055555556
+  - name: PROP_salon_mop
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 74
+      width: 185
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 74
+      width: 185
+      height: 190
+    paddingLeft: 0.048648648
+    paddingRight: 0.032432433
+    paddingTop: 0.02631579
+    paddingBottom: 0.02631579
+  - name: PROP_salon_honey
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 266
+      width: 189
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 266
+      width: 189
+      height: 195
+    paddingLeft: 0.05820106
+    paddingRight: 0
+    paddingTop: 0.025641026
+    paddingBottom: 0
+  - name: PROP_salon_hairSpray
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 75
+      width: 82
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 75
+      width: 82
+      height: 182
+    paddingLeft: 0.7195122
+    paddingRight: 0.7195122
+    paddingTop: 0.04945055
+    paddingBottom: 0.04945055
+  - name: PROP_salon_leafBlower
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 292
+      width: 256
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 292
+      width: 256
+      height: 125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.528
+    paddingBottom: 0.52
+  - name: PROP_salon_curlingIron
+    outer:
+      serializedVersion: 2
+      x: 530
+      y: 23
+      width: 200
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 530
+      y: 23
+      width: 200
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.4230769
+    paddingBottom: 1.4230769
+  - name: PROP_salon_electricShaver
+    outer:
+      serializedVersion: 2
+      x: 833
+      y: 448
+      width: 75
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 833
+      y: 448
+      width: 75
+      height: 180
+    paddingLeft: 0.84
+    paddingRight: 0.82666665
+    paddingTop: 0.055555556
+    paddingBottom: 0.055555556
+  - name: PROP_salon_toothpaste
+    outer:
+      serializedVersion: 2
+      x: 589
+      y: 897
+      width: 172
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 589
+      y: 897
+      width: 172
+      height: 126
+    paddingLeft: 0.075581394
+    paddingRight: 0.0872093
+    paddingTop: 0.25396827
+    paddingBottom: 0.33333334
+  - name: PROP_salon_bunny
+    outer:
+      serializedVersion: 2
+      x: 674
+      y: 259
+      width: 119
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 674
+      y: 259
+      width: 119
+      height: 162
+    paddingLeft: 0.3277311
+    paddingRight: 0.3529412
+    paddingTop: 0.12962963
+    paddingBottom: 0.10493827
+  - name: PROP_salon_scouringPad
+    outer:
+      serializedVersion: 2
+      x: 703
+      y: 795
+      width: 157
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 703
+      y: 795
+      width: 157
+      height: 100
+    paddingLeft: 0.11464968
+    paddingRight: 0.15923567
+    paddingTop: 0.49
+    paddingBottom: 0.51
+  - name: PROP_salon_hairgel
+    outer:
+      serializedVersion: 2
+      x: 547
+      y: 728
+      width: 154
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 547
+      y: 728
+      width: 154
+      height: 155
+    paddingLeft: 0.16233766
+    paddingRight: 0.13636364
+    paddingTop: 0.14193548
+    paddingBottom: 0.14838709
+  - name: PROP_salon_mustard
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 634
+      width: 62
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 634
+      width: 62
+      height: 159
+    paddingLeft: 1.0806452
+    paddingRight: 1.1451613
+    paddingTop: 0.11320755
+    paddingBottom: 0.1446541
+  - name: PROP_salon_devilDuck
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 252
+      width: 128
+      height: 166
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 252
+      width: 128
+      height: 166
+    paddingLeft: 0.2890625
+    paddingRight: 0.2734375
+    paddingTop: 0.09638554
+    paddingBottom: 0.10843374
+  - name: PROP_salon_bananaSkin
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 630
+      width: 175
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 630
+      width: 175
+      height: 96
+    paddingLeft: 0.08571429
+    paddingRight: 0.057142857
+    paddingTop: 0.5520833
+    paddingBottom: 0.53125
+  - name: PROP_salon_bodypuff
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 621
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 621
+      width: 200
+      height: 200
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

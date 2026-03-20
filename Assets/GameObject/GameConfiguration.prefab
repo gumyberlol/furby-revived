@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GameConfiguration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b89606bab66e378dde51e180d47075, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_DefaultGameConfig:
+    m_IncubatorTimings:
+      m_TimingArray:
+      - LevelIndex: 0
+        IncubationTime: 30
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 1
+        IncubationTime: 120
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 2
+        IncubationTime: 300
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 3
+        IncubationTime: 1800
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 4
+        IncubationTime: 3600
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 5
+        IncubationTime: 18000
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 6
+        IncubationTime: 36000
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 0
+      - LevelIndex: 7
+        IncubationTime: 72000
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 4
+    m_FurbyIncubatorTimings:
+      m_TimingArray:
+      - LevelIndex: 0
+        IncubationTime: 60
+        MinAttentionInterval: 26
+        MaxAttentionInterval: 49
+        ImprintCount: 1
+      - LevelIndex: 1
+        IncubationTime: 60
+        MinAttentionInterval: 14
+        MaxAttentionInterval: 12
+        ImprintCount: 2
+      - LevelIndex: 2
+        IncubationTime: 60
+        MinAttentionInterval: 8
+        MaxAttentionInterval: 9
+        ImprintCount: 3
+      - LevelIndex: 3
+        IncubationTime: 60
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 4
+      - LevelIndex: 4
+        IncubationTime: 60
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 5
+      - LevelIndex: 999
+        IncubationTime: 60
+        MinAttentionInterval: 26
+        MaxAttentionInterval: 49
+        ImprintCount: 1
+    m_IncubatorTimings_FF:
+      m_TimingArray:
+      - LevelIndex: 0
+        IncubationTime: 30
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 1
+      - LevelIndex: 1
+        IncubationTime: 30
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 2
+      - LevelIndex: 2
+        IncubationTime: 30
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 3
+      - LevelIndex: 3
+        IncubationTime: 30
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 4
+      - LevelIndex: 4
+        IncubationTime: 30
+        MinAttentionInterval: 0
+        MaxAttentionInterval: 0
+        ImprintCount: 5
+      - LevelIndex: 999
+        IncubationTime: 30
+        MinAttentionInterval: 26
+        MaxAttentionInterval: 49
+        ImprintCount: 1
+    m_IncubatorConsumables:
+    - StoreID: FurbyIAPBundle1
+      ContentUnits: 3
+    - StoreID: FurbyIAPBundle2
+      ContentUnits: 20
+    - StoreID: FurbyIAPBundle3
+      ContentUnits: 100
+    m_CrystalLookBundleID: FurbyIAPBundle4
+    m_EnableLongerIncubationTimes: 1
+    m_FastForwardPurchaseUnits: 10
+    m_FastForwardAvailabilityThreshold: 1
+    m_RequireValidatedReceipts: 0
+    m_InAppProductsLocking:
+      m_Operator: 20
+      m_FilterSet:
+    m_SpringTribeLockling:
+      m_Operator: 10
+      m_FilterSet:
+    m_CrystalTribeLocking:
+      m_Operator: 20
+      m_FilterSet:
+    m_Banner320x50:
+      m_BannerURL:
+      m_BannerIdent:
+      m_ScaleFactor: 0
+    m_Banner768x66:
+      m_BannerURL:
+      m_BannerIdent:
+      m_ScaleFactor: 0
+    m_BannerAdvertLocking:
+      m_Operator: 20
+      m_FilterSet:
+    m_SuppressAllBanners: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

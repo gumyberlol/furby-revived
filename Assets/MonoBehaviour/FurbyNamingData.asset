@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6866fe5d697f6bc608cdbf3d33855ae5, type: 3}
+  m_Name: FurbyNamingData
+  m_EditorClassIdentifier:
+  m_leftNames:
+  - AH
+  - BEE
+  - DAH
+  - DAY
+  - DEE
+  - DOO
+  - KEE
+  - LOO
+  - MAY
+  - NOO
+  - TAY
+  - TOH
+  - WAY
+  m_rightNames:
+  - BAY
+  - BOH
+  - BOO
+  - DAH
+  - DOH
+  - DOO
+  - KAH
+  - KOH
+  - TAH
+  - TOH
+  m_disallowedNames:
+  - m_disallowedLeft: NOO
+    m_disallowedRight: KAH
+  - m_disallowedLeft: BEE
+    m_disallowedRight: DOH

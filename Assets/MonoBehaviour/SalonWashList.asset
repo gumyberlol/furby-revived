@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14bdc8dd23dfdf2863e7b123b7806397, type: 3}
+  m_Name: SalonWashList
+  m_EditorClassIdentifier:
+  Items:
+  - Name: SPAITEM_SOAP
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_soap
+    Unlocked: 1
+    Cost: 0
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: f44a83559c584654c88b71788fbd2b1f, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: e34db2ea2807df4428dda31e97298f9b, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_KETCHUP
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_ketchup
+    Unlocked: 0
+    Cost: 100
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 0
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 5
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 0
+    Prefab: {fileID: 1709254077376921, guid: 62ae9e01b845fd845a8f9f2754e1761e, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 9b93a81b37eb9d142b26f9bfc998027a, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_MUD
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_mud
+    Unlocked: 0
+    Cost: 150
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 5
+      SweetBelle: 0
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 5
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: 92bb286677bedba4eba40b9016368441, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 01352341c21ce294883ef5db12db9be3, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_DISCOBALLSOAP
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_discoball
+    Unlocked: 0
+    Cost: 400
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 0
+      Kooky_SweetBelle: 5
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 5
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: b807de0ca6997664cb2654cf47eabcb5, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 52857cdc6296b8742bfda9d485ba6d1d, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_OLIVEOIL
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_mustard
+    Unlocked: 0
+    Cost: 100
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 5
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 5
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 0
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: 8987cf53c66bebe4fb4123047b037c5c, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 3a5e5920d5ac4754a9d3134f34338ff8, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_COFFEE
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_toothpaste
+    Unlocked: 0
+    Cost: 300
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 5
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 0
+      ToughGirl_Kooky: 5
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 0
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: fae1d7bdb43f80f4db3baadbe44e288d, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 3b2311aef0ef0d042b4d26e9a51ed0bf, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_NINJASHOWERGEL
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_showergel
+    Unlocked: 0
+    Cost: 200
+    Count: 0
+    Score:
+      ToughGirl: 5
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 0
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: 3ed0c4b72d9405f48915347c65788c07, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 45be5ed7843f004429b0cc7e49f36ac4, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_PERFUME
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_deodorant
+    Unlocked: 0
+    Cost: 450
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 0
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 0
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 5
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: badcdf6507afd8543a243bf31696c93c, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: bd2a92d5c1861334e84c76f91c6006d0, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_WASHINGPOWDER
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_washingpowder
+    Unlocked: 0
+    Cost: 200
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 0
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 5
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: 21d0d0bec96a30442a34d969c782fab2, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: e34db2ea2807df4428dda31e97298f9b, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_GLITTER
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_glitter
+    Unlocked: 0
+    Cost: 350
+    Count: 0
+    Score:
+      ToughGirl: 0
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 5
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: 600fc0d2adfa7f044b921246201705a0, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 5cbe8fc2e4f26ae4db6445aa0fd92906, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_CHOCOLATESAUCE
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_chocolatesauce
+    Unlocked: 0
+    Cost: 250
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 1
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 0
+      RockStar_ToughGirl: 1
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 1
+      ToughGirl_Kooky_SweetBelle: 5
+    Prefab: {fileID: 1709254077376921, guid: 84139bd9283e1f54c9889c7c446048ca, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 01352341c21ce294883ef5db12db9be3, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1
+  - Name: SPAITEM_ROSEPETALS
+    GraphicAtlas: {fileID: 114724804207875695, guid: fe402e7a8b73ba34383c6188777c2ab4, type: 2}
+    Graphic: PROP_salon_honey
+    Unlocked: 0
+    Cost: 150
+    Count: 0
+    Score:
+      ToughGirl: 1
+      Kooky: 1
+      RockStar: 1
+      SweetBelle: 5
+      Gobbler: 1
+      Kooky_SweetBelle: 1
+      RockStar_Gobbler: 1
+      RockStar_Kooky: 1
+      RockStar_ToughGirl: 0
+      ToughGirl_Gobbler: 1
+      ToughGirl_Kooky: 1
+      ToughGirl_SweetBelle: 1
+      RockStar_ToughGirl_Gobbler: 1
+      RockStar_ToughGirl_Kooky: 0
+      ToughGirl_Kooky_SweetBelle: 1
+    Prefab: {fileID: 1709254077376921, guid: 67d67c00839501d43a31bba1919581d1, type: 2}
+    PressParticles: {fileID: 0}
+    EffectPrefab: {fileID: 1709254077376921, guid: 3a5e5920d5ac4754a9d3134f34338ff8, type: 2}
+    PressEvent: 0
+    ProgressionEffectPrefab: {fileID: 0}
+    HasFinalArtwork: 1

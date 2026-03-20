@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier:
+  variables:
+    floatVariables: []
+    intVariables:
+    - useVariable: 1
+      name: GoalyScore
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: PlayerScore
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: RoundsComplete
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: TotalRounds
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    boolVariables:
+    - useVariable: 1
+      name: FirstTimeSessionRun
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    stringVariables:
+    - useVariable: 1
+      name: GoalyName
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: PlayerName
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    vector2Variables: []
+    vector3Variables: []
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables: []
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+  events:
+  - PLAYER_VICTORY
+  - PLAYER_DEFEAT
+  - MENU_OPTION_CREATURELIBRARY
+  - PLAYER_VICTORY_CONTINUE
+  - PLAYER_VICTORY_EXITED
+  - CREATURE_CLICK
+  - RESET_MAIN_MENU
+  - GAME_PAUSE
+  - SCREEN_FINISHED
+  - MENU_OPTION_DEBUG
+  - RS_BLOCK
+  - RS_POSITION_CHOSEN
+  - RS_SHOOT
+  - RS_ROUND_FINISHED
+  - RS_COMMS_STARTWAITING
+  - RS_COMMS_STOPWAITING
+  - RS_POSITION_LEFT
+  - RS_FURBY_GENERIC_RESPONSE
+  - RS_WAITFORSHOOT
+  - RS_START_WAITINGFORSHOOT
+  - RS_STOP_WAITINGFORSHOOT
+  - RS_MOVE_GOALY
+  - RS_CHOOSE_POSITION
+  - RS_GAME_PAUSED
+  - RS_GAME_UNPAUSED
+  - ObjectHit
+  - TriesZero
+  - RS_FURBY_BABY
+  - AddTries
+  - ChainReaction
+  - ReHideBaby
+  - SpecialObjectHit
+  - SubtractTries
+  - FinalFound
+  - ColdTapPressed
+  - ColdTapReleased
+  - DrainPressed
+  - DrainReleased
+  - HotTapPressed
+  - HotTapReleased
+  - ItemAdded
+  - ItemRemoved
+  - FurbyAdded
+  - FurbyRemoved
+  - BathFailed
+  - RS_MOVEGOALY
+  - RS_ROUND_BEGIN
+  - RS_ROUND_CONTINUE
+  - GAME_FURBALL_WAITFORSHOOT
+  - RS_GOAL
+  - GAME_FURBALL_OVER
+  - GAME_FURBALL_RESTART
+  - NO
+  - YES
+  - FURBALL_ROUND_BEGIN
+  - FURBALL_ROUND_OVER
+  - FURBALL_NEXT_ROUND
+  - FURBALL_GAME_OVER
+  - FURBALL_GAME_RESTART
+  - MENU_OPTION_RESUME
+  - MENU_OPTION_RESTART
+  - MENU_OPTION_PAUSE
+  - MENU_OPTION_MAINMENU

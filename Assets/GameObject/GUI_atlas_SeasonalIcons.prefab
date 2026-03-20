@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_SeasonalIcons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 1a60600975063964a8748e87c970df39, type: 2}
+  sprites:
+  - name: GUI_seasons_CNYIcon
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 47
+      width: 91
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 47
+      width: 91
+      height: 93
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.1827957
+    paddingBottom: 0.19354838
+  - name: GUI_seasons_easterIcon
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 141
+      width: 93
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 141
+      width: 93
+      height: 115
+    paddingLeft: 0.19354838
+    paddingRight: 0.1827957
+    paddingTop: 0.052173913
+    paddingBottom: 0.060869563
+  - name: GUI_seasons_halloweenIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 14
+      width: 113
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 14
+      width: 113
+      height: 113
+    paddingLeft: 0.07079646
+    paddingRight: 0.061946902
+    paddingTop: 0.061946902
+    paddingBottom: 0.07079646
+  - name: GUI_seasons_valentinesIcon
+    outer:
+      serializedVersion: 2
+      x: 223
+      y: 53
+      width: 95
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 223
+      y: 53
+      width: 95
+      height: 95
+    paddingLeft: 0.17894737
+    paddingRight: 0.16842106
+    paddingTop: 0.16842106
+    paddingBottom: 0.17894737
+  - name: GUI_seasons_xmasIcon
+    outer:
+      serializedVersion: 2
+      x: 223
+      y: 149
+      width: 97
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 223
+      y: 149
+      width: 97
+      height: 107
+    paddingLeft: 0.16494845
+    paddingRight: 0.15463917
+    paddingTop: 0.093457945
+    paddingBottom: 0.10280374
+  - name: GUI_seasons_worldCupIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

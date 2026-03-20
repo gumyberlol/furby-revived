@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47d906d23f95b7d8daa9b1fa974352b, type: 3}
+  m_Name: FurbyBeakSyncData
+  m_EditorClassIdentifier:
+  m_topBeakMaxRotation: -20
+  m_topBeakFactorRotation: -40
+  m_lowerBeakMaxRotation: -40
+  m_lowerBeakFactorRotation: -120
+  m_volumeMeterName: BabyVocals
+  m_animationsThatPreventBeakSyncNames:
+  - crying
+  - danceVerdict_bad
+  - dive
+  - dragEar_Left
+  - dragEar_Right
+  - drinkingSmoothie
+  - drinkingSmoothie02
+  - drinkingSmoothie03
+  - idleGlutton02
+  - idleKook01
+  - idlePrincess01
+  - idleToughGirl01
+  - kook_song
+  - gobbler_song
+  - rocker_song
+  - sweetBelle_song
+  - toughGirl_song
+  - lookUp
+  - playRoom_approve
+  - reactionBurp
+  - reactionChew
+  - reactionFart
+  - reactionSour
+  - reactionSpicy
+  - reactionVomit
+  - salonTransition
+  - spaCleaning02
+  - SpaStyling03
+  - SpaStyling04
+  - spaStyling_drying01
+  - spa_waterOn
+  - tickleEarLeft
+  - tickleEarRight
+  - tickleShort
+  - touchMouth
+  - touchEye_Left
+  - touchEye_Right

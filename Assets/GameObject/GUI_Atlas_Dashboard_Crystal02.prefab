@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_Atlas_Dashboard_Crystal02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: ea6f736a0127fe84e9d386f0a832c9d1, type: 2}
+  sprites:
+  - name: GUI_Playroom_iconGames
+    outer:
+      serializedVersion: 2
+      x: 89
+      y: 249
+      width: 89
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 89
+      y: 249
+      width: 89
+      height: 74
+    paddingLeft: 0.011235955
+    paddingRight: 0
+    paddingTop: 0.054054055
+    paddingBottom: 0.1891892
+  - name: GUI_Dash_IconHappy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 324
+      width: 102
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 324
+      width: 102
+      height: 99
+    paddingLeft: 0.029411765
+    paddingRight: 0
+    paddingTop: 0.01010101
+    paddingBottom: 0
+  - name: GUI_Dash_IconHunger
+    outer:
+      serializedVersion: 2
+      x: 103
+      y: 331
+      width: 107
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 103
+      y: 331
+      width: 107
+      height: 92
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Dash_IconSpa
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 436
+      width: 90
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 436
+      width: 90
+      height: 76
+    paddingLeft: 0.011111111
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Dash_IconToilet
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 424
+      width: 128
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 424
+      width: 128
+      height: 88
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Playroom_iconSpa
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 220
+      width: 88
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 220
+      width: 88
+      height: 103
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Playroom_iconBlender
+    outer:
+      serializedVersion: 2
+      x: 179
+      y: 230
+      width: 57
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 179
+      y: 230
+      width: 57
+      height: 93
+    paddingLeft: 0.05263158
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.010752688
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

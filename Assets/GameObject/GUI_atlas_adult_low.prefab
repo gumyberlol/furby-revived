@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_adult_low
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 303cf4f8a3c23de4f9c5a3b3cbca4fef, type: 2}
+  sprites:
+  - name: CH_furbyAdultHigh_EarMask
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 335
+      width: 547
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 335
+      width: 547
+      height: 175
+    paddingLeft: 0.012797075
+    paddingRight: 0.122486286
+    paddingTop: 0.045714285
+    paddingBottom: 2.08
+  - name: CH_furbyAdultHigh_EyelidMask
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 459
+      height: 414
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 459
+      height: 414
+    paddingLeft: 0.021786492
+    paddingRight: 0.33115467
+    paddingTop: 0.18357489
+    paddingBottom: 0.13768116
+  - name: CH_furbyAdultHigh_FaceMask
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 132
+      width: 286
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 132
+      width: 286
+      height: 203
+    paddingLeft: 0.47902098
+    paddingRight: 0.6923077
+    paddingTop: 0.5566502
+    paddingBottom: 1.137931
+  - name: CH_furbyAdultHigh_Beak
+    outer:
+      serializedVersion: 2
+      x: 745
+      y: 110
+      width: 196
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 745
+      y: 110
+      width: 196
+      height: 225
+    paddingLeft: 0.93367344
+    paddingRight: 1.2346939
+    paddingTop: 0.53333336
+    paddingBottom: 0.8977778
+  - name: CH_furbyAdultHigh_FeetMask
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 510
+      width: 461
+      height: 514
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 510
+      width: 461
+      height: 514
+    paddingLeft: 0.01735358
+    paddingRight: 0.329718
+    paddingTop: 0.042801555
+    paddingBottom: 0.021400778
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

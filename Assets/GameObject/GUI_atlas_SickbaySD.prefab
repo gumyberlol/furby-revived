@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_SickbaySD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 9a9e3e6343a059d409993b6a76364c07, type: 2}
+  sprites:
+  - name: SHARED_AppPattern_Hearts
+    outer:
+      serializedVersion: 2
+      x: 881
+      y: 315
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 881
+      y: 315
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayStomach
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 445
+      width: 289
+      height: 233
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 445
+      width: 289
+      height: 233
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_dottedCircle
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 241
+      width: 203
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 241
+      width: 203
+      height: 202
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_buttonCombine
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 680
+      width: 339
+      height: 343
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 680
+      width: 339
+      height: 343
+    paddingLeft: 0.03539823
+    paddingRight: 0.01179941
+    paddingTop: 0.04956268
+    paddingBottom: 0.017492712
+  - name: GUI_Sickbay_buttonDiagnose
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 7
+      width: 110
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 7
+      width: 110
+      height: 112
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_buttonCure
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 5
+      width: 110
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 5
+      width: 110
+      height: 112
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_swatchWhite_D
+    outer:
+      serializedVersion: 2
+      x: 967
+      y: 519
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 967
+      y: 519
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayBase
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 243
+      width: 673
+      height: 780
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 243
+      width: 673
+      height: 780
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_buttonExit
+    outer:
+      serializedVersion: 2
+      x: 967
+      y: 486
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 967
+      y: 486
+      width: 31
+      height: 31
+    paddingLeft: 0.32258064
+    paddingRight: 0.29032257
+    paddingTop: 0.29032257
+    paddingBottom: 0.32258064
+  - name: GUI_Sickbay_placeholderEffect
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 121
+      width: 128
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 121
+      width: 128
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayFoot
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 119
+      width: 178
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 119
+      width: 178
+      height: 122
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayNose
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 107
+      width: 158
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 107
+      width: 158
+      height: 134
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayHeart
+    outer:
+      serializedVersion: 2
+      x: 881
+      y: 185
+      width: 126
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 881
+      y: 185
+      width: 126
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayShivers
+    outer:
+      serializedVersion: 2
+      x: 967
+      y: 553
+      width: 50
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 967
+      y: 553
+      width: 50
+      height: 125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_buttonColourBorder
+    outer:
+      serializedVersion: 2
+      x: 113
+      y: 53
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 81
+      width: 2
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_xrayBorder
+    outer:
+      serializedVersion: 2
+      x: 471
+      y: 118
+      width: 122
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 172
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Sickbay_scanLine
+    outer:
+      serializedVersion: 2
+      x: 1017
+      y: 873
+      width: 4
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 1017
+      y: 873
+      width: 4
+      height: 150
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

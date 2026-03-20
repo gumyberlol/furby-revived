@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d36bce61e1a7ea141026333d21a143, type: 3}
+  m_Name: SongDisco
+  m_EditorClassIdentifier:
+  m_rails:
+  - m_noteInfo:
+    - m_timeAfterSongStart: 7.467
+    - m_timeAfterSongStart: 11.2
+    - m_timeAfterSongStart: 14.967
+    - m_timeAfterSongStart: 22.467
+    - m_timeAfterSongStart: 30
+    - m_timeAfterSongStart: 31.9
+    - m_timeAfterSongStart: 37.467
+    - m_timeAfterSongStart: 39.333
+    - m_timeAfterSongStart: 47.767
+    - m_timeAfterSongStart: 52
+    - m_timeAfterSongStart: 57.167
+    - m_timeAfterSongStart: 60
+    - m_timeAfterSongStart: 61.867
+    - m_timeAfterSongStart: 67.467
+    - m_timeAfterSongStart: 69.367
+    - m_timeAfterSongStart: 71.2
+    - m_timeAfterSongStart: 73.1
+    - m_timeAfterSongStart: 75.933
+    - m_timeAfterSongStart: 77.767
+    - m_timeAfterSongStart: 80.633
+    - m_timeAfterSongStart: 84.333
+    - m_timeAfterSongStart: 87.133
+    - m_timeAfterSongStart: -1
+  - m_noteInfo:
+    - m_timeAfterSongStart: 15.933
+    - m_timeAfterSongStart: 23.4
+    - m_timeAfterSongStart: 30.933
+    - m_timeAfterSongStart: 32.833
+    - m_timeAfterSongStart: 38.467
+    - m_timeAfterSongStart: 40.333
+    - m_timeAfterSongStart: 44.967
+    - m_timeAfterSongStart: 48.267
+    - m_timeAfterSongStart: 51.55
+    - m_timeAfterSongStart: 53.433
+    - m_timeAfterSongStart: 56.233
+    - m_timeAfterSongStart: 60.933
+    - m_timeAfterSongStart: 62.833
+    - m_timeAfterSongStart: 68.4
+    - m_timeAfterSongStart: 70.3
+    - m_timeAfterSongStart: 72.167
+    - m_timeAfterSongStart: 74.033
+    - m_timeAfterSongStart: 75
+    - m_timeAfterSongStart: 78.267
+    - m_timeAfterSongStart: 79.633
+    - m_timeAfterSongStart: 81.533
+    - m_timeAfterSongStart: 83.4
+    - m_timeAfterSongStart: 86.233
+    - m_timeAfterSongStart: 88.333
+    - m_timeAfterSongStart: 88.567
+    - m_timeAfterSongStart: -1
+  - m_noteInfo:
+    - m_timeAfterSongStart: 19.633
+    - m_timeAfterSongStart: 27.167
+    - m_timeAfterSongStart: 34.667
+    - m_timeAfterSongStart: 36.533
+    - m_timeAfterSongStart: 42.2
+    - m_timeAfterSongStart: 44.1
+    - m_timeAfterSongStart: 45.9
+    - m_timeAfterSongStart: 48.7
+    - m_timeAfterSongStart: 52.533
+    - m_timeAfterSongStart: 55.733
+    - m_timeAfterSongStart: 59.1
+    - m_timeAfterSongStart: 64.667
+    - m_timeAfterSongStart: 66.533
+    - m_timeAfterSongStart: 68.4
+    - m_timeAfterSongStart: 70.3
+    - m_timeAfterSongStart: 72.167
+    - m_timeAfterSongStart: 74.033
+    - m_timeAfterSongStart: 75.933
+    - m_timeAfterSongStart: 78.7
+    - m_timeAfterSongStart: 82.467
+    - m_timeAfterSongStart: 85.767
+    - m_timeAfterSongStart: 87.133
+    - m_timeAfterSongStart: 89.267
+    - m_timeAfterSongStart: 89.5
+    - m_timeAfterSongStart: -1
+  - m_noteInfo:
+    - m_timeAfterSongStart: 9.367
+    - m_timeAfterSongStart: 13.067
+    - m_timeAfterSongStart: 18.7
+    - m_timeAfterSongStart: 26.233
+    - m_timeAfterSongStart: 33.767
+    - m_timeAfterSongStart: 35.6
+    - m_timeAfterSongStart: 41.233
+    - m_timeAfterSongStart: 43.167
+    - m_timeAfterSongStart: 49.633
+    - m_timeAfterSongStart: 55.267
+    - m_timeAfterSongStart: 59.5
+    - m_timeAfterSongStart: 63.733
+    - m_timeAfterSongStart: 65.6
+    - m_timeAfterSongStart: 67.467
+    - m_timeAfterSongStart: 69.367
+    - m_timeAfterSongStart: 71.2
+    - m_timeAfterSongStart: 73.1
+    - m_timeAfterSongStart: 76.9
+    - m_timeAfterSongStart: 79.633
+    - m_timeAfterSongStart: 81.533
+    - m_timeAfterSongStart: 83.4
+    - m_timeAfterSongStart: 85.3
+    - m_timeAfterSongStart: -1
+  m_quantise: 1
+  m_quantiseEighths: 0
+  m_quantiseBpm: 128
+  m_quantiseIntroBeats: 4
+  m_songStartEvent:
+    m_fullTypeName: Furby.MiniGames.Singalong.MusicGameEvent
+    m_enumIntValue: 7
+    m_enumStringValue: SongStartedDisco
+  m_specialModeNoteEvent:
+    m_fullTypeName: Furby.MiniGames.Singalong.MusicGameEvent
+    m_enumIntValue: 29
+    m_enumStringValue: SpecialModeNoteHitDisco
+  m_goodScore: 300
+  m_okScore: 200
+  m_songCommand: 897

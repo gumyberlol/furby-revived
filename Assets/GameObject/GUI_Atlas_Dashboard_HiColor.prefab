@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_Atlas_Dashboard_HiColor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: ffa8f62caa72e814e84594fa926e1c01, type: 2}
+  sprites:
+  - name: GUI_Dash_bgEggMeter
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 218
+      width: 285
+      height: 290
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 218
+      width: 285
+      height: 290
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Dash_bgEggMeterFill
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 343
+      width: 120
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 343
+      width: 120
+      height: 165
+    paddingLeft: 0.7
+    paddingRight: 0.73333335
+    paddingTop: 0.5151515
+    paddingBottom: 0.37575758
+  - name: GUI_Dash_bannerLarge02
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 808
+      width: 794
+      height: 214
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 808
+      width: 794
+      height: 214
+    paddingLeft: 0.005037783
+    paddingRight: 0.0025188916
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Dash_bgName
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 116
+      width: 305
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 116
+      width: 305
+      height: 98
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CH_furbyAdult_Mystery
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 684
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 684
+      width: 120
+      height: 120
+    paddingLeft: 0.041666668
+    paddingRight: 0.025
+    paddingTop: 0.033333335
+    paddingBottom: 0.033333335
+  - name: GUI_Dash_CircleLarge
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 512
+      width: 288
+      height: 292
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 512
+      width: 288
+      height: 292
+    paddingLeft: 0.072916664
+    paddingRight: 0.017361112
+    paddingTop: 0.07534247
+    paddingBottom: 0
+  - name: GUI_Dash_Midgrad
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 23
+      width: 246
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 23
+      width: 246
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_packShot
+    outer:
+      serializedVersion: 2
+      x: 800
+      y: 780
+      width: 206
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 780
+      width: 206
+      height: 242
+    paddingLeft: 0.014563107
+    paddingRight: 0.009708738
+    paddingTop: 0.004132231
+    paddingBottom: 0.004132231
+  - name: GUI_Shared_bgButtonGreen
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 29
+      width: 182
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 17
+      y: 44
+      width: 152
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_bgButtonGreen01
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 256
+      width: 182
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 311
+      y: 276
+      width: 142
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_buttonColourBorder
+    outer:
+      serializedVersion: 2
+      x: 188
+      y: 48
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 213
+      y: 73
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: DeviceRegister_Android
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740a03091a8ef701a9e147a72ede5097, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_DeviceDatabase:
+  - m_DisplayName: Samsung Galaxy SII
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - I9100
+        - I9210
+        - I757M
+        - T989D
+        - I9108
+        - ISW11SC
+        - SC-02C
+        - SHW-M250
+        - SGH-I777
+        - SGH-I727
+        - SGH-I927
+        - SPH-D710
+        - SGH-T989
+        - SCH-R760
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy SIII
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.8
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - I9300
+        - I9305
+        - SHV-E210
+        - SGH-T999
+        - SGH-I747
+        - SGH-N064
+        - SGH-N035
+        - SCH-J021
+        - SCH-R530
+        - SCH-I535
+        - SPH-L710
+        - II9308
+        - SCH-I939
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Asus Nexus 4
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.6
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - Nexus 4
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Asus Nexus 7
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.6
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - Nexus 7
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 2 10.1
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - P5100
+        - P5110
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Note II
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-N7100
+        - GT-N7102
+        - GT-N7105
+        - GT-N7108
+        - SCH-i605
+        - SCH-R950
+        - SGH-i317
+        - SGH-i317M
+        - SGH-T889
+        - SGH-T889V
+        - SPH-L900
+        - SCH-N719
+        - SGH-N025
+        - SHV-E250K
+        - SHV-E250L
+        - SHV-E250S
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Amazon Kindle Fire
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.5
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - Amazon Kindle Fire
+        - Amazon KFTT
+      m_IPhoneSpecific: {}
+  - m_DisplayName: RAZR HD
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.8
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - motorola xt925
+        - motorola xt926
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Note 8.0
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.8
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-N51
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Note 10.1
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-N80
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Note II
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-N71
+        - SCH-i605
+        - SCH-R950
+        - SGH-i317
+        - SGH-T889
+        - SPH-L900
+        - SCH-N719
+        - SGH-N025
+        - SC-02E
+        - SHV-E250
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Note 3
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - N9000
+        - N9002
+        - N9005
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-P10
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 7.0
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-P62
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 10.1
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-P75
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 2 7
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-P31
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 2 10.1
+    m_ApplicationModifiers:
+      m_ComAirVolume: 0.1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-P51
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 3 7.0
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - SM-T21
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 3 8.0
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - SM-T31
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Tab 3 10.1
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-P52
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy S III Mini
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-I8190
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy S4 Mini
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-I9119
+        - SGH-I257M
+      m_IPhoneSpecific: {}
+  - m_DisplayName: Samsung Galaxy Grand Duos
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 1
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels:
+        - GT-I908
+      m_IPhoneSpecific: {}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

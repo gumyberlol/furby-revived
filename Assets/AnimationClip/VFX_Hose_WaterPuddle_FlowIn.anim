@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VFX_Hose_WaterPuddle_FlowIn
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.6596047E-30, y: 6.349435E-11, z: 3.8879087E-27, w: 1}
+        inSlope: {x: 1.697467E-28, y: 0.0064029726, z: 3.92069E-19, w: -8.9406973E-07}
+        outSlope: {x: 1.697467E-28, y: 0.0064029726, z: 3.92069E-19, w: -8.9406973E-07}
+        tangentMode: 0
+      - time: 0.8000001
+        value: {x: -1.7949405E-25, y: 0.117013864, z: 7.165033E-18, w: 0.9931303}
+        inSlope: {x: 2.082379E-24, y: 0.124529704, z: 7.6252495E-18, w: -0.014639484}
+        outSlope: {x: 2.082379E-24, y: 0.124529704, z: 7.6252495E-18, w: -0.014639484}
+        tangentMode: 0
+      - time: 1
+        value: {x: 2.2982809E-26, y: 0.1305262, z: 7.992425E-18, w: 0.9914449}
+        inSlope: {x: 1.044424E-24, y: 0.0063483478, z: 3.887339E-19, w: -0.0008341678}
+        outSlope: {x: 1.044424E-24, y: 0.0063483478, z: 3.887339E-19, w: -0.0008341678}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.0114386E-14, y: 1, z: -1.3315805E-07, w: -7.54979E-08}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: -1.0114386E-14, y: 1, z: -1.3315805E-07, w: -7.54979E-08}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0.00640297, z: 0, w: -8.9406973E-07}
+        outSlope: {x: 0, y: 0.00640297, z: 0, w: -8.9406973E-07}
+        tangentMode: 0
+      - time: 0.8000001
+        value: {x: 0, y: 0.11701386, z: -0, w: 0.9931303}
+        inSlope: {x: 0, y: 0.12452982, z: 0, w: -0.014639484}
+        outSlope: {x: 0, y: 0.12452982, z: 0, w: -0.014639484}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: 0.1305262, z: -0, w: 0.9914449}
+        inSlope: {x: 0, y: 0.0058684573, z: 0, w: -0.00077068905}
+        outSlope: {x: 0, y: 0.0058684573, z: 0, w: -0.00077068905}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT05
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.9174681E-31, y: 0.7071068, z: 1.9174681E-31, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: -1.9174681E-31, y: 0.7071068, z: 1.9174681E-31, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT07
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -4.6865198E-17, y: 0.38268337, z: 1.1314261E-16, w: 0.92387956}
+        inSlope: {x: 4.829577E-19, y: -0.0039432948, z: 2.0031007E-19, w: 0.0016334654}
+        outSlope: {x: 4.829577E-19, y: -0.0039432948, z: 2.0031007E-19, w: 0.0016334654}
+        tangentMode: 0
+      - time: 1
+        value: {x: -3.6825833E-17, y: 0.30070573, z: 1.1679665E-16, w: 0.953717}
+        inSlope: {x: 4.608229E-19, y: -0.003763144, z: 1.4512075E-19, w: 0.001186432}
+        outSlope: {x: 4.608229E-19, y: -0.003763144, z: 1.4512075E-19, w: 0.001186432}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT06
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 7.206463E-08, y: 0.92387956, z: -7.206463E-08, w: -0.38268346}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 7.206463E-08, y: 0.92387956, z: -7.206463E-08, w: -0.38268346}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0.3826834, z: -0, w: 0.92387956}
+        inSlope: {x: 0, y: 0.031557087, z: 0, w: 0.013049842}
+        outSlope: {x: 0, y: 0.031557087, z: 0, w: 0.013049842}
+        tangentMode: 0
+      - time: 0.5666667
+        value: {x: 0, y: -0.18244381, z: -0, w: 0.9832163}
+        inSlope: {x: 0, y: 0.50478756, z: 0, w: 0.093748584}
+        outSlope: {x: 0, y: 0.50478756, z: 0, w: 0.093748584}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: -0.04361935, z: -0, w: 0.99904823}
+        inSlope: {x: 0, y: 0.015768057, z: 0, w: 0.0006982693}
+        outSlope: {x: 0, y: 0.015768057, z: 0, w: 0.0006982693}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT04
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.206463E-08, y: 0.92387956, z: -7.206463E-08, w: 0.38268337}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: -7.206463E-08, y: 0.92387956, z: -7.206463E-08, w: 0.38268337}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT08
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -2.8568108E-08, y: 3.998157E-15, z: -8.0010814E-08}
+        outSlope: {x: -2.8568108E-08, y: 3.998157E-15, z: -8.0010814E-08}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0.19934583, y: -2.56732E-08, z: 0.58733445}
+        inSlope: {x: 4.0030977E-06, y: -5.167005E-14, z: 3.480838E-06}
+        outSlope: {x: 2.2204401E-15, y: -2.646971E-22, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: -0.39999998}
+        inSlope: {x: -0, y: -0, z: -3.8064792E-15}
+        outSlope: {x: 2.1938158E-09, y: -2.4148642E-16, z: 6.531425E-07}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0.0140563445, y: 1.5012677E-09, z: -0.33131}
+        inSlope: {x: -7.136078E-08, y: -1.7607998E-17, z: 6.5314305E-07}
+        outSlope: {x: -1.3877751E-16, y: -0, z: -2.2204401E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0.39999998}
+        inSlope: {x: -0, y: -0, z: 3.8064792E-15}
+        outSlope: {x: -1.925489E-08, y: -6.701614E-23, z: -2.3456453E-06}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0.14659867, y: 4.949194E-16, z: 0.5987676}
+        inSlope: {x: -1.5275998E-06, y: 6.5284555E-21, z: -2.3456473E-06}
+        outSlope: {x: 2.2204401E-15, y: -0, z: 7.612938E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT05
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.39999998, y: 0, z: 0}
+        inSlope: {x: -3.8064792E-15, y: -0, z: -0}
+        outSlope: {x: -4.197464E-06, y: 1.6458368E-15, z: -1.7228171E-08}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0.24205448, y: -1.0778425E-08, z: 0.13040273}
+        inSlope: {x: 0.14340219, y: -1.1242276E-14, z: 0.04825165}
+        outSlope: {x: 0.14340182, y: -1.3000363E-14, z: 0.048253063}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.39999998, y: 0, z: 0}
+        inSlope: {x: 3.8064792E-15, y: -0, z: -0}
+        outSlope: {x: 3.9791626E-06, y: -1.7827873E-16, z: -8.71671E-09}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0.28253847, y: 1.7954279E-09, z: 0.082149215}
+        inSlope: {x: -0.10311996, y: 2.0450095E-09, z: 0.09356676}
+        outSlope: {x: -0.10311937, y: 2.0450202E-09, z: 0.093567275}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT07
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.29999998, y: 1.9073486E-08, z: 0.29999998}
+        inSlope: {x: 2.8548595E-15, y: 1.1344192E-22, z: 2.8548595E-15}
+        outSlope: {x: 3.1067414E-06, y: -3.08689E-13, z: -9.822874E-07}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0.24407236, y: 2.8852185E-08, z: 0.43303692}
+        inSlope: {x: -0.04343115, y: 1.1001515E-09, z: 0.05034963}
+        outSlope: {x: -0.043423504, y: 1.1002809E-09, z: 0.050356206}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT06
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.29999998, y: -1.9073486E-08, z: -0.29999998}
+        inSlope: {x: -2.8548595E-15, y: -1.1344192E-22, z: -2.8548595E-15}
+        outSlope: {x: -2.3976452E-06, y: 1.2341383E-13, z: -4.1152293E-06}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0.31405634, y: -1.7572217E-08, z: -0.23131}
+        inSlope: {x: -2.3976472E-06, y: 1.2341393E-13, z: -4.115233E-06}
+        outSlope: {x: -2.2204401E-15, y: -1.3234854E-22, z: -2.8548515E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.29999998, y: 1.9073486E-08, z: 0.29999998}
+        inSlope: {x: -2.8548595E-15, y: 1.1344192E-22, z: 2.8548595E-15}
+        outSlope: {x: -3.2441244E-06, y: 2.646978E-22, z: 4.614886E-07}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0.10931224, y: 1.9073486E-08, z: 0.47064403}
+        inSlope: {x: 0.1560843, y: 1.1344202E-22, z: 0.071420506}
+        outSlope: {x: 0.15608385, y: -1.916543E-13, z: 0.071429186}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT04
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.29999998, y: -1.9073486E-08, z: -0.29999998}
+        inSlope: {x: 2.8548595E-15, y: -1.1344192E-22, z: -2.8548595E-15}
+        outSlope: {x: -2.3976452E-06, y: 1.2341383E-13, z: -4.1152293E-06}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0.28594366, y: -1.7572217E-08, z: -0.23131}
+        inSlope: {x: -2.3976472E-06, y: 1.2341393E-13, z: -4.115233E-06}
+        outSlope: {x: 4.4408802E-15, y: -1.3234854E-22, z: -2.8548515E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT08
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.1917624, y: 2.383525, z: 1.1917624}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1.1917624, y: 2.383525, z: 1.1917624}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT05
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT07
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT06
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT04
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: VFX_Hose_WaterPuddle_JNT00/VFX_Hose_WaterPuddle_JNT08
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.1
+        value: 0.5140792
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 3
+        value: 0.5140792
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.r
+    path: VFX_Hose_WaterPuddle_Mesh
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.1
+        value: 0.86435914
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 3
+        value: 0.86435914
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.g
+    path: VFX_Hose_WaterPuddle_Mesh
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.1
+        value: 0.95686275
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 3
+        value: 0.95686275
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.b
+    path: VFX_Hose_WaterPuddle_Mesh
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.1
+        value: 0.9607843
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 3
+        value: 0.9607843
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.a
+    path: VFX_Hose_WaterPuddle_Mesh
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.33333334
+        outSlope: 0.33333334
+        tangentMode: 0
+      - time: 3
+        value: 1
+        inSlope: 0.33333334
+        outSlope: 0.33333334
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.y
+    path: VFX_Hose_WaterPuddle_Mesh
+    classID: 21
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0.0727337, y: 0.017876422, z: 0.37343788}
+    m_Extent: {x: 0.60902673, y: 0.017876497, z: 0.9097309}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

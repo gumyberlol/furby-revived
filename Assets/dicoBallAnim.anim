@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dicoBallAnim
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.7071069, y: 0, z: -0, w: 0.70710677}
+        inSlope: {x: 0.0892956, y: -0.13883613, z: -0.13883616, w: -0.08929559}
+        outSlope: {x: 0.0892956, y: -0.13883613, z: -0.13883616, w: -0.08929559}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: -0.7070464, y: -0.009246119, z: -0.009246121, w: 0.7070463}
+        inSlope: {x: 0.0036281345, y: -0.27735987, z: -0.2773599, w: -0.0036272404}
+        outSlope: {x: 0.0036281345, y: -0.27735987, z: -0.2773599, w: -0.0036272404}
+        tangentMode: 0
+      - time: 1.7
+        value: {x: -0.55560666, y: -0.43738002, z: -0.43738008, w: 0.5556066}
+        inSlope: {x: 0.1715754, y: -0.21795344, z: -0.21795344, w: -0.1715754}
+        outSlope: {x: 0.1715754, y: -0.21795344, z: -0.21795344, w: -0.1715754}
+        tangentMode: 0
+      - time: 3.3333335
+        value: {x: -0.18394203, y: -0.682763, z: -0.68276304, w: 0.18394202}
+        inSlope: {x: 0.26783335, y: -0.072156854, z: -0.07215775, w: -0.26783314}
+        outSlope: {x: 0.26783335, y: -0.072156854, z: -0.07215775, w: -0.26783314}
+        tangentMode: 0
+      - time: 4.9666667
+        value: {x: 0.2606914, y: -0.65729743, z: -0.65729755, w: -0.26069137}
+        inSlope: {x: 0.2578432, y: 0.10226305, z: 0.10226394, w: -0.2578436}
+        outSlope: {x: 0.2578432, y: 0.10226305, z: 0.10226394, w: -0.2578436}
+        tangentMode: 0
+      - time: 6.6000004
+        value: {x: 0.60191005, y: -0.37108535, z: -0.37108538, w: -0.60190994}
+        inSlope: {x: 0.14556988, y: 0.23611777, z: 0.23611777, w: -0.14556988}
+        outSlope: {x: 0.14556988, y: 0.23611777, z: 0.23611777, w: -0.14556988}
+        tangentMode: 0
+      - time: 8
+        value: {x: 0.7071031, y: -0.0023094777, z: -0.0023094781, w: -0.70710295}
+        inSlope: {x: 0.0027198014, y: 0.2773753, z: 0.27737534, w: -0.0027198014}
+        outSlope: {x: 0.0027198014, y: 0.2773753, z: 0.27737534, w: -0.0027198014}
+        tangentMode: 0
+      - time: 8.033334
+        value: {x: 0.7071069, y: -0, z: 0, w: -0.70710677}
+        inSlope: {x: 0.088441804, y: 0.035219584, z: 0.03521959, w: -0.08844179}
+        outSlope: {x: 0.088441804, y: 0.035219584, z: 0.03521959, w: -0.08844179}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ENV_Playroom_discoBall_GEO
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -8.659561E-17, z: 0.7071068, w: 0.7071068}
+        inSlope: {x: 1.700256E-17, y: 1.0935366E-17, z: 0.04954254, w: -0.22813055}
+        outSlope: {x: 1.700256E-17, y: 1.0935366E-17, z: 0.04954254, w: -0.22813055}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 1.1318066E-18, y: -8.6588214E-17, z: 0.7162883, w: 0.6978045}
+        inSlope: {x: 3.395121E-17, y: 4.438982E-19, z: 0.27360857, w: -0.2808568}
+        outSlope: {x: 3.395121E-17, y: 4.438982E-19, z: 0.27360857, w: -0.2808568}
+        tangentMode: 0
+      - time: 1.7
+        value: {x: 5.354281E-17, y: -6.805856E-17, z: 0.9929505, w: 0.1185301}
+        inSlope: {x: 2.6685684E-17, y: 2.0994223E-17, z: 0.046475496, w: -0.38933593}
+        outSlope: {x: 2.6685684E-17, y: 2.0994223E-17, z: 0.046475496, w: -0.38933593}
+        tangentMode: 0
+      - time: 3.3333335
+        value: {x: 8.360084E-17, y: -2.2576504E-17, z: 0.8670038, w: -0.49830154}
+        inSlope: {x: 8.8522636E-18, y: 3.2779857E-17, z: -0.1953839, w: -0.339952}
+        outSlope: {x: 8.8522636E-18, y: 3.2779857E-17, z: -0.1953839, w: -0.339952}
+        tangentMode: 0
+      - time: 4.9666667
+        value: {x: 8.0524206E-17, y: 3.1853597E-17, z: 0.39742568, w: -0.91763437}
+        inSlope: {x: -1.24898184E-17, y: 3.1573553E-17, z: -0.35980493, w: -0.15583092}
+        outSlope: {x: -1.24898184E-17, y: 3.1573553E-17, z: -0.35980493, w: -0.15583092}
+        tangentMode: 0
+      - time: 6.6000004
+        value: {x: 4.5532292E-17, y: 7.365873E-17, z: -0.22966982, w: -0.9732686}
+        inSlope: {x: -2.888165E-17, y: 1.785332E-17, z: -0.38161945, w: 0.09005436}
+        outSlope: {x: -2.888165E-17, y: 1.785332E-17, z: -0.38161945, w: 0.09005436}
+        tangentMode: 0
+      - time: 8
+        value: {x: 4.073853E-19, y: 8.6594647E-17, z: -0.7037724, w: -0.7104255}
+        inSlope: {x: -3.395295E-17, y: 3.815677E-19, z: -0.28036308, w: 0.2741313}
+        outSlope: {x: -3.395295E-17, y: 3.815677E-19, z: -0.28036308, w: 0.2741313}
+        tangentMode: 0
+      - time: 8.033334
+        value: {x: -0, y: 8.659561E-17, z: -0.7071068, w: -0.7071068}
+        inSlope: {x: -6.181436E-18, y: 1.0838481E-17, z: -0.13897757, w: -0.038027607}
+        outSlope: {x: -6.181436E-18, y: 1.0838481E-17, z: -0.13897757, w: -0.038027607}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ENV_Playroom_discoBall03_GEO
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 7.028843E-05, y: 0.7025238, z: -0.34568554}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 8.033334
+        value: {x: 7.028843E-05, y: 0.7025238, z: -0.34568554}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ENV_Playroom_discoBall_GEO
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0026799133, y: 0.6928477, z: -0.20524085}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 8.033334
+        value: {x: 0.0026799133, y: 0.6928477, z: -0.20524085}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ENV_Playroom_discoBall03_GEO
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.36980578, y: 0.36980578, z: 0.36980578}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 8.033334
+        value: {x: 0.36980578, y: 0.36980578, z: 0.36980578}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ENV_Playroom_discoBall_GEO
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.5652355, y: 0.5652355, z: 0.5652355}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 8.033334
+        value: {x: 0.5652355, y: 0.5652355, z: 0.5652355}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ENV_Playroom_discoBall03_GEO
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0.0026799142, y: 0.6928477, z: -0.3393689}
+    m_Extent: {x: 0.3996816, y: 0.39968157, z: 0.13412812}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

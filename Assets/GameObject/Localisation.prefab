@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4618682377417806}
+  m_Layer: 0
+  m_Name: Localisation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4703437598541787}
+  - 114: {fileID: 114884547391421755}
+  - 114: {fileID: 114099118695303065}
+  - 114: {fileID: 114243736805655561}
+  m_Layer: 0
+  m_Name: Furby_Localisation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4061268324235159}
+  - 114: {fileID: 114587765826080250}
+  - 114: {fileID: 114709867586078768}
+  m_Layer: 0
+  m_Name: Font Redirection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4618682377417806
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4703437598541787}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &4703437598541787
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.40979004, y: -0.88, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4061268324235159}
+  m_Father: {fileID: 4618682377417806}
+  m_RootOrder: 0
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a0a1a451426e9d5757cdb861322205, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_supportedLocales:
+  - locale: 19
+    textTable: {fileID: 11400000, guid: 2f89f690cd071fe4095ade3b34c262ae, type: 2}
+  - locale: 7
+    textTable: {fileID: 11400000, guid: 1b1614aaf36636f40a3debc129c8946a, type: 2}
+  - locale: 5
+    textTable: {fileID: 11400000, guid: 073b240aa30207943a470d1daaa5bdc3, type: 2}
+  - locale: 3
+    textTable: {fileID: 11400000, guid: a372d90c717f1794daa98a41f88e9307, type: 2}
+  - locale: 13
+    textTable: {fileID: 11400000, guid: f69085baf2e8f8747b5827dce1c8a37c, type: 2}
+  - locale: 20
+    textTable: {fileID: 11400000, guid: 1efcb4959fe9bf94fa108c27e32e4420, type: 2}
+  - locale: 21
+    textTable: {fileID: 11400000, guid: ba565a68262c01c4eba4765484725cb5, type: 2}
+  - locale: 22
+    textTable: {fileID: 11400000, guid: 7304752ad88fbc642997624253b7f729, type: 2}
+  - locale: 17
+    textTable: {fileID: 11400000, guid: 343186e39bc2d5a47941b90d89e0471d, type: 2}
+  - locale: 15
+    textTable: {fileID: 11400000, guid: d02b7bb5268b44042be2f5dedfaa57f2, type: 2}
+  - locale: 23
+    textTable: {fileID: 11400000, guid: 42efe4599bd8e6c4f944c261f159805a, type: 2}
+  - locale: 16
+    textTable: {fileID: 11400000, guid: 47fffe9b99b3a7a4ea034b8a6ae5ad43, type: 2}
+  - locale: 10
+    textTable: {fileID: 11400000, guid: 8aa657d99aa7d96459b0210e6f43e550, type: 2}
+  - locale: 18
+    textTable: {fileID: 11400000, guid: 4a5eae2ce29bcb44e8d2abf3ae3df4b4, type: 2}
+  - locale: 14
+    textTable: {fileID: 11400000, guid: e0f587db1372322498571f1fc559c779, type: 2}
+  - locale: 4
+    textTable: {fileID: 11400000, guid: 0b746e451fea48f4a8d3f384fc39bb69, type: 2}
+  - locale: 6
+    textTable: {fileID: 11400000, guid: 985fa78bfe99d774ab09f46e31f732d1, type: 2}
+  - locale: 24
+    textTable: {fileID: 11400000, guid: 396a11f9d43cd634d86a018007d5ef80, type: 2}
+  m_startInFirstLanguage: 1
+  m_preLocalNamedText: {fileID: 11400000, guid: 5c13f522b5d09ac45b34bd028113f126, type: 2}
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6defa8de0368e693a2f8c8ac9f1b02f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_defaultLocale: 19
+  m_localeMaps:
+  - locale: 19
+    languages: 0a000000
+  - locale: 7
+    languages: 0e000000
+  - locale: 3
+    languages: 0f000000
+  - locale: 5
+    languages: 22000000
+  - locale: 13
+    languages: 09000000
+  - locale: 20
+    languages: 17000000
+  - locale: 21
+    languages: 16000000
+  - locale: 22
+    languages: 06000000
+  - locale: 17
+    languages: 1e000000
+  - locale: 15
+    languages: 1b000000
+  - locale: 23
+    languages: 25000000
+  - locale: 24
+    languages: 1c000000
+  - locale: 10
+    languages: 15000000
+  - locale: 18
+    languages: 23000000
+  - locale: 14
+    languages: 1a000000
+  - locale: 4
+    languages: 08000000
+  - locale: 6
+    languages: 0d000000
+  - locale: 16
+    languages: 1c000000
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c5b8fc67170532d5e93d5faed6f60d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4061268324235159
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4703437598541787}
+  m_RootOrder: 0
+--- !u!114 &114587765826080250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c18ccd260f35fe6aa6b6e54a96668c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_target: {fileID: 114724804207875695, guid: 14c508cd8d762c141b8eddc54a267816, type: 2}
+  m_default: CoconOT_reg_0_actual
+  m_redirections:
+  - language: 22
+    fontName: ArialChinese
+  - language: 21
+    fontName: ArialJapanese
+  - language: 20
+    fontName: ArialKorean
+  - language: 15
+    fontName: TuffyBold
+  - language: 17
+    fontName: TuffyBold
+  - language: 23
+    fontName: TuffyBold
+--- !u!114 &114709867586078768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c18ccd260f35fe6aa6b6e54a96668c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_target: {fileID: 114724804207875695, guid: 64e600f306c785948b6d0c811d5f8106, type: 2}
+  m_default: Furby Font_normal_actual
+  m_redirections:
+  - language: 22
+    fontName: ArialChinese
+  - language: 21
+    fontName: ArialJapanese
+  - language: 20
+    fontName: ArialKorean
+  - language: 15
+    fontName: TuffyBold
+  - language: 17
+    fontName: TuffyBold
+  - language: 23
+    fontName: TuffyBold
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

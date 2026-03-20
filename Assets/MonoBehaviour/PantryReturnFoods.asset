@@ -1,0 +1,674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6664fe2c7cb2ae075d24db7850b2205a, type: 3}
+  m_Name: PantryReturnFoods
+  m_EditorClassIdentifier:
+  Items:
+  - Name: Apple-Core
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_apple-core
+    Watermarks: 67010000a5010000a50100007601000064010000a5010000
+    Returns:
+    - 
+    - Sick
+    - Sick
+    - 
+    - 
+    - Sick
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Broccoli-Bitten
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_brocoli-biten
+    Watermarks: 78010000a6010000a6010000a7010000a1010000a6010000
+    Returns:
+    - 
+    - Vomit3
+    - Vomit2
+    - Vomit2
+    - Vomit2
+    - Vomit3
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: BlowFish-Expanded
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_blow-fish-expanded
+    Watermarks: a6010000600100006001000060010000a701000078010000
+    Returns:
+    - Sick
+    - 
+    - 
+    - Sick
+    - Sick
+    - Sick
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: BubbleTea-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_bubble-tea-empty
+    Watermarks: 730100006601000067010000660100007301000067010000
+    Returns:
+    - Bubble-Tea-Tipped
+    - Bubble-Tea-Tipped
+    - Bubble-Tea-Tipped
+    - Bubble-Tea-Tipped
+    - Bubble-Tea-Tipped
+    - Bubble-Tea-Tipped
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Bubble-Tea-Tipped
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_bubble-tea-tipped
+    Watermarks: 660100006601000066010000660100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Chicken-Bone
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_Chicken_Leg_Bone
+    Watermarks: 6401000064010000640100005e0100006401000064010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Coffee-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_coffee-empty
+    Watermarks: 660100006401000067010000660100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: CornOnCob-Eaten
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_corn-eaten
+    Watermarks: 6001000060010000a1010000610100006001000066010000
+    Returns:
+    - 
+    - 
+    - Sick
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: CornDog-Stick
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_corndog-stick
+    Watermarks: 6401000061010000a20100005e01000064010000a0010000
+    Returns:
+    - 
+    - 
+    - Tooth
+    - 
+    - 
+    - Tooth
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Cotton-Candy-Stick
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_cotton-candy-stick
+    Watermarks: 6601000061010000a60100005e010000a1010000a6010000
+    Returns:
+    - 
+    - 
+    - Vomit2
+    - 
+    - Sick
+    - Vomit2
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: EnergyDrink-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_energy-drink_empty
+    Watermarks: 660100006401000064010000640100006601000064010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Cola-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_cola-bottle-empty
+    Watermarks: 660100006001000060010000660100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: CupOfTea-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_cuo-of-tea-empty
+    Watermarks: 640100006401000066010000670100006401000064010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Ginseng-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_ginseng-empty
+    Watermarks: 6401000066010000640100006601000076010000a0010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Jigsaw-Complete
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_jigsaw-finished
+    Watermarks: 660100005e0100005e01000061010000a1010000a6010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - FurBall-Vomit
+    - FurBall-Vomit
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Fish-Bones
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_fish-bones
+    Watermarks: a5010000a0010000a0010000a0010000a5010000a5010000
+    Returns:
+    - Vomit3
+    - Sick
+    - Vomit2
+    - Sick
+    - Vomit2
+    - Vomit3
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: FurBall-Vomit
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_vomit-furball
+    Watermarks: a6010000a7010000a601000079010000a7010000a6010000
+    Returns:
+    - Vomit2
+    - Vomit3
+    - Vomit3
+    - Vomit2
+    - Vomit3
+    - Vomit2
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Grape-Stem
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_grape-stem
+    Watermarks: 670100006701000067010000670100006701000079010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: HotSauce-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_hot-sauce-empty
+    Watermarks: 8a010000910100008a010000660100008a01000061010000
+    Returns:
+    - Vomit2
+    - 
+    - 
+    - 
+    - Vomit3
+    - Vomit2
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Keys
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_keys
+    Watermarks: 6401000064010000640100005e01000064010000a0010000
+    Returns:
+    - 
+    - Tooth
+    - 
+    - 
+    - 
+    - Tooth
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Milk-Shake-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_milk-shake-empty
+    Watermarks: 660100006001000066010000660100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Oyster-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_oyster-empty
+    Watermarks: 6401000064010000a5010000a00100007601000064010000
+    Returns:
+    - 
+    - 
+    - Sick
+    - Tooth
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Popcorn-Kernel
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_popcorn-kernel
+    Watermarks: 66010000a00100005e01000066010000a1010000a1010000
+    Returns:
+    - 
+    - Tooth
+    - 
+    - 
+    - Tooth
+    - Keys
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Popsicle-Stick
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_popsicle-stick
+    Watermarks: 64010000a0010000a0010000a0010000a0010000a0010000
+    Returns:
+    - 
+    - ToothPick
+    - ToothPick
+    - ToothPick
+    - ToothPick
+    - ToothPick
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Strawberry-Bitten
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_pstrawberry-bitten
+    Watermarks: 780100007201000060010000730100007201000073010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: SpareRibs-Finished
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_ribs-finished
+    Watermarks: 6601000064010000a001000064010000a6010000a6010000
+    Returns:
+    - 
+    - 
+    - Tooth
+    - 
+    - Tooth
+    - Tooth
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Rice-Ball
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_rice-ball
+    Watermarks: 610100006101000061010000610100006101000061010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Rock-Candy-Stick
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_rock-candy-stick
+    Watermarks: 66010000a2010000670100005e01000066010000a7010000
+    Returns:
+    - 
+    - Sick
+    - 
+    - 
+    - 
+    - Vomit3
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: RootBeer-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_root-beer-empty
+    Watermarks: 9f0100006401000064010000660100006401000064010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Sardines-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_sardine-tin-empty
+    Watermarks: 66010000a001000066010000a00100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - Tooth
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: SausageRoll-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_sausageroll-empty
+    Watermarks: 610100006001000060010000a6010000a201000061010000
+    Returns:
+    - 
+    - 
+    - 
+    - Vomit3
+    - Sick
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Sick
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_sick
+    Watermarks: a3010000a8010000a8010000a7010000a3010000a3010000
+    Returns:
+    - FurBall-Vomit
+    - Vomit2
+    - Vomit3
+    - FurBall-Vomit
+    - FurBall-Vomit
+    - Vomit2
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Snail-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_snail-shell-empty
+    Watermarks: 64010000760100005e010000a00100006401000064010000
+    Returns:
+    - 
+    - 
+    - 
+    - Tooth
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: TBoneSteak-Finished
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_t-bone-only
+    Watermarks: 640100005e0100005e010000a001000064010000a0010000
+    Returns:
+    - 
+    - 
+    - Tooth
+    - Tooth
+    - 
+    - Tooth
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: ToothPick
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_tooth-pick
+    Watermarks: 66010000a2010000a70100006101000067010000a7010000
+    Returns:
+    - 
+    - Tooth
+    - Tooth
+    - 
+    - 
+    - FurBall-Vomit
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Tooth
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_tooth
+    Watermarks: 66010000a5010000a50100005e010000a1010000a0010000
+    Returns:
+    - 
+    - Sick
+    - Sick
+    - 
+    - Sick
+    - ToothPick
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Vomit2
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_vomit01
+    Watermarks: a8010000a8010000a8010000a6010000a8010000a8010000
+    Returns:
+    - Vomit3
+    - Sick
+    - Vomit3
+    - Vomit3
+    - Vomit3
+    - Sick
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Vomit3
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_vomit02
+    Watermarks: a8010000a2010000a8010000a7010000a8010000a6010000
+    Returns:
+    - Sick
+    - Vomit2
+    - Sick
+    - Sick
+    - Sick
+    - Vomit2
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: WaterBottle-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_water-bottle-empty
+    Watermarks: 660100006601000066010000600100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Carrot-Totem
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_carrot-totem
+    Watermarks: 700100005e010000a5010000a50100005e01000070010000
+    Returns:
+    - 
+    - 
+    - 
+    - FurBall-Vomit
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Toilet-Roll-Finished
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_toilet-roll
+    Watermarks: 6101000066010000a1010000610100006701000067010000
+    Returns:
+    - 
+    - 
+    - FurBall-Vomit
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Feather
+    GraphicAtlas: {fileID: 114724804207875695, guid: b6cc1f3b52ac3624ba3cb3a847ace442, type: 2}
+    GraphicName: PROP_pantry_feather
+    Watermarks: 60010000a1010000a7010000a201000061010000a7010000
+    Returns:
+    - 
+    - FurBall-Vomit
+    - FurBall-Vomit
+    - FurBall-Vomit
+    - 
+    - FurBall-Vomit
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Fortune-Cookie-Return
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_fortune-01
+    Watermarks: a2010000a2010000a2010000a2010000a2010000a2010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0
+  - Name: Cocoa-Empty
+    GraphicAtlas: {fileID: 114724804207875695, guid: cc9da84110a91d14bb206d75838982b5, type: 2}
+    GraphicName: PROP_pantry_coca-empty
+    Watermarks: 8e0100008e01000066010000660100006601000066010000
+    Returns:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    UnlockedByQRCode: 0
+    QRUnlockCode:
+    DisplayName:
+    m_FurbuckCost: 0

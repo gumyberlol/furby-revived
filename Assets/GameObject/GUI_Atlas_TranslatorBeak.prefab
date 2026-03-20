@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_Atlas_TranslatorBeak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 1d0426c763b92aa439dce250e78c9477, type: 2}
+  sprites:
+  - name: GUI_Translator_Beak_11
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 474
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 474
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_3
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 474
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 474
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_22
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 474
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 474
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_20
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 474
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 474
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_21
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 290
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 290
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_17
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 106
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 106
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_1
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 290
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 290
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_16
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 106
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 106
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_24
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 106
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 106
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_12
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 290
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 290
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_5
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 106
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 106
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_0
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 290
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 290
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_23
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 658
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 658
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_19
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 842
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 842
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_4
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 842
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 842
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_6
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 658
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 658
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_2
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 842
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 842
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_13
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 842
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 842
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_9
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 842
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 842
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_15
+    outer:
+      serializedVersion: 2
+      x: 187
+      y: 658
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 658
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_7
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 658
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 658
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_8
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 658
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 658
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_14
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 474
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 474
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_10
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 290
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 290
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  - name: GUI_Translator_Beak_18
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 106
+      width: 181
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 106
+      width: 181
+      height: 180
+    paddingLeft: 0.21546961
+    paddingRight: 0.19889502
+    paddingTop: 0.18333334
+    paddingBottom: 0.23888889
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

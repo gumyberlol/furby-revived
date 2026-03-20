@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GUI_neighbourhoodCrystal_ringSpinner
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: -1, y: -0, z: -0}
+        tangentMode: 0
+      - time: 2
+        value: {x: -1, y: 1, z: 1}
+        inSlope: {x: -1, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: GUI_hood_Rainbow_gradient_GEO
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4, y: 4, z: 4}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.6666667
+        value: 1
+        inSlope: -1.0758622
+        outSlope: -1.0758622
+        tangentMode: 0
+      - time: 1
+        value: 0.2827586
+        inSlope: -1.6413794
+        outSlope: -1.6413794
+        tangentMode: 0
+      - time: 1.25
+        value: 0
+        inSlope: -0.12625787
+        outSlope: -0.12625787
+        tangentMode: 0
+      - time: 1.55
+        value: 0.26355556
+        inSlope: 1.2575309
+        outSlope: 1.2575309
+        tangentMode: 0
+      - time: 2
+        value: 1
+        inSlope: 1.6365432
+        outSlope: 1.6365432
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: GUI_hood_Rainbow_gradient_GEO
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 2.5448277
+        outSlope: 2.5448277
+        tangentMode: 0
+      - time: 0.33333334
+        value: 0.8482759
+        inSlope: 1.5065379
+        outSlope: 1.5065379
+        tangentMode: 0
+      - time: 0.6666667
+        value: 1.0043586
+        inSlope: 0.22758615
+        outSlope: 0.22758615
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -0.506538
+        outSlope: -0.506538
+        tangentMode: 0
+      - time: 2
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: GUI_hood_Rainbow_gradient_GEO
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.6666667
+        value: 0
+        inSlope: 0.29546586
+        outSlope: 0.29546586
+        tangentMode: 0
+      - time: 1.25
+        value: 0.34471014
+        inSlope: 0.42935967
+        outSlope: 0.42935967
+        tangentMode: 0
+      - time: 1.55
+        value: 0.4250464
+        inSlope: 0.34341177
+        outSlope: 0.34341177
+        tangentMode: 0
+      - time: 1.7666667
+        value: 0.51583755
+        inSlope: -0.89584816
+        outSlope: -0.89584816
+        tangentMode: 0
+      - time: 2
+        value: 0
+        inSlope: -2.2107322
+        outSlope: -2.2107322
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: GUI_hood_Rainbow_gradient_GEO
+    classID: 21
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

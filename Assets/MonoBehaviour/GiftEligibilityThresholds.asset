@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c2aab6a217ab963623ccb4d63c5a9e, type: 3}
+  m_Name: GiftEligibilityThresholds
+  m_EditorClassIdentifier:
+  m_comments: One gift per egg for the first eight gifts, then one gift per two eggs for another eight gifts.  First gift is on second egg, so as not to interrupt the first time flow.
+  m_furblingCounts: 02000000030000000400000005000000060000000700000008000000090000000b0000000d0000000f0000001100000013000000150000001600000018000000

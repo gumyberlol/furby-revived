@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ce865e7130dfbc3a6b41e0981d374e, type: 3}
+  m_Name: SickBayCureLibrary
+  m_EditorClassIdentifier:
+  m_CureData:
+  - m_CureName: Sweet Treat
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_honey+cola
+    m_CuredDisease: 5
+    m_Ingredients: 0100000000000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 885
+  - m_CureName: Mint Ice Cream
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_mint+ice
+    m_CuredDisease: 5
+    m_Ingredients: 0400000003000000
+    m_ItemReactionAction: 876
+    m_CureEffectAction: 885
+  - m_CureName: Double Helping of Honey
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_honey+honey
+    m_CuredDisease: 2
+    m_Ingredients: 0100000001000000
+    m_ItemReactionAction: 877
+    m_CureEffectAction: 880
+  - m_CureName: Volcano in a Glass
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_cola+mint
+    m_CuredDisease: 2
+    m_Ingredients: 0000000004000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 880
+  - m_CureName: Lovely Warm Drink
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_honey+water
+    m_CuredDisease: 3
+    m_Ingredients: 0100000002000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 842
+  - m_CureName: Hot Water Bottle
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_water+water
+    m_CuredDisease: 3
+    m_Ingredients: 0200000002000000
+    m_ItemReactionAction: 0
+    m_CureEffectAction: 842
+  - m_CureName: Sinus Blaster
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_water+mint
+    m_CuredDisease: 4
+    m_Ingredients: 0200000004000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 887
+  - m_CureName: Double Helping of Mints
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_mint+mint
+    m_CuredDisease: 4
+    m_Ingredients: 0400000004000000
+    m_ItemReactionAction: 874
+    m_CureEffectAction: 887
+  - m_CureName: Refreshing Pick Me Up
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_cola+ice
+    m_CuredDisease: 6
+    m_Ingredients: 0000000003000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 888
+  - m_CureName: Ice Pack
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_ice+ice
+    m_CuredDisease: 6
+    m_Ingredients: 0300000003000000
+    m_ItemReactionAction: 0
+    m_CureEffectAction: 842
+  - m_CureName: Honey and Minty Mess
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_honey+mint
+    m_CuredDisease: 1
+    m_Ingredients: 0100000004000000
+    m_ItemReactionAction: 874
+    m_CureEffectAction: 879
+  - m_CureName: Frozen Honey
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_honey+ice
+    m_CuredDisease: 1
+    m_Ingredients: 0100000003000000
+    m_ItemReactionAction: 874
+    m_CureEffectAction: 882
+  - m_CureName: Weak Cola
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_cola+water
+    m_CuredDisease: 1
+    m_Ingredients: 0000000002000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 884
+  - m_CureName: Water
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_water+ice
+    m_CuredDisease: 1
+    m_Ingredients: 0200000003000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 833
+  - m_CureName: Double Helping of Cola
+    m_GraphicAtlas: {fileID: 114724804207875695, guid: 422f87f4f86d40b46976f5bd9b507317, type: 2}
+    m_GraphicName: PROP_sickbay_cola+cola
+    m_CuredDisease: 1
+    m_Ingredients: 0000000000000000
+    m_ItemReactionAction: 878
+    m_CureEffectAction: 889

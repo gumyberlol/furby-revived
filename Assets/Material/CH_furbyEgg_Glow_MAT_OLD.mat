@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CH_furbyEgg_Glow_MAT_OLD
+  m_Shader: {fileID: 4800000, guid: b77a041f55dd3d34cabb2aaecc7c13c7, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 48a9d02cbc966eb41a7442862ee3ea57, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.21163847
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _Shininess
+        second: 0.058004156
+      data:
+        first:
+          name: _WiggleStrength
+        second: 0.01
+      data:
+        first:
+          name: _FurLength
+        second: 0.05
+      data:
+        first:
+          name: _EdgeFade
+        second: 0.4
+      data:
+        first:
+          name: _EmissionLM
+        second: 17.46
+      data:
+        first:
+          name: _FresnelPower
+        second: 1
+      data:
+        first:
+          name: _Outline
+        second: 0.10138002
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: 0.6689658, b: 1, a: 0.78431374}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.1397059, g: 0.57281923, b: 1, a: 0.5019608}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: 0.5}
+      data:
+        first:
+          name: _LightDirection0
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _MyLightColor0
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LightDirection1
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _MyLightColor1
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _FresnelTint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SelfIllumination
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 1, g: 1, b: 0, a: 0.56078434}

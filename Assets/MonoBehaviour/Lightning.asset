@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Lightning
+  m_EditorClassIdentifier:
+  m_adultType: 6
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: ff8edbe5d3d92a645a8dc61e2fc66274, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: cbbd7447e1a8424488dd065fa9d93f36, type: 2}
+    EyeColor: {fileID: 11400000, guid: e9e01175aabcbb44e8bb9d89e7da0703, type: 2}
+    EarColor: {fileID: 11400000, guid: e9e01175aabcbb44e8bb9d89e7da0703, type: 2}
+    EyelidColor: {fileID: 11400000, guid: cbbd7447e1a8424488dd065fa9d93f36, type: 2}
+    FurbySpriteName: CH_furbyAdult_Lightning
+  m_tribe: {fileID: 11400000, guid: 5093aa741ea26f94596c777aebcc777d, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 06000000000000000a00000008000000070000000200000003000000090000000b00000005000000010000000400000012000000110000000f00000010000000140000001300000016000000150000001800000017000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 6a338c57a0d33d948bee3863f5654cc8, type: 2}
+  - {fileID: 11400000, guid: be0dcf9183d01bc4c821d2cfd2aef2f3, type: 2}
+  - {fileID: 11400000, guid: e46a83f5386344c4a8f37a1e378ae1d1, type: 2}
+  - {fileID: 11400000, guid: 2e26dcfb2c3a28f4c99d131f1d56e497, type: 2}
+  - {fileID: 11400000, guid: 3104aa1d709770441b1afde080e5a31d, type: 2}
+  - {fileID: 11400000, guid: 6fdb8d5eb4d568f4b94af13f7cf6e7ac, type: 2}
+  - {fileID: 11400000, guid: 66a602c43220fde4cbc2631d4c6b01ed, type: 2}
+  - {fileID: 11400000, guid: a481a29857663104c92b544e43995e4e, type: 2}
+  m_maxFurbyBabiesOfType: 5

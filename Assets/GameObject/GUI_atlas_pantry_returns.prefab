@@ -1,0 +1,925 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_pantry_returns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 78be9afa9c38165488c9356ce2f549f1, type: 2}
+  sprites:
+  - name: PROP_pantry_brocoli-biten
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 474
+      width: 103
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 474
+      width: 103
+      height: 133
+    paddingLeft: 0.39805827
+    paddingRight: 0.5436893
+    paddingTop: 0.39849624
+    paddingBottom: 0.10526316
+  - name: PROP_pantry_cola-bottle-empty
+    outer:
+      serializedVersion: 2
+      x: 417
+      y: 514
+      width: 67
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 417
+      y: 514
+      width: 67
+      height: 158
+    paddingLeft: 0.98507464
+    paddingRight: 1
+    paddingTop: 0.15822785
+    paddingBottom: 0.10759494
+  - name: PROP_pantry_Chicken_Leg_Bone
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 169
+      width: 151
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 169
+      width: 151
+      height: 57
+    paddingLeft: 0.21192053
+    paddingRight: 0.11258278
+    paddingTop: 1.0701754
+    paddingBottom: 1.4385965
+  - name: PROP_pantry_coca-empty
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 886
+      width: 125
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 886
+      width: 125
+      height: 136
+    paddingLeft: 0.4
+    paddingRight: 0.2
+    paddingTop: 0.2647059
+    paddingBottom: 0.20588236
+  - name: PROP_pantry_cotton-candy-stick
+    outer:
+      serializedVersion: 2
+      x: 938
+      y: 892
+      width: 6
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 938
+      y: 892
+      width: 6
+      height: 130
+    paddingLeft: 16.166666
+    paddingRight: 16.166666
+    paddingTop: 0.43076923
+    paddingBottom: 0.10769231
+  - name: PROP_pantry_corndog-stick
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 564
+      width: 134
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 564
+      width: 134
+      height: 43
+    paddingLeft: 0.26119402
+    paddingRight: 0.23134328
+    paddingTop: 1.5348837
+    paddingBottom: 2.1162791
+  - name: PROP_pantry_bubble-tea-empty
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 269
+      width: 100
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 288
+      y: 269
+      width: 100
+      height: 158
+    paddingLeft: 0.51
+    paddingRight: 0.49
+    paddingTop: 0.044303797
+    paddingBottom: 0.221519
+  - name: PROP_pantry_blow-fish-expanded
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 431
+      width: 168
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 431
+      width: 168
+      height: 121
+    paddingLeft: 0.13095239
+    paddingRight: 0.05952381
+    paddingTop: 0.23966943
+    paddingBottom: 0.41322315
+  - name: PROP_pantry_chicken-bone
+    outer:
+      serializedVersion: 2
+      x: 789
+      y: 984
+      width: 145
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 789
+      y: 984
+      width: 145
+      height: 38
+    paddingLeft: 0.12413793
+    paddingRight: 0.2551724
+    paddingTop: 1.9210526
+    paddingBottom: 2.3421052
+  - name: PROP_pantry_carrot-totem
+    outer:
+      serializedVersion: 2
+      x: 488
+      y: 515
+      width: 56
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 488
+      y: 515
+      width: 56
+      height: 181
+    paddingLeft: 1.2857143
+    paddingRight: 1.2857143
+    paddingTop: 0.0718232
+    paddingBottom: 0.03314917
+  - name: PROP_pantry_vomit01
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 556
+      width: 140
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 556
+      width: 140
+      height: 155
+    paddingLeft: 0.17142858
+    paddingRight: 0.25714287
+    paddingTop: 0.15483871
+    paddingBottom: 0.13548388
+  - name: PROP_pantry_corn-eaten
+    outer:
+      serializedVersion: 2
+      x: 597
+      y: 105
+      width: 141
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 597
+      y: 105
+      width: 141
+      height: 60
+    paddingLeft: 0.19148937
+    paddingRight: 0.22695035
+    paddingTop: 1.4666667
+    paddingBottom: 0.8666667
+  - name: PROP_pantry_sardine-tin-empty
+    outer:
+      serializedVersion: 2
+      x: 284
+      y: 762
+      width: 164
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 284
+      y: 762
+      width: 164
+      height: 120
+    paddingLeft: 0.085365854
+    paddingRight: 0.13414635
+    paddingTop: 0.23333333
+    paddingBottom: 0.43333334
+  - name: PROP_pantry_pstrawberry-bitten
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 30
+      width: 101
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 30
+      width: 101
+      height: 71
+    paddingLeft: 0.5148515
+    paddingRight: 0.46534654
+    paddingTop: 0.52112675
+    paddingBottom: 1.2957747
+  - name: PROP_pantry_popcorn-kernel
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 874
+      width: 119
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 874
+      width: 119
+      height: 82
+    paddingLeft: 0.3529412
+    paddingRight: 0.3277311
+    paddingTop: 0.6707317
+    paddingBottom: 0.76829267
+  - name: PROP_pantry_popsicle-stick
+    outer:
+      serializedVersion: 2
+      x: 657
+      y: 315
+      width: 17
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 657
+      y: 315
+      width: 17
+      height: 137
+    paddingLeft: 5.4117646
+    paddingRight: 5.352941
+    paddingTop: 0.37956205
+    paddingBottom: 0.08029197
+  - name: PROP_pantry_vomit02
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 152
+      width: 147
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 152
+      width: 147
+      height: 115
+    paddingLeft: 0.14965986
+    paddingRight: 0.21088435
+    paddingTop: 0.5652174
+    paddingBottom: 0.17391305
+  - name: PROP_pantry_ginseng-empty
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 429
+      width: 62
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 429
+      width: 62
+      height: 133
+    paddingLeft: 1.0967742
+    paddingRight: 1.1290323
+    paddingTop: 0.2857143
+    paddingBottom: 0.21804512
+  - name: PROP_pantry_rice-ball
+    outer:
+      serializedVersion: 2
+      x: 702
+      y: 753
+      width: 112
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 702
+      y: 753
+      width: 112
+      height: 60
+    paddingLeft: 0.3125
+    paddingRight: 0.4732143
+    paddingTop: 1.5333333
+    paddingBottom: 0.8
+  - name: PROP_pantry_ribs-finished
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 168
+      width: 153
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 168
+      width: 153
+      height: 97
+    paddingLeft: 0.13725491
+    paddingRight: 0.16993465
+    paddingTop: 0.371134
+    paddingBottom: 0.69072163
+  - name: PROP_pantry_sausageroll-empty
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 12
+      width: 114
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 12
+      width: 114
+      height: 101
+    paddingLeft: 0.32456142
+    paddingRight: 0.42982456
+    paddingTop: 0.46534654
+    paddingBottom: 0.5148515
+  - name: PROP_pantry_t-bone-only
+    outer:
+      serializedVersion: 2
+      x: 392
+      y: 323
+      width: 82
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 392
+      y: 323
+      width: 82
+      height: 147
+    paddingLeft: 0.63414633
+    paddingRight: 0.80487806
+    paddingTop: 0.18367347
+    paddingBottom: 0.17687075
+  - name: PROP_pantry_coffee-empty
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 25
+      width: 131
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 25
+      width: 131
+      height: 123
+    paddingLeft: 0.36641222
+    paddingRight: 0.16030534
+    paddingTop: 0.28455284
+    paddingBottom: 0.34146342
+  - name: PROP_pantry_water-bottle-empty
+    outer:
+      serializedVersion: 2
+      x: 702
+      y: 817
+      width: 66
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 702
+      y: 817
+      width: 66
+      height: 139
+    paddingLeft: 1.0151515
+    paddingRight: 1.0151515
+    paddingTop: 0.23021583
+    paddingBottom: 0.2086331
+  - name: PROP_pantry_hot-sauce-empty
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 230
+      width: 62
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 230
+      width: 62
+      height: 142
+    paddingLeft: 1.0967742
+    paddingRight: 1.1290323
+    paddingTop: 0.23943663
+    paddingBottom: 0.16901408
+  - name: PROP_pantry_energy-drink_empty
+    outer:
+      serializedVersion: 2
+      x: 328
+      y: 676
+      width: 148
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 328
+      y: 676
+      width: 148
+      height: 82
+    paddingLeft: 0.1891892
+    paddingRight: 0.16216215
+    paddingTop: 0.9634146
+    paddingBottom: 0.47560975
+  - name: PROP_pantry_apple-core
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 117
+      width: 129
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 117
+      width: 129
+      height: 150
+    paddingLeft: 0.27131784
+    paddingRight: 0.27906978
+    paddingTop: 0.11333334
+    paddingBottom: 0.22
+  - name: PROP_pantry_oyster-empty
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 271
+      width: 174
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 271
+      width: 174
+      height: 117
+    paddingLeft: 0.08045977
+    paddingRight: 0.06896552
+    paddingTop: 0.4871795
+    paddingBottom: 0.22222222
+  - name: PROP_pantry_bubble-tea-tipped
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 611
+      width: 178
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 611
+      width: 178
+      height: 112
+    paddingLeft: 0.061797753
+    paddingRight: 0.061797753
+    paddingTop: 0.5625
+    paddingBottom: 0.22321428
+  - name: PROP_pantry_toilet-roll
+    outer:
+      serializedVersion: 2
+      x: 624
+      y: 456
+      width: 46
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 624
+      y: 456
+      width: 46
+      height: 106
+    paddingLeft: 1.6521739
+    paddingRight: 1.6956521
+    paddingTop: 0.46226415
+    paddingBottom: 0.4245283
+  - name: PROP_pantry_jigsaw-finished
+    outer:
+      serializedVersion: 2
+      x: 297
+      y: 912
+      width: 165
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 297
+      y: 912
+      width: 165
+      height: 110
+    paddingLeft: 0.1030303
+    paddingRight: 0.10909091
+    paddingTop: 0.43636364
+    paddingBottom: 0.38181818
+  - name: PROP_pantry_snail-shell-empty
+    outer:
+      serializedVersion: 2
+      x: 270
+      y: 32
+      width: 138
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 270
+      y: 32
+      width: 138
+      height: 116
+    paddingLeft: 0.18115942
+    paddingRight: 0.26811594
+    paddingTop: 0.31896552
+    paddingBottom: 0.4051724
+  - name: PROP_pantry_cuo-of-tea-empty
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 886
+      width: 162
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 886
+      width: 162
+      height: 136
+    paddingLeft: 0.15432099
+    paddingRight: 0.08024691
+    paddingTop: 0.44117647
+    paddingBottom: 0.029411765
+  - name: PROP_pantry_milk-shake-empty
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 272
+      width: 104
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 272
+      width: 104
+      height: 155
+    paddingLeft: 0.46153846
+    paddingRight: 0.46153846
+    paddingTop: 0.08387097
+    paddingBottom: 0.20645161
+  - name: PROP_pantry_fish-bones
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 85
+      width: 181
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 85
+      width: 181
+      height: 79
+    paddingLeft: 0.0718232
+    paddingRight: 0.03314917
+    paddingTop: 0.8227848
+    paddingBottom: 0.70886075
+  - name: PROP_pantry_vomit-furball
+    outer:
+      serializedVersion: 2
+      x: 478
+      y: 376
+      width: 76
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 478
+      y: 376
+      width: 76
+      height: 134
+    paddingLeft: 0.7368421
+    paddingRight: 0.8947368
+    paddingTop: 0.2835821
+    paddingBottom: 0.20895523
+  - name: PROP_pantry_keys
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 715
+      width: 135
+      height: 167
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 715
+      width: 135
+      height: 167
+    paddingLeft: 0.2074074
+    paddingRight: 0.27407408
+    paddingTop: 0.1017964
+    paddingBottom: 0.09580839
+  - name: PROP_pantry_root-beer-empty
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 392
+      width: 132
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 392
+      width: 132
+      height: 160
+    paddingLeft: 0.34848484
+    paddingRight: 0.16666667
+    paddingTop: 0.15625
+    paddingBottom: 0.09375
+  - name: PROP_pantry_tooth-pick
+    outer:
+      serializedVersion: 2
+      x: 600
+      y: 293
+      width: 53
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 600
+      y: 293
+      width: 53
+      height: 132
+    paddingLeft: 1.1886792
+    paddingRight: 1.5849056
+    paddingTop: 0.060606062
+    paddingBottom: 0.45454547
+  - name: PROP_pantry_grape-stem
+    outer:
+      serializedVersion: 2
+      x: 772
+      y: 851
+      width: 54
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 772
+      y: 851
+      width: 54
+      height: 105
+    paddingLeft: 1.2962962
+    paddingRight: 1.4074074
+    paddingTop: 0.36190477
+    paddingBottom: 0.54285717
+  - name: PROP_pantry_rock-candy-stick
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 770
+      width: 86
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 770
+      width: 86
+      height: 138
+    paddingLeft: 0.37209302
+    paddingRight: 0.95348835
+    paddingTop: 0.11594203
+    paddingBottom: 0.33333334
+  - name: PROP_pantry_tooth
+    outer:
+      serializedVersion: 2
+      x: 443
+      y: 189
+      width: 87
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 443
+      y: 189
+      width: 87
+      height: 130
+    paddingLeft: 0.6551724
+    paddingRight: 0.6436782
+    paddingTop: 0.24615385
+    paddingBottom: 0.2923077
+  - name: PROP_pantry_sick
+    outer:
+      serializedVersion: 2
+      x: 141
+      y: 727
+      width: 139
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 141
+      y: 727
+      width: 139
+      height: 155
+    paddingLeft: 0.17985612
+    paddingRight: 0.2589928
+    paddingTop: 0.15483871
+    paddingBottom: 0.13548388
+  - name: PROP_pantry_fortune-01
+    outer:
+      serializedVersion: 2
+      x: 480
+      y: 700
+      width: 158
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 480
+      y: 700
+      width: 158
+      height: 66
+    paddingLeft: 0.15822785
+    paddingRight: 0.10759494
+    paddingTop: 1.2272727
+    paddingBottom: 0.8030303
+  - name: PROP_pantry_fortune-07
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 808
+      width: 156
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 808
+      width: 156
+      height: 62
+    paddingLeft: 0.16025642
+    paddingRight: 0.12179487
+    paddingTop: 1.4032258
+    paddingBottom: 0.82258064
+  - name: PROP_pantry_fortune-06
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 633
+      width: 156
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 633
+      width: 156
+      height: 63
+    paddingLeft: 0.15384616
+    paddingRight: 0.12820514
+    paddingTop: 1.3650794
+    paddingBottom: 0.8095238
+  - name: PROP_pantry_fortune-02
+    outer:
+      serializedVersion: 2
+      x: 574
+      y: 15
+      width: 158
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 574
+      y: 15
+      width: 158
+      height: 66
+    paddingLeft: 0.15822785
+    paddingRight: 0.10759494
+    paddingTop: 1.2272727
+    paddingBottom: 0.8030303
+  - name: PROP_pantry_fortune-00
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 960
+      width: 156
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 629
+      y: 960
+      width: 156
+      height: 62
+    paddingLeft: 0.16025642
+    paddingRight: 0.12179487
+    paddingTop: 1.4032258
+    paddingBottom: 0.82258064
+  - name: PROP_pantry_fortune-03
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 15
+      width: 158
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 15
+      width: 158
+      height: 66
+    paddingLeft: 0.15822785
+    paddingRight: 0.10759494
+    paddingTop: 1.2272727
+    paddingBottom: 0.8030303
+  - name: PROP_pantry_fortune-05
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 960
+      width: 159
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 960
+      width: 159
+      height: 62
+    paddingLeft: 0.1509434
+    paddingRight: 0.10691824
+    paddingTop: 1.3064516
+    paddingBottom: 0.91935486
+  - name: PROP_pantry_fortune-04
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 566
+      width: 156
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 566
+      width: 156
+      height: 63
+    paddingLeft: 0.15384616
+    paddingRight: 0.12820514
+    paddingTop: 1.3650794
+    paddingBottom: 0.8095238
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

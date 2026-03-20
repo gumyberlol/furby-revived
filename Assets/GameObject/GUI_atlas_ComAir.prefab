@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_ComAir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 03941982c61d59f43b83910e1418be97, type: 2}
+  sprites:
+  - name: GUI_Popup_iconFurby
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 48
+      width: 119
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 48
+      width: 119
+      height: 115
+    paddingLeft: 0.016806724
+    paddingRight: 0.016806724
+    paddingTop: 0
+    paddingBottom: 0.008695652
+  - name: GUI_Shared_tick
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 69
+      width: 106
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 69
+      width: 106
+      height: 94
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Shared_dimensionArrow
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 14
+      width: 121
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 14
+      width: 121
+      height: 51
+    paddingLeft: 0.024793388
+    paddingRight: 0.008264462
+    paddingTop: 0.078431375
+    paddingBottom: 0.09803922
+  - name: GUI_Shared_device
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 167
+      width: 179
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 167
+      width: 179
+      height: 87
+    paddingLeft: 0.016759777
+    paddingRight: 0.016759777
+    paddingTop: 0.022988506
+    paddingBottom: 0.03448276
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

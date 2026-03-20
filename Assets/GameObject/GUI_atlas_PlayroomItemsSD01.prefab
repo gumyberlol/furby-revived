@@ -1,0 +1,1248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_PlayroomItemsSD01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: fcbfe38568494c342906491ea384b76e, type: 2}
+  sprites:
+  - name: ENV_playroom_snowman02Thumb
+    outer:
+      serializedVersion: 2
+      x: 368
+      y: 551
+      width: 87
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 368
+      y: 551
+      width: 87
+      height: 123
+    paddingLeft: 0.33333334
+    paddingRight: 0.13793103
+    paddingTop: 0.024390243
+    paddingBottom: 0.016260162
+  - name: ENV_playroom_wallSnow
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 635
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 635
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wallWinterThumb
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 544
+      width: 105
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 544
+      width: 105
+      height: 108
+    paddingLeft: 0.114285715
+    paddingRight: 0.104761906
+    paddingTop: 0.11111111
+    paddingBottom: 0.074074075
+  - name: ENV_playroom_lampWinterThumb
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 776
+      width: 101
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 776
+      width: 101
+      height: 117
+    paddingLeft: 0.13861386
+    paddingRight: 0.12871288
+    paddingTop: 0.034188036
+    paddingBottom: 0.05982906
+  - name: ENV_playroom_rugwinterThumb
+    outer:
+      serializedVersion: 2
+      x: 689
+      y: 845
+      width: 127
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 689
+      y: 845
+      width: 127
+      height: 48
+    paddingLeft: 0.007874016
+    paddingRight: 0
+    paddingTop: 0.9375
+    paddingBottom: 0.7291667
+  - name: ENV_playroom_rugChineseNewYearThumb
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 21
+      width: 127
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 21
+      width: 127
+      height: 48
+    paddingLeft: 0.007874016
+    paddingRight: 0
+    paddingTop: 0.9375
+    paddingBottom: 0.7291667
+  - name: ENV_playroom_chineseDragon_Thumb
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 443
+      width: 100
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 456
+      y: 443
+      width: 100
+      height: 106
+    paddingLeft: 0.14
+    paddingRight: 0.14
+    paddingTop: 0.11320755
+    paddingBottom: 0.094339624
+  - name: ENV_playroom_firecrackers_Thumb
+    outer:
+      serializedVersion: 2
+      x: 715
+      y: 197
+      width: 33
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 715
+      y: 197
+      width: 33
+      height: 93
+    paddingLeft: 1.4545455
+    paddingRight: 1.4242424
+    paddingTop: 0.1827957
+    paddingBottom: 0.19354838
+  - name: ENV_playroom_chineseLantern_Thumb
+    outer:
+      serializedVersion: 2
+      x: 591
+      y: 695
+      width: 55
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 591
+      y: 695
+      width: 55
+      height: 119
+    paddingLeft: 0.6727273
+    paddingRight: 0.6545454
+    paddingTop: 0
+    paddingBottom: 0.075630255
+  - name: ENV_playroom_wall_CNY
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 375
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 375
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_easter_birdEggThumb
+    outer:
+      serializedVersion: 2
+      x: 472
+      y: 4
+      width: 60
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 472
+      y: 4
+      width: 60
+      height: 83
+    paddingLeft: 0.5833333
+    paddingRight: 0.55
+    paddingTop: 0.26506025
+    paddingBottom: 0.27710843
+  - name: ENV_playroom_easterLightThumb
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 654
+      width: 104
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 654
+      width: 104
+      height: 117
+    paddingLeft: 0.13461539
+    paddingRight: 0.09615385
+    paddingTop: 0
+    paddingBottom: 0.094017096
+  - name: ENV_playroom_rugEaster_Thumb
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 722
+      width: 105
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 722
+      width: 105
+      height: 49
+    paddingLeft: 0.14285715
+    paddingRight: 0.07619048
+    paddingTop: 0.79591835
+    paddingBottom: 0.81632656
+  - name: ENV_playroom_wallEaster
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 245
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 245
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_easter_birdBoxThumb
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 71
+      width: 80
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 71
+      width: 80
+      height: 97
+    paddingLeft: 0.3125
+    paddingRight: 0.2875
+    paddingTop: 0.15463917
+    paddingBottom: 0.16494845
+  - name: ENV_playroom_valentines_balloonsThumb
+    outer:
+      serializedVersion: 2
+      x: 527
+      y: 223
+      width: 83
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 527
+      y: 223
+      width: 83
+      height: 106
+    paddingLeft: 0.22891566
+    paddingRight: 0.31325302
+    paddingTop: 0.10377359
+    paddingBottom: 0.10377359
+  - name: ENV_playroom_valentines_candleThumb
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 121
+      width: 114
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 121
+      width: 114
+      height: 122
+    paddingLeft: 0.05263158
+    paddingRight: 0.07017544
+    paddingTop: 0.032786883
+    paddingBottom: 0.016393442
+  - name: ENV_playroom_valentines_cupidThumb
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 430
+      width: 98
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 430
+      width: 98
+      height: 112
+    paddingLeft: 0.14285715
+    paddingRight: 0.1632653
+    paddingTop: 0.071428575
+    paddingBottom: 0.071428575
+  - name: ENV_playroom_wall_valentines
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 765
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 765
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_valentines_rugThumb
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 805
+      width: 118
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 805
+      width: 118
+      height: 38
+    paddingLeft: 0.050847456
+    paddingRight: 0.033898305
+    paddingTop: 1.3157895
+    paddingBottom: 1.0526316
+  - name: ENV_playroom_rug_chvHrt02_Thumb
+    outer:
+      serializedVersion: 2
+      x: 646
+      y: 399
+      width: 128
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 646
+      y: 399
+      width: 128
+      height: 45
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.0222223
+    paddingBottom: 0.82222223
+  - name: ENV_playroom_rug_hndEst02_Thumb
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 661
+      width: 123
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 661
+      width: 123
+      height: 46
+    paddingLeft: 0.024390243
+    paddingRight: 0.016260162
+    paddingTop: 1
+    paddingBottom: 0.7826087
+  - name: ENV_playroom_rug_PeaCub02_Thumb
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 542
+      width: 128
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 542
+      width: 128
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0.7826087
+  - name: ENV_playroom_rug_starWav01_Thumb
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 494
+      width: 128
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 494
+      width: 128
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0.7826087
+  - name: ENV_playroom_rug_triDag02_Thumb
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 446
+      width: 128
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 446
+      width: 128
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0.7826087
+  - name: ENV_playroom_wall_chvHrt02
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 115
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 115
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wall_peaCub02
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wall_hndEst01
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wall_starWav01
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wall_hrtDia02
+    outer:
+      serializedVersion: 2
+      x: 521
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 521
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wall_triDag02
+    outer:
+      serializedVersion: 2
+      x: 391
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 391
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_wall_hndEst02
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 635
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 635
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_circusPosterThumb
+    outer:
+      serializedVersion: 2
+      x: 539
+      y: 5
+      width: 82
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 539
+      y: 5
+      width: 82
+      height: 103
+    paddingLeft: 0.29268292
+    paddingRight: 0.2682927
+    paddingTop: 0.116504855
+    paddingBottom: 0.1262136
+  - name: ENV_playroom_circusMobileThumb
+    outer:
+      serializedVersion: 2
+      x: 365
+      y: 191
+      width: 77
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 365
+      y: 191
+      width: 77
+      height: 119
+    paddingLeft: 0.2987013
+    paddingRight: 0.36363637
+    paddingTop: 0
+    paddingBottom: 0.075630255
+  - name: ENV_playroom_circusBearBallThumb
+    outer:
+      serializedVersion: 2
+      x: 558
+      y: 471
+      width: 77
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 471
+      width: 77
+      height: 106
+    paddingLeft: 0.27272728
+    paddingRight: 0.38961038
+    paddingTop: 0.11320755
+    paddingBottom: 0.094339624
+  - name: ENV_playroom_iceSkatesThumb
+    outer:
+      serializedVersion: 2
+      x: 539
+      y: 110
+      width: 78
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 539
+      y: 110
+      width: 78
+      height: 111
+    paddingLeft: 0.30769232
+    paddingRight: 0.33333334
+    paddingTop: 0.054054055
+    paddingBottom: 0.0990991
+  - name: ENV_playroom_iceChandelierThumb
+    outer:
+      serializedVersion: 2
+      x: 612
+      y: 259
+      width: 90
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 612
+      y: 259
+      width: 90
+      height: 93
+    paddingLeft: 0.22222222
+    paddingRight: 0.2
+    paddingTop: 0.17204301
+    paddingBottom: 0.20430107
+  - name: ENV_playroom_snowmanThumb
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 80
+      width: 84
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 80
+      width: 84
+      height: 109
+    paddingLeft: 0.26190478
+    paddingRight: 0.26190478
+    paddingTop: 0.06422018
+    paddingBottom: 0.110091746
+  - name: ENV_playroom_chocFurbyThumb
+    outer:
+      serializedVersion: 2
+      x: 911
+      y: 773
+      width: 103
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 773
+      width: 103
+      height: 127
+    paddingLeft: 0.24271844
+    paddingRight: 0.21359223
+    paddingTop: 0.09448819
+    paddingBottom: 0.08661418
+  - name: ENV_playroom_nestThumb
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 775
+      width: 103
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 775
+      width: 103
+      height: 118
+    paddingLeft: 0.097087376
+    paddingRight: 0.14563107
+    paddingTop: 0.016949153
+    paddingBottom: 0.06779661
+  - name: ENV_playroom_bunnyLightsThumb
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 312
+      width: 97
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 312
+      width: 97
+      height: 110
+    paddingLeft: 0.13402061
+    paddingRight: 0.185567
+    paddingTop: 0.12727273
+    paddingBottom: 0.036363635
+  - name: ENV_playroom_rocketThumb
+    outer:
+      serializedVersion: 2
+      x: 704
+      y: 292
+      width: 46
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 704
+      y: 292
+      width: 46
+      height: 105
+    paddingLeft: 0.8913044
+    paddingRight: 0.8913044
+    paddingTop: 0.104761906
+    paddingBottom: 0.114285715
+  - name: ENV_playroom_ufoMobileThumb
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 16
+      width: 114
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 250
+      y: 16
+      width: 114
+      height: 111
+    paddingLeft: 0.078947365
+    paddingRight: 0.04385965
+    paddingTop: 0.045045044
+    paddingBottom: 0.10810811
+  - name: ENV_playroom_spaceWindowThumb
+    outer:
+      serializedVersion: 2
+      x: 570
+      y: 590
+      width: 91
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 570
+      y: 590
+      width: 91
+      height: 85
+    paddingLeft: 0.21978022
+    paddingRight: 0.18681319
+    paddingTop: 0.25882354
+    paddingBottom: 0.24705882
+  - name: ENV_playroom_chocFountainThumb
+    outer:
+      serializedVersion: 2
+      x: 261
+      y: 320
+      width: 100
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 261
+      y: 320
+      width: 100
+      height: 108
+    paddingLeft: 0.16
+    paddingRight: 0.12
+    paddingTop: 0.09259259
+    paddingBottom: 0.09259259
+  - name: ENV_playroom_candyWallThumb
+    outer:
+      serializedVersion: 2
+      x: 619
+      y: 170
+      width: 94
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 619
+      y: 170
+      width: 94
+      height: 87
+    paddingLeft: 0.19148937
+    paddingRight: 0.17021276
+    paddingTop: 0.22988506
+    paddingBottom: 0.2413793
+  - name: ENV_playroom_balloonLampThumb
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 66
+      width: 80
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 66
+      width: 80
+      height: 102
+    paddingLeft: 0.2875
+    paddingRight: 0.3125
+    paddingTop: 0.11764706
+    paddingBottom: 0.13725491
+  - name: ENV_playroom_heartLightThumb
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 579
+      width: 111
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 579
+      width: 111
+      height: 95
+    paddingLeft: 0.08108108
+    paddingRight: 0.072072074
+    paddingTop: 0.22105263
+    paddingBottom: 0.12631579
+  - name: ENV_playroom_cuteVanityThumb
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 709
+      width: 60
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 709
+      width: 60
+      height: 105
+    paddingLeft: 0.6166667
+    paddingRight: 0.51666665
+    paddingTop: 0.114285715
+    paddingBottom: 0.104761906
+  - name: ENV_playroom_teaCartThumb
+    outer:
+      serializedVersion: 2
+      x: 547
+      y: 354
+      width: 97
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 547
+      y: 354
+      width: 97
+      height: 87
+    paddingLeft: 0.16494845
+    paddingRight: 0.15463917
+    paddingTop: 0.27586207
+    paddingBottom: 0.1954023
+  - name: ENV_playroom_balloonsThumb
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 4
+      width: 117
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 4
+      width: 117
+      height: 115
+    paddingLeft: 0.05982906
+    paddingRight: 0.034188036
+    paddingTop: 0.11304348
+    paddingBottom: 0
+  - name: ENV_playroom_giftsThumb
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 8
+      width: 104
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 8
+      width: 104
+      height: 70
+    paddingLeft: 0.13461539
+    paddingRight: 0.09615385
+    paddingTop: 0.41428572
+    paddingBottom: 0.41428572
+  - name: ENV_playroom_partyHatsThumb
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 816
+      width: 121
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 566
+      y: 816
+      width: 121
+      height: 77
+    paddingLeft: 0.03305785
+    paddingRight: 0.024793388
+    paddingTop: 0.35064936
+    paddingBottom: 0.3116883
+  - name: ENV_playroom_totemThumb
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_stoneFountainThumb
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 424
+      width: 91
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 424
+      width: 91
+      height: 118
+    paddingLeft: 0.21978022
+    paddingRight: 0.18681319
+    paddingTop: 0.033898305
+    paddingBottom: 0.050847456
+  - name: ENV_playroom_goldenMooseThumb
+    outer:
+      serializedVersion: 2
+      x: 367
+      y: 676
+      width: 115
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 367
+      y: 676
+      width: 115
+      height: 98
+    paddingLeft: 0.069565214
+    paddingRight: 0.04347826
+    paddingTop: 0.18367347
+    paddingBottom: 0.12244898
+  - name: ENV_playroom_bigBallThumb
+    outer:
+      serializedVersion: 2
+      x: 247
+      y: 129
+      width: 116
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 247
+      y: 129
+      width: 116
+      height: 114
+    paddingLeft: 0.05172414
+    paddingRight: 0.05172414
+    paddingTop: 0.096491225
+    paddingBottom: 0.02631579
+  - name: ENV_playroom_zebraBearThumb
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 89
+      width: 85
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 89
+      width: 85
+      height: 106
+    paddingLeft: 0.2
+    paddingRight: 0.30588236
+    paddingTop: 0.12264151
+    paddingBottom: 0.08490566
+  - name: ENV_playroom_goldCauldronThumb
+    outer:
+      serializedVersion: 2
+      x: 469
+      y: 776
+      width: 95
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 469
+      y: 776
+      width: 95
+      height: 117
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.07692308
+    paddingBottom: 0.017094018
+  - name: ENV_playroom_cardinal_birdEggThumb
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 197
+      width: 81
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 197
+      width: 81
+      height: 113
+    paddingLeft: 0.28395063
+    paddingRight: 0.2962963
+    paddingTop: 0.07079646
+    paddingBottom: 0.061946902
+  - name: ENV_playroom_underseaWindowThumb
+    outer:
+      serializedVersion: 2
+      x: 484
+      y: 677
+      width: 105
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 484
+      y: 677
+      width: 105
+      height: 97
+    paddingLeft: 0.114285715
+    paddingRight: 0.104761906
+    paddingTop: 0.17525773
+    paddingBottom: 0.14432989
+  - name: ENV_playroom_firefly_lightThumb
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 331
+      width: 83
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 331
+      width: 83
+      height: 110
+    paddingLeft: 0.26506025
+    paddingRight: 0.27710843
+    paddingTop: 0.1
+    paddingBottom: 0.06363636
+  - name: ENV_playroom_birdbathThumb
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 375
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 375
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_carriageThumb
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 23
+      width: 118
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 23
+      width: 118
+      height: 90
+    paddingLeft: 0.050847456
+    paddingRight: 0.033898305
+    paddingTop: 0.17777778
+    paddingBottom: 0.24444444
+  - name: ENV_playroom_catThumb
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 505
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 505
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_moonlightThumb
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 245
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 245
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_mushroomThumb
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 505
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 505
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_pegacornThumb
+    outer:
+      serializedVersion: 2
+      x: 911
+      y: 902
+      width: 104
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 902
+      width: 104
+      height: 121
+    paddingLeft: 0.17307693
+    paddingRight: 0.057692308
+    paddingTop: 0
+    paddingBottom: 0.05785124
+  - name: ENV_playroom_seashellbedThumb
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 765
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 765
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_playroom_trexThumb
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 895
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 895
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

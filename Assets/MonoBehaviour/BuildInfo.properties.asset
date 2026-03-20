@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f0fa5fb0d5fc61c389a8960f1b0770, type: 3}
+  m_Name: BuildInfo.properties
+  m_EditorClassIdentifier:
+  m_textTable:
+    m_keys:
+    - BUILD_DATE
+    - BUILD_TIME
+    - BUILD_MACHINE
+    - BUILD_USER
+    - BUILD_CHANGELIST
+    - BUILD_BRANCH
+    m_values:
+    - 16-Sep-2014
+    - 16-52
+    - '????'
+    - '????'
+    - CL299967
+    - Main

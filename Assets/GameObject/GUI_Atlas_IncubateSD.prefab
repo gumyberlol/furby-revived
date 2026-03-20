@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_Atlas_IncubateSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: fc78f868b67f3af4c878ac5d86a57f00, type: 2}
+  sprites:
+  - name: GUI_Incubate_dialMarker
+    outer:
+      serializedVersion: 2
+      x: 620
+      y: 95
+      width: 83
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 620
+      y: 95
+      width: 83
+      height: 83
+    paddingLeft: 1.3012048
+    paddingRight: 1.2771084
+    paddingTop: 1.2891567
+    paddingBottom: 1.3253012
+  - name: GUI_Incubate_dialBase
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 527
+      width: 492
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 527
+      width: 248
+      height: 251
+    paddingLeft: 0.111788616
+    paddingRight: 0.09552845
+    paddingTop: 0.11290322
+    paddingBottom: 0.09475806
+  - name: GUI_Incubate_dialFill
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 39
+      width: 485
+      height: 486
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 39
+      width: 485
+      height: 486
+    paddingLeft: 0.11340206
+    paddingRight: 0.11134021
+    paddingTop: 0.115226336
+    paddingBottom: 0.11728395
+  - name: GUI_Incubate_Alert
+    outer:
+      serializedVersion: 2
+      x: 488
+      y: 180
+      width: 168
+      height: 345
+    inner:
+      serializedVersion: 2
+      x: 488
+      y: 180
+      width: 168
+      height: 345
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_circleGlow
+    outer:
+      serializedVersion: 2
+      x: 488
+      y: 48
+      width: 130
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 488
+      y: 48
+      width: 130
+      height: 130
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_iconImprintGobbler
+    outer:
+      serializedVersion: 2
+      x: 692
+      y: 25
+      width: 72
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 692
+      y: 25
+      width: 72
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_iconImprintRockstar
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 941
+      width: 58
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 941
+      width: 58
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_iconImprintKooky
+    outer:
+      serializedVersion: 2
+      x: 555
+      y: 941
+      width: 54
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 555
+      y: 941
+      width: 54
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_iconImprint
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 875
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 875
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_iconImprintToughgirl
+    outer:
+      serializedVersion: 2
+      x: 620
+      y: 17
+      width: 70
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 620
+      y: 17
+      width: 70
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Incubate_iconImprintSweetbelle
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 885
+      width: 88
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 885
+      width: 88
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 2
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

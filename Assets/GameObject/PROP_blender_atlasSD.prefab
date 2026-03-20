@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: PROP_blender_atlasSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: ee1294cb2102cc54cbb1978fdd9fa27a, type: 2}
+  sprites:
+  - name: PROP_blender_wasabipeas
+    outer:
+      serializedVersion: 2
+      x: 552
+      y: 237
+      width: 222
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 552
+      y: 237
+      width: 222
+      height: 111
+    paddingLeft: 0.076576576
+    paddingRight: 0.076576576
+    paddingTop: 0.6576577
+    paddingBottom: 0.6486486
+  - name: PROP_blender_vinegar
+    outer:
+      serializedVersion: 2
+      x: 304
+      y: 33
+      width: 108
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 304
+      y: 33
+      width: 108
+      height: 215
+    paddingLeft: 0.6574074
+    paddingRight: 0.712963
+    paddingTop: 0.12093023
+    paddingBottom: 0.069767445
+  - name: PROP_blender_rubberchicken
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 252
+      width: 238
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 252
+      width: 238
+      height: 110
+    paddingLeft: 0.042016808
+    paddingRight: 0.033613447
+    paddingTop: 0.74545455
+    paddingBottom: 0.58181816
+  - name: PROP_blender_teabag
+    outer:
+      serializedVersion: 2
+      x: 193
+      y: 636
+      width: 185
+      height: 201
+    inner:
+      serializedVersion: 2
+      x: 193
+      y: 636
+      width: 185
+      height: 201
+    paddingLeft: 0.18378378
+    paddingRight: 0.2
+    paddingTop: 0.15422885
+    paddingBottom: 0.11940298
+  - name: PROP_blender_popsicle
+    outer:
+      serializedVersion: 2
+      x: 647
+      y: 5
+      width: 83
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 647
+      y: 5
+      width: 83
+      height: 228
+    paddingLeft: 1.0240964
+    paddingRight: 1.060241
+    paddingTop: 0.06140351
+    paddingBottom: 0.06140351
+  - name: PROP_blender_sausages
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 818
+      width: 231
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 818
+      width: 231
+      height: 204
+    paddingLeft: 0.038961038
+    paddingRight: 0.06926407
+    paddingTop: 0.1764706
+    paddingBottom: 0.078431375
+  - name: PROP_blender_roadkill
+    outer:
+      serializedVersion: 2
+      x: 211
+      y: 841
+      width: 261
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 211
+      y: 841
+      width: 261
+      height: 181
+    paddingLeft: 0.10344828
+    paddingRight: 0.04597701
+    paddingTop: 0.24309392
+    paddingBottom: 0.41436464
+  - name: PROP_blender_weddingcake
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 631
+      width: 198
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 631
+      width: 198
+      height: 183
+    paddingLeft: 0.055555556
+    paddingRight: 0.055555556
+    paddingTop: 0.13661203
+    paddingBottom: 0.06557377
+  - name: PROP_blender_pepper
+    outer:
+      serializedVersion: 2
+      x: 546
+      y: 24
+      width: 97
+      height: 209
+    inner:
+      serializedVersion: 2
+      x: 546
+      y: 24
+      width: 97
+      height: 209
+    paddingLeft: 0.83505154
+    paddingRight: 0.8041237
+    paddingTop: 0.11004785
+    paddingBottom: 0.114832535
+  - name: PROP_blender_chocolate
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 366
+      width: 226
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 456
+      y: 366
+      width: 226
+      height: 131
+    paddingLeft: 0.03982301
+    paddingRight: 0.092920355
+    paddingTop: 0.2977099
+    paddingBottom: 0.65648854
+  - name: PROP_blender_butter
+    outer:
+      serializedVersion: 2
+      x: 240
+      y: 476
+      width: 212
+      height: 151
+    inner:
+      serializedVersion: 2
+      x: 240
+      y: 476
+      width: 212
+      height: 151
+    paddingLeft: 0.10377359
+    paddingRight: 0.10377359
+    paddingTop: 0.33774835
+    paddingBottom: 0.3576159
+  - name: PROP_blender_lipstick
+    outer:
+      serializedVersion: 2
+      x: 178
+      y: 256
+      width: 128
+      height: 216
+    inner:
+      serializedVersion: 2
+      x: 178
+      y: 256
+      width: 128
+      height: 216
+    paddingLeft: 0.4921875
+    paddingRight: 0.5078125
+    paddingTop: 0.106481485
+    paddingBottom: 0.0787037
+  - name: PROP_blender_dogfood
+    outer:
+      serializedVersion: 2
+      x: 711
+      y: 846
+      width: 224
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 711
+      y: 846
+      width: 224
+      height: 176
+    paddingLeft: 0.071428575
+    paddingRight: 0.071428575
+    paddingTop: 0.24431819
+    paddingBottom: 0.21022727
+  - name: PROP_blender_lemon
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 231
+      width: 176
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 231
+      width: 176
+      height: 117
+    paddingLeft: 0.21022727
+    paddingRight: 0.24431819
+    paddingTop: 0.6495727
+    paddingBottom: 0.53846157
+  - name: PROP_blender_chinesetakeawaybox
+    outer:
+      serializedVersion: 2
+      x: 780
+      y: 492
+      width: 177
+      height: 193
+    inner:
+      serializedVersion: 2
+      x: 780
+      y: 492
+      width: 177
+      height: 193
+    paddingLeft: 0.1299435
+    paddingRight: 0.11299435
+    paddingTop: 0.07253886
+    paddingBottom: 0.06735751
+  - name: PROP_blender_lobster
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 478
+      width: 234
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 478
+      width: 234
+      height: 154
+    paddingLeft: 0.051282052
+    paddingRight: 0.042735044
+    paddingTop: 0.46753246
+    paddingBottom: 0.19480519
+  - name: PROP_blender_fizzyblackcurrant
+    outer:
+      serializedVersion: 2
+      x: 584
+      y: 501
+      width: 192
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 584
+      y: 501
+      width: 192
+      height: 184
+    paddingLeft: 0.171875
+    paddingRight: 0.16145833
+    paddingTop: 0.22826087
+    paddingBottom: 0.16304348
+  - name: PROP_blender_maplesyrup
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 39
+      width: 120
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 39
+      width: 120
+      height: 213
+    paddingLeft: 0.53333336
+    paddingRight: 0.6
+    paddingTop: 0.103286386
+    paddingBottom: 0.09859155
+  - name: PROP_blender_oyster
+    outer:
+      serializedVersion: 2
+      x: 686
+      y: 352
+      width: 203
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 686
+      y: 352
+      width: 203
+      height: 136
+    paddingLeft: 0.13793103
+    paddingRight: 0.12315271
+    paddingTop: 0.4779412
+    paddingBottom: 0.40441176
+  - name: PROP_blender_gingerbread
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 689
+      width: 187
+      height: 201
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 689
+      width: 187
+      height: 201
+    paddingLeft: 0.22994652
+    paddingRight: 0.13903743
+    paddingTop: 0.15920398
+    paddingBottom: 0.11442786
+  - name: PROP_blender_strawberry
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 71
+      width: 126
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 71
+      width: 126
+      height: 177
+    paddingLeft: 0.515873
+    paddingRight: 0.515873
+    paddingTop: 0.24858756
+    paddingBottom: 0.19774011
+  - name: PROP_blender_banana
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 102
+      width: 174
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 102
+      width: 174
+      height: 150
+    paddingLeft: 0.06896552
+    paddingRight: 0.08045977
+    paddingTop: 0.14
+    paddingBottom: 0.19333333
+  - name: PROP_blender_icecream
+    outer:
+      serializedVersion: 2
+      x: 734
+      y: 14
+      width: 86
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 734
+      y: 14
+      width: 86
+      height: 213
+    paddingLeft: 1.244186
+    paddingRight: 1.244186
+    paddingTop: 0.2112676
+    paddingBottom: 0.1971831
+  - name: PROP_blender_rottenFish
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 296
+      width: 172
+      height: 178
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 296
+      width: 172
+      height: 178
+    paddingLeft: 0.23255815
+    paddingRight: 0.25581396
+    paddingTop: 0.23595506
+    paddingBottom: 0.20224719
+  - name: PROP_blender_cookies
+    outer:
+      serializedVersion: 2
+      x: 711
+      y: 689
+      width: 249
+      height: 153
+    inner:
+      serializedVersion: 2
+      x: 711
+      y: 689
+      width: 249
+      height: 153
+    paddingLeft: 0.012048192
+    paddingRight: 0.016064256
+    paddingTop: 0.4509804
+    paddingBottom: 0.22222222
+  - name: PROP_blender_rawEgg
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 894
+      width: 205
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 894
+      width: 205
+      height: 128
+    paddingLeft: 0.048780486
+    paddingRight: 0.024390243
+    paddingTop: 0.4609375
+    paddingBottom: 0.2578125
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

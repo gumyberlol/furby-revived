@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_SickbayItemsSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 8dd392375a62dea47854f56ce833eef2, type: 2}
+  sprites:
+  - name: PROP_sickbay_ice+ice
+    outer:
+      serializedVersion: 2
+      x: 247
+      y: 751
+      width: 201
+      height: 272
+    inner:
+      serializedVersion: 2
+      x: 247
+      y: 751
+      width: 201
+      height: 272
+    paddingLeft: 0.3034826
+    paddingRight: 0.18905473
+    paddingTop: 0.066176474
+    paddingBottom: 0.036764707
+  - name: PROP_sickbay_honey+water
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 441
+      width: 238
+      height: 291
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 441
+      width: 238
+      height: 291
+    paddingLeft: 0.09243698
+    paddingRight: 0.16806723
+    paddingTop: 0.024054984
+    paddingBottom: 0.0068728523
+  - name: PROP_sickbay_honey+ice
+    outer:
+      serializedVersion: 2
+      x: 241
+      y: 459
+      width: 214
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 241
+      y: 459
+      width: 214
+      height: 273
+    paddingLeft: 0.21962617
+    paddingRight: 0.18224299
+    paddingTop: 0.06593407
+    paddingBottom: 0.032967035
+  - name: PROP_sickbay_honey+cola
+    outer:
+      serializedVersion: 2
+      x: 235
+      y: 186
+      width: 242
+      height: 253
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 186
+      width: 242
+      height: 253
+    paddingLeft: 0.11983471
+    paddingRight: 0.11983471
+    paddingTop: 0.12648222
+    paddingBottom: 0.05928854
+  - name: PROP_sickbay_cola+mint
+    outer:
+      serializedVersion: 2
+      x: 828
+      y: 503
+      width: 118
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 503
+      width: 118
+      height: 279
+    paddingLeft: 0.6779661
+    paddingRight: 0.69491524
+    paddingTop: 0
+    paddingBottom: 0.0035842294
+  - name: PROP_sickbay_mint+mint
+    outer:
+      serializedVersion: 2
+      x: 803
+      y: 226
+      width: 135
+      height: 264
+    inner:
+      serializedVersion: 2
+      x: 803
+      y: 226
+      width: 135
+      height: 264
+    paddingLeft: 0.53333336
+    paddingRight: 0.5407407
+    paddingTop: 0.030303031
+    paddingBottom: 0.030303031
+  - name: PROP_sickbay_water+ice
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 244
+      width: 166
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 244
+      width: 166
+      height: 240
+    paddingLeft: 0.39759037
+    paddingRight: 0.40963855
+    paddingTop: 0.12916666
+    paddingBottom: 0.12083333
+  - name: PROP_sickbay_cola+water
+    outer:
+      serializedVersion: 2
+      x: 479
+      y: 202
+      width: 154
+      height: 282
+    inner:
+      serializedVersion: 2
+      x: 479
+      y: 202
+      width: 154
+      height: 282
+    paddingLeft: 0.46753246
+    paddingRight: 0.48051947
+    paddingTop: 0.035460994
+    paddingBottom: 0.028368793
+  - name: PROP_sickbay_cola+cola
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 164
+      width: 232
+      height: 275
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 164
+      width: 232
+      height: 275
+    paddingLeft: 0.10775862
+    paddingRight: 0.18534483
+    paddingTop: 0.043636363
+    paddingBottom: 0.047272727
+  - name: PROP_sickbay_cola+ice
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 727
+      width: 194
+      height: 296
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 727
+      width: 194
+      height: 296
+    paddingLeft: 0.39175257
+    paddingRight: 0.15463917
+    paddingTop: 0.006756757
+    paddingBottom: 0.006756757
+  - name: PROP_sickbay_water+mint
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 486
+      width: 234
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 486
+      width: 234
+      height: 239
+    paddingLeft: 0.11965812
+    paddingRight: 0.16239317
+    paddingTop: 0.07949791
+    paddingBottom: 0.17573221
+  - name: PROP_sickbay_honey+mint
+    outer:
+      serializedVersion: 2
+      x: 235
+      y: 19
+      width: 277
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 19
+      width: 277
+      height: 165
+    paddingLeft: 0.036101084
+    paddingRight: 0.04693141
+    paddingTop: 0.53333336
+    paddingBottom: 0.28484848
+  - name: PROP_sickbay_honey+honey
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 734
+      width: 244
+      height: 289
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 734
+      width: 244
+      height: 289
+    paddingLeft: 0.11065574
+    paddingRight: 0.11885246
+    paddingTop: 0.010380623
+    paddingBottom: 0.027681662
+  - name: PROP_sickbay_mint+ice
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 492
+      width: 133
+      height: 290
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 492
+      width: 133
+      height: 290
+    paddingLeft: 0.6466165
+    paddingRight: 0.60902256
+    paddingTop: 0.01724138
+    paddingBottom: 0.01724138
+  - name: PROP_sickbay_water+water
+    outer:
+      serializedVersion: 2
+      x: 653
+      y: 784
+      width: 229
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 653
+      y: 784
+      width: 229
+      height: 239
+    paddingLeft: 0.15283842
+    paddingRight: 0.069869
+    paddingTop: 0.10460251
+    paddingBottom: 0.066945605
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

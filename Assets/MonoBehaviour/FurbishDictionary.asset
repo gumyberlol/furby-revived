@@ -1,0 +1,1267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f837af8bc81e4390e62a0b86523c6c, type: 3}
+  m_Name: FurbishDictionary
+  m_EditorClassIdentifier:
+  m_furbishWords:
+  - m_nativeReference: ah
+    m_doodleReference:
+    m_audioReference: D001
+    m_isFurbish: 1
+  - m_nativeReference: ah-mah
+    m_doodleReference: have
+    m_audioReference: D002
+    m_isFurbish: 1
+  - m_nativeReference: ah-may
+    m_doodleReference: pet
+    m_audioReference: D003
+    m_isFurbish: 1
+  - m_nativeReference: ah-noo
+    m_doodleReference: help
+    m_audioReference: D004
+    m_isFurbish: 1
+  - m_nativeReference: ah-tah
+    m_doodleReference:
+    m_audioReference: D005
+    m_isFurbish: 1
+  - m_nativeReference: ay
+    m_doodleReference: lightness
+    m_audioReference: D006
+    m_isFurbish: 1
+  - m_nativeReference: ay-ay
+    m_doodleReference: look
+    m_audioReference: D007
+    m_isFurbish: 1
+  - m_nativeReference: ay-ay-lee-koo
+    m_doodleReference: listen (alt)
+    m_audioReference: D110
+    m_isFurbish: 1
+  - m_nativeReference: ay-koo
+    m_doodleReference: diamond
+    m_audioReference: D009
+    m_isFurbish: 1
+  - m_nativeReference: ay-loh
+    m_doodleReference: light
+    m_audioReference: D010
+    m_isFurbish: 1
+  - m_nativeReference: ay-loh-may-lah
+    m_doodleReference: cloud
+    m_audioReference: D011
+    m_isFurbish: 1
+  - m_nativeReference: ay-tay
+    m_doodleReference: eat
+    m_audioReference: D012
+    m_isFurbish: 1
+  - m_nativeReference: ay-way
+    m_doodleReference: dizzy
+    m_audioReference: D013
+    m_isFurbish: 1
+  - m_nativeReference: bah-boo
+    m_doodleReference: noise
+    m_audioReference: D014
+    m_isFurbish: 1
+  - m_nativeReference: bay-bee
+    m_doodleReference: baby
+    m_audioReference: D015
+    m_isFurbish: 1
+  - m_nativeReference: boh
+    m_doodleReference: to be
+    m_audioReference: D016
+    m_isFurbish: 1
+  - m_nativeReference: boh-bay
+    m_doodleReference: worried
+    m_audioReference: D017
+    m_isFurbish: 1
+  - m_nativeReference: boh-dah
+    m_doodleReference: live
+    m_audioReference: D018
+    m_isFurbish: 1
+  - m_nativeReference: boh-ee-tay
+    m_doodleReference:
+    m_audioReference: D205
+    m_isFurbish: 1
+  - m_nativeReference: boo
+    m_doodleReference: negative
+    m_audioReference: D019
+    m_isFurbish: 1
+  - m_nativeReference: boo-dah
+    m_doodleReference: bad
+    m_audioReference: D020
+    m_isFurbish: 1
+  - m_nativeReference: boo-koo
+    m_doodleReference: rock
+    m_audioReference: D021
+    m_isFurbish: 1
+  - m_nativeReference: boo-noo-loo
+    m_doodleReference:
+    m_audioReference: D022
+    m_isFurbish: 1
+  - m_nativeReference: boo-tay
+    m_doodleReference: change
+    m_audioReference: D200
+    m_isFurbish: 1
+  - m_nativeReference: bye-bye
+    m_doodleReference: bye
+    m_audioReference: D023
+    m_isFurbish: 1
+  - m_nativeReference: bye-way
+    m_doodleReference: path
+    m_audioReference: D024
+    m_isFurbish: 1
+  - m_nativeReference: dah
+    m_doodleReference: big
+    m_audioReference: D025
+    m_isFurbish: 1
+  - m_nativeReference: dah-ay-loh
+    m_doodleReference: sun
+    m_audioReference: D026
+    m_isFurbish: 1
+  - m_nativeReference: dah-ay-loh-nah-bah
+    m_doodleReference: good night
+    m_audioReference: D027
+    m_isFurbish: 1
+  - m_nativeReference: dah-ay-loh-oo-tye
+    m_doodleReference: good morning
+    m_audioReference: D028
+    m_isFurbish: 1
+  - m_nativeReference: dah-boh-bay
+    m_doodleReference: scared
+    m_audioReference: D029
+    m_isFurbish: 1
+  - m_nativeReference: dah-boo
+    m_doodleReference: big no
+    m_audioReference: D030
+    m_isFurbish: 1
+  - m_nativeReference: dah-ee-tah
+    m_doodleReference: big yes
+    m_audioReference: D031
+    m_isFurbish: 1
+  - m_nativeReference: dah-kah-oo-nye
+    m_doodleReference: thank you
+    m_audioReference: D032
+    m_isFurbish: 1
+  - m_nativeReference: dah-may-may
+    m_doodleReference: love it
+    m_audioReference: D220
+    m_isFurbish: 1
+  - m_nativeReference: dah-noh-lah
+    m_doodleReference: party
+    m_audioReference: D218
+    m_isFurbish: 1
+  - m_nativeReference: dah-way
+    m_doodleReference: genius
+    m_audioReference: D206
+    m_isFurbish: 1
+  - m_nativeReference: dee
+    m_doodleReference:
+    m_audioReference: D033
+    m_isFurbish: 1
+  - m_nativeReference: dee-doh
+    m_doodleReference:
+    m_audioReference: D034
+    m_isFurbish: 1
+  - m_nativeReference: doh
+    m_doodleReference: so
+    m_audioReference: D035
+    m_isFurbish: 1
+  - m_nativeReference: dah-kah
+    m_doodleReference: thank
+    m_audioReference: D036
+    m_isFurbish: 1
+  - m_nativeReference: doo
+    m_doodleReference: why
+    m_audioReference: D037
+    m_isFurbish: 1
+  - m_nativeReference: doo?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 1
+  - m_nativeReference: doo-ay
+    m_doodleReference: fun
+    m_audioReference: D039
+    m_isFurbish: 1
+  - m_nativeReference: doo-ay-loo-lah
+    m_doodleReference: game
+    m_audioReference: D040
+    m_isFurbish: 1
+  - m_nativeReference: doo-dah
+    m_doodleReference: do
+    m_audioReference: D041
+    m_isFurbish: 1
+  - m_nativeReference: doo-loo
+    m_doodleReference: funny
+    m_audioReference: D042
+    m_isFurbish: 1
+  - m_nativeReference: doo-moh
+    m_doodleReference:
+    m_audioReference: D043
+    m_isFurbish: 1
+  - m_nativeReference: doo-oo-tye?
+    m_doodleReference: wassup
+    m_audioReference: D044
+    m_isFurbish: 1
+  - m_nativeReference: ee
+    m_doodleReference: affirmative
+    m_audioReference: D045
+    m_isFurbish: 1
+  - m_nativeReference: ee-day
+    m_doodleReference: good
+    m_audioReference: D046
+    m_isFurbish: 1
+  - m_nativeReference: ee-kah
+    m_doodleReference: beautiful
+    m_audioReference: D047
+    m_isFurbish: 1
+  - m_nativeReference: ee-kah-lee-koo
+    m_doodleReference:
+    m_audioReference: D201
+    m_isFurbish: 1
+  - m_nativeReference: ee-tay
+    m_doodleReference: yes
+    m_audioReference: D048
+    m_isFurbish: 1
+  - m_nativeReference: ee-wah
+    m_doodleReference: sea
+    m_audioReference: D049
+    m_isFurbish: 1
+  - m_nativeReference: kah
+    m_doodleReference:
+    m_audioReference: D050
+    m_isFurbish: 1
+  - m_nativeReference: kah-loo-loo
+    m_doodleReference: just kidding
+    m_audioReference: D203
+    m_isFurbish: 1
+  - m_nativeReference: kah-tay
+    m_doodleReference: face
+    m_audioReference: D051
+    m_isFurbish: 1
+  - m_nativeReference: koh
+    m_doodleReference: and
+    m_audioReference: D052
+    m_isFurbish: 1
+  - m_nativeReference: koh-koh
+    m_doodleReference: again
+    m_audioReference: D053
+    m_isFurbish: 1
+  - m_nativeReference: koo-bah
+    m_doodleReference: shake
+    m_audioReference: D210
+    m_isFurbish: 1
+  - m_nativeReference: koo-dah
+    m_doodleReference: mountain
+    m_audioReference: D055
+    m_isFurbish: 1
+  - m_nativeReference: koo-doh
+    m_doodleReference: health
+    m_audioReference: D056
+    m_isFurbish: 1
+  - m_nativeReference: koo-wah
+    m_doodleReference: island
+    m_audioReference: D057
+    m_isFurbish: 1
+  - m_nativeReference: lay-lah
+    m_doodleReference: home
+    m_audioReference: D058
+    m_isFurbish: 1
+  - m_nativeReference: lee-koo
+    m_doodleReference: sound
+    m_audioReference: D059
+    m_isFurbish: 1
+  - m_nativeReference: loo
+    m_doodleReference: joke
+    m_audioReference: D060
+    m_isFurbish: 1
+  - m_nativeReference: loo-lay
+    m_doodleReference: playbutton
+    m_audioReference: D061
+    m_isFurbish: 1
+  - m_nativeReference: loo-loo
+    m_doodleReference: play
+    m_audioReference: D062
+    m_isFurbish: 1
+  - m_nativeReference: loo-loo-doo?
+    m_doodleReference: seriously
+    m_audioReference: D204
+    m_isFurbish: 1
+  - m_nativeReference: may-lah
+    m_doodleReference: hug
+    m_audioReference: D063
+    m_isFurbish: 1
+  - m_nativeReference: may-may
+    m_doodleReference: love
+    m_audioReference: D064
+    m_isFurbish: 1
+  - m_nativeReference: may-tah
+    m_doodleReference: kiss
+    m_audioReference: D065
+    m_isFurbish: 1
+  - m_nativeReference: mee-mee
+    m_doodleReference: very
+    m_audioReference: D066
+    m_isFurbish: 1
+  - m_nativeReference: moh-moh
+    m_doodleReference: monster
+    m_audioReference: D067
+    m_isFurbish: 1
+  - m_nativeReference: moo-lah
+    m_doodleReference: money
+    m_audioReference: D068
+    m_isFurbish: 1
+  - m_nativeReference: nah-bah
+    m_doodleReference: down
+    m_audioReference: D069
+    m_isFurbish: 1
+  - m_nativeReference: nee-may
+    m_doodleReference: sweet
+    m_audioReference: D208
+    m_isFurbish: 1
+  - m_nativeReference: nee-tye
+    m_doodleReference: tickle
+    m_audioReference: D070
+    m_isFurbish: 1
+  - m_nativeReference: nee-way
+    m_doodleReference: now
+    m_audioReference: D071
+    m_isFurbish: 1
+  - m_nativeReference: noh-lah
+    m_doodleReference: dance
+    m_audioReference: D072
+    m_isFurbish: 1
+  - m_nativeReference: noo-lah
+    m_doodleReference: friend
+    m_audioReference: D073
+    m_isFurbish: 1
+  - m_nativeReference: noo-loo
+    m_doodleReference: happy
+    m_audioReference: D074
+    m_isFurbish: 1
+  - m_nativeReference: noo-noo
+    m_doodleReference: talk
+    m_audioReference: D209
+    m_isFurbish: 1
+  - m_nativeReference: oh
+    m_doodleReference: oh
+    m_audioReference: D075
+    m_isFurbish: 1
+  - m_nativeReference: oh-kah-tee
+    m_doodleReference: OMG
+    m_audioReference: D207
+    m_isFurbish: 1
+  - m_nativeReference: oh-kay
+    m_doodleReference: ok
+    m_audioReference: D076
+    m_isFurbish: 1
+  - m_nativeReference: oh-too-mah
+    m_doodleReference: ask
+    m_audioReference: D077
+    m_isFurbish: 1
+  - m_nativeReference: oo
+    m_doodleReference: high
+    m_audioReference: D078
+    m_isFurbish: 1
+  - m_nativeReference: oo-bah
+    m_doodleReference: up
+    m_audioReference: D211
+    m_isFurbish: 1
+  - m_nativeReference: oo-boh
+    m_doodleReference: stand
+    m_audioReference: D080
+    m_isFurbish: 1
+  - m_nativeReference: oo-kah
+    m_doodleReference: uncle
+    m_audioReference: D212
+    m_isFurbish: 1
+  - m_nativeReference: oo-loo
+    m_doodleReference: full
+    m_audioReference: D081
+    m_isFurbish: 1
+  - m_nativeReference: oo-nye
+    m_doodleReference: you
+    m_audioReference: D082
+    m_isFurbish: 1
+  - m_nativeReference: oo-nye-doo?
+    m_doodleReference: where are you
+    m_audioReference: D083
+    m_isFurbish: 1
+  - m_nativeReference: oo-tah
+    m_doodleReference: high
+    m_audioReference: D084
+    m_isFurbish: 1
+  - m_nativeReference: oo-tah-toh-toh
+    m_doodleReference: finally
+    m_audioReference: D219
+    m_isFurbish: 1
+  - m_nativeReference: oo-tye
+    m_doodleReference: up
+    m_audioReference: D085
+    m_isFurbish: 1
+  - m_nativeReference: tay
+    m_doodleReference: like similar
+    m_audioReference: D086
+    m_isFurbish: 1
+  - m_nativeReference: tay-boo-koo
+    m_doodleReference: tough
+    m_audioReference: D202
+    m_isFurbish: 1
+  - m_nativeReference: tee
+    m_doodleReference: life
+    m_audioReference: D087
+    m_isFurbish: 1
+  - m_nativeReference: tee-loh
+    m_doodleReference: log
+    m_audioReference: D088
+    m_isFurbish: 1
+  - m_nativeReference: tee-tah
+    m_doodleReference: tree
+    m_audioReference: D089
+    m_isFurbish: 1
+  - m_nativeReference: tee-wee-lah
+    m_doodleReference: twinkle
+    m_audioReference: D090
+    m_isFurbish: 1
+  - m_nativeReference: toh
+    m_doodleReference: complete
+    m_audioReference: D091
+    m_isFurbish: 1
+  - m_nativeReference: toh-dye
+    m_doodleReference: done
+    m_audioReference: D092
+    m_isFurbish: 1
+  - m_nativeReference: toh-loo
+    m_doodleReference: like
+    m_audioReference: D093
+    m_isFurbish: 1
+  - m_nativeReference: toh-toh
+    m_doodleReference: time
+    m_audioReference: D094
+    m_isFurbish: 1
+  - m_nativeReference: uh-oh
+    m_doodleReference: uh-oh
+    m_audioReference: D095
+    m_isFurbish: 1
+  - m_nativeReference: wah-tah
+    m_doodleReference: water
+    m_audioReference: D097
+    m_isFurbish: 1
+  - m_nativeReference: wah-tee
+    m_doodleReference: song
+    m_audioReference: D098
+    m_isFurbish: 1
+  - m_nativeReference: wah-wee-tee
+    m_doodleReference: rain
+    m_audioReference: D099
+    m_isFurbish: 1
+  - m_nativeReference: way
+    m_doodleReference: thinking
+    m_audioReference: D100
+    m_isFurbish: 1
+  - m_nativeReference: way-lah
+    m_doodleReference: wise
+    m_audioReference: D101
+    m_isFurbish: 1
+  - m_nativeReference: way-loh
+    m_doodleReference:
+    m_audioReference: D102
+    m_isFurbish: 1
+  - m_nativeReference: way-loo
+    m_doodleReference: dream
+    m_audioReference: D103
+    m_isFurbish: 1
+  - m_nativeReference: way-nah
+    m_doodleReference: wonder
+    m_audioReference: D104
+    m_isFurbish: 1
+  - m_nativeReference: wee-loo
+    m_doodleReference: story
+    m_audioReference: D105
+    m_isFurbish: 1
+  - m_nativeReference: wee-tah
+    m_doodleReference: tell
+    m_audioReference: D106
+    m_isFurbish: 1
+  - m_nativeReference: wee-tee
+    m_doodleReference: sing
+    m_audioReference: D107
+    m_isFurbish: 1
+  - m_nativeReference: woo-bye
+    m_doodleReference: hide
+    m_audioReference: D108
+    m_isFurbish: 1
+  - m_nativeReference: yay
+    m_doodleReference: yay
+    m_audioReference: D109
+    m_isFurbish: 1
+  - m_nativeReference: ah-loo
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: bah-bah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: bar-bar
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: boo-doo-ay
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: bye-bye-oo-bah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: dah-noh-lah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: dee-doo-ay
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: dee-mak
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: dee-tee-tah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: doh-dee
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: may-bee
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: noh-bah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: tah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: tah-tah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: tee-toh
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: tee-toh toh-toh
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: wah!
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  - m_nativeReference: yumm-wah
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 1
+  m_englishWords:
+  - m_nativeReference: above
+    m_doodleReference: high
+    m_audioReference: D078
+    m_isFurbish: 0
+  - m_nativeReference: affirmative
+    m_doodleReference: affirmative
+    m_audioReference: D045
+    m_isFurbish: 0
+  - m_nativeReference: again
+    m_doodleReference: again
+    m_audioReference: D053
+    m_isFurbish: 0
+  - m_nativeReference: and
+    m_doodleReference: and
+    m_audioReference: D052
+    m_isFurbish: 0
+  - m_nativeReference: another
+    m_doodleReference: again
+    m_audioReference: D053
+    m_isFurbish: 0
+  - m_nativeReference: ask
+    m_doodleReference: ask
+    m_audioReference: D077
+    m_isFurbish: 0
+  - m_nativeReference: baby
+    m_doodleReference: baby
+    m_audioReference: D015
+    m_isFurbish: 0
+  - m_nativeReference: bad
+    m_doodleReference: bad
+    m_audioReference: D019
+    m_isFurbish: 0
+  - m_nativeReference: be
+    m_doodleReference: to be
+    m_audioReference: D016
+    m_isFurbish: 0
+  - m_nativeReference: beautiful
+    m_doodleReference: beautiful
+    m_audioReference: D047
+    m_isFurbish: 0
+  - m_nativeReference: big
+    m_doodleReference: big
+    m_audioReference: D025
+    m_isFurbish: 0
+  - m_nativeReference: big no
+    m_doodleReference: big no
+    m_audioReference: D030
+    m_isFurbish: 0
+  - m_nativeReference: big yes
+    m_doodleReference: big yes
+    m_audioReference: D031
+    m_isFurbish: 0
+  - m_nativeReference: buddy
+    m_doodleReference: friend
+    m_audioReference: D073
+    m_isFurbish: 0
+  - m_nativeReference: bye
+    m_doodleReference: bye
+    m_audioReference: D023
+    m_isFurbish: 0
+  - m_nativeReference: change
+    m_doodleReference: change
+    m_audioReference: D200
+    m_isFurbish: 0
+  - m_nativeReference: cloud
+    m_doodleReference: cloud
+    m_audioReference: D011
+    m_isFurbish: 0
+  - m_nativeReference: complete
+    m_doodleReference: complete
+    m_audioReference: D091
+    m_isFurbish: 0
+  - m_nativeReference: dance
+    m_doodleReference: dance
+    m_audioReference: D072
+    m_isFurbish: 0
+  - m_nativeReference: diamond
+    m_doodleReference: diamond
+    m_audioReference: D009
+    m_isFurbish: 0
+  - m_nativeReference: dizzy
+    m_doodleReference: dizzy
+    m_audioReference: D013
+    m_isFurbish: 0
+  - m_nativeReference: do
+    m_doodleReference: do
+    m_audioReference: D041
+    m_isFurbish: 0
+  - m_nativeReference: done
+    m_doodleReference: done
+    m_audioReference: D092
+    m_isFurbish: 0
+  - m_nativeReference: down
+    m_doodleReference: down
+    m_audioReference: D069
+    m_isFurbish: 0
+  - m_nativeReference: dream
+    m_doodleReference: dream
+    m_audioReference: D103
+    m_isFurbish: 0
+  - m_nativeReference: dude
+    m_doodleReference:
+    m_audioReference: D034
+    m_isFurbish: 0
+  - m_nativeReference: eat
+    m_doodleReference: eat
+    m_audioReference: D012
+    m_isFurbish: 0
+  - m_nativeReference: face
+    m_doodleReference: face
+    m_audioReference: D051
+    m_isFurbish: 0
+  - m_nativeReference: feed
+    m_doodleReference:
+    m_audioReference: D005
+    m_isFurbish: 0
+  - m_nativeReference: finally
+    m_doodleReference: finally
+    m_audioReference: D219
+    m_isFurbish: 0
+  - m_nativeReference: food
+    m_doodleReference:
+    m_audioReference: D005
+    m_isFurbish: 0
+  - m_nativeReference: friend
+    m_doodleReference: friend
+    m_audioReference: D073
+    m_isFurbish: 0
+  - m_nativeReference: full
+    m_doodleReference: full
+    m_audioReference: D081
+    m_isFurbish: 0
+  - m_nativeReference: fun
+    m_doodleReference: fun
+    m_audioReference: D039
+    m_isFurbish: 0
+  - m_nativeReference: funny
+    m_doodleReference: funny
+    m_audioReference: D042
+    m_isFurbish: 0
+  - m_nativeReference: game
+    m_doodleReference: game
+    m_audioReference: D040
+    m_isFurbish: 0
+  - m_nativeReference: genius
+    m_doodleReference: genius
+    m_audioReference: D206
+    m_isFurbish: 0
+  - m_nativeReference: get out!
+    m_doodleReference: bye
+    m_audioReference: D023
+    m_isFurbish: 0
+  - m_nativeReference: go
+    m_doodleReference: bye
+    m_audioReference: D023
+    m_isFurbish: 0
+  - m_nativeReference: good
+    m_doodleReference: good
+    m_audioReference: D046
+    m_isFurbish: 0
+  - m_nativeReference: good morning
+    m_doodleReference: good morning
+    m_audioReference: D028
+    m_isFurbish: 0
+  - m_nativeReference: good night
+    m_doodleReference: good night
+    m_audioReference: D027
+    m_isFurbish: 0
+  - m_nativeReference: happy
+    m_doodleReference: happy
+    m_audioReference: D074
+    m_isFurbish: 0
+  - m_nativeReference: have
+    m_doodleReference: have
+    m_audioReference: D002
+    m_isFurbish: 0
+  - m_nativeReference: health
+    m_doodleReference: health
+    m_audioReference: D056
+    m_isFurbish: 0
+  - m_nativeReference: healthy
+    m_doodleReference: health
+    m_audioReference: D056
+    m_isFurbish: 0
+  - m_nativeReference: help
+    m_doodleReference: help
+    m_audioReference: D004
+    m_isFurbish: 0
+  - m_nativeReference: hide
+    m_doodleReference: hide
+    m_audioReference: D108
+    m_isFurbish: 0
+  - m_nativeReference: high
+    m_doodleReference: high
+    m_audioReference: D078
+    m_isFurbish: 0
+  - m_nativeReference: hmm?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 0
+  - m_nativeReference: holding
+    m_doodleReference:
+    m_audioReference: D001
+    m_isFurbish: 0
+  - m_nativeReference: home
+    m_doodleReference: home
+    m_audioReference: D058
+    m_isFurbish: 0
+  - m_nativeReference: hug
+    m_doodleReference: hug
+    m_audioReference: D063
+    m_isFurbish: 0
+  - m_nativeReference: huh?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 0
+  - m_nativeReference: humor
+    m_doodleReference: joke
+    m_audioReference: D060
+    m_isFurbish: 0
+  - m_nativeReference: hungry
+    m_doodleReference: eat
+    m_audioReference: D012
+    m_isFurbish: 0
+  - m_nativeReference: interrogative
+    m_doodleReference: why
+    m_audioReference: D037
+    m_isFurbish: 0
+  - m_nativeReference: island
+    m_doodleReference: island
+    m_audioReference: D057
+    m_isFurbish: 0
+  - m_nativeReference: joke
+    m_doodleReference: joke
+    m_audioReference: D060
+    m_isFurbish: 0
+  - m_nativeReference: just kidding
+    m_doodleReference: just kidding
+    m_audioReference: D203
+    m_isFurbish: 0
+  - m_nativeReference: kiss
+    m_doodleReference: kiss
+    m_audioReference: D065
+    m_isFurbish: 0
+  - m_nativeReference: life
+    m_doodleReference: life
+    m_audioReference: D087
+    m_isFurbish: 0
+  - m_nativeReference: light
+    m_doodleReference: light
+    m_audioReference: D010
+    m_isFurbish: 0
+  - m_nativeReference: lightness
+    m_doodleReference: lightness
+    m_audioReference: D006
+    m_isFurbish: 0
+  - m_nativeReference: like
+    m_doodleReference: like similar
+    m_audioReference: D086
+    m_isFurbish: 0
+  - m_nativeReference: listen
+    m_doodleReference: listen (alt)
+    m_audioReference: D110
+    m_isFurbish: 0
+  - m_nativeReference: little
+    m_doodleReference:
+    m_audioReference: D033
+    m_isFurbish: 0
+  - m_nativeReference: live
+    m_doodleReference: live
+    m_audioReference: D018
+    m_isFurbish: 0
+  - m_nativeReference: living things
+    m_doodleReference: life
+    m_audioReference: D087
+    m_isFurbish: 0
+  - m_nativeReference: log
+    m_doodleReference: log
+    m_audioReference: D088
+    m_isFurbish: 0
+  - m_nativeReference: look
+    m_doodleReference: look
+    m_audioReference: D007
+    m_isFurbish: 0
+  - m_nativeReference: love
+    m_doodleReference: love
+    m_audioReference: D064
+    m_isFurbish: 0
+  - m_nativeReference: love it!
+    m_doodleReference: love it
+    m_audioReference: D220
+    m_isFurbish: 0
+  - m_nativeReference: me
+    m_doodleReference:
+    m_audioReference: D050
+    m_isFurbish: 0
+  - m_nativeReference: mind
+    m_doodleReference: thinking
+    m_audioReference: D100
+    m_isFurbish: 0
+  - m_nativeReference: mine
+    m_doodleReference:
+    m_audioReference: D050
+    m_isFurbish: 0
+  - m_nativeReference: money
+    m_doodleReference: money
+    m_audioReference: D068
+    m_isFurbish: 0
+  - m_nativeReference: monster
+    m_doodleReference: monster
+    m_audioReference: D067
+    m_isFurbish: 0
+  - m_nativeReference: more
+    m_doodleReference: again
+    m_audioReference: D053
+    m_isFurbish: 0
+  - m_nativeReference: mountain
+    m_doodleReference: mountain
+    m_audioReference: D055
+    m_isFurbish: 0
+  - m_nativeReference: music
+    m_doodleReference:
+    m_audioReference: D201
+    m_isFurbish: 0
+  - m_nativeReference: myself
+    m_doodleReference:
+    m_audioReference: D050
+    m_isFurbish: 0
+  - m_nativeReference: nature
+    m_doodleReference: life
+    m_audioReference: D087
+    m_isFurbish: 0
+  - m_nativeReference: negative
+    m_doodleReference: negative
+    m_audioReference: D019
+    m_isFurbish: 0
+  - m_nativeReference: no way!
+    m_doodleReference: big no
+    m_audioReference: D030
+    m_isFurbish: 0
+  - m_nativeReference: noise
+    m_doodleReference: noise
+    m_audioReference: D014
+    m_isFurbish: 0
+  - m_nativeReference: not!
+    m_doodleReference: just kidding
+    m_audioReference: D203
+    m_isFurbish: 0
+  - m_nativeReference: now
+    m_doodleReference: now
+    m_audioReference: D071
+    m_isFurbish: 0
+  - m_nativeReference: oh
+    m_doodleReference: oh
+    m_audioReference: D075
+    m_isFurbish: 0
+  - m_nativeReference: oh my gosh!
+    m_doodleReference: oh my gosh
+    m_audioReference: D207
+    m_isFurbish: 0
+  - m_nativeReference: ok
+    m_doodleReference: ok
+    m_audioReference: D076
+    m_isFurbish: 0
+  - m_nativeReference: OMG
+    m_doodleReference: OMG
+    m_audioReference: D207
+    m_isFurbish: 0
+  - m_nativeReference: over
+    m_doodleReference: up
+    m_audioReference: D211
+    m_isFurbish: 0
+  - m_nativeReference: party
+    m_doodleReference: party
+    m_audioReference: D218
+    m_isFurbish: 0
+  - m_nativeReference: path
+    m_doodleReference: path
+    m_audioReference: D024
+    m_isFurbish: 0
+  - m_nativeReference: pet
+    m_doodleReference: pet
+    m_audioReference: D003
+    m_isFurbish: 0
+  - m_nativeReference: play
+    m_doodleReference: joke
+    m_audioReference: D060
+    m_isFurbish: 0
+  - m_nativeReference: please
+    m_doodleReference:
+    m_audioReference: D043
+    m_isFurbish: 0
+  - m_nativeReference: pretty
+    m_doodleReference: beautiful
+    m_audioReference: D047
+    m_isFurbish: 0
+  - m_nativeReference: rain
+    m_doodleReference: rain
+    m_audioReference: D096
+    m_isFurbish: 0
+  - m_nativeReference: rock
+    m_doodleReference: rock
+    m_audioReference: D021
+    m_isFurbish: 0
+  - m_nativeReference: sad
+    m_doodleReference:
+    m_audioReference: D022
+    m_isFurbish: 0
+  - m_nativeReference: scared
+    m_doodleReference: scared
+    m_audioReference: D029
+    m_isFurbish: 0
+  - m_nativeReference: sea
+    m_doodleReference: sea
+    m_audioReference: D049
+    m_isFurbish: 0
+  - m_nativeReference: seriously?
+    m_doodleReference: seriously
+    m_audioReference: D204
+    m_isFurbish: 0
+  - m_nativeReference: shake
+    m_doodleReference: shake
+    m_audioReference: D210
+    m_isFurbish: 0
+  - m_nativeReference: similar to
+    m_doodleReference: like similar
+    m_audioReference: D086
+    m_isFurbish: 0
+  - m_nativeReference: sing
+    m_doodleReference: sing
+    m_audioReference: D107
+    m_isFurbish: 0
+  - m_nativeReference: sleep
+    m_doodleReference:
+    m_audioReference: D102
+    m_isFurbish: 0
+  - m_nativeReference: smallness
+    m_doodleReference:
+    m_audioReference: D033
+    m_isFurbish: 0
+  - m_nativeReference: so
+    m_doodleReference: so
+    m_audioReference: D035
+    m_isFurbish: 0
+  - m_nativeReference: song
+    m_doodleReference: song
+    m_audioReference: D098
+    m_isFurbish: 0
+  - m_nativeReference: sound
+    m_doodleReference: sound
+    m_audioReference: D059
+    m_isFurbish: 0
+  - m_nativeReference: stand
+    m_doodleReference: stand
+    m_audioReference: D080
+    m_isFurbish: 0
+  - m_nativeReference: stop
+    m_doodleReference: negative
+    m_audioReference: D019
+    m_isFurbish: 0
+  - m_nativeReference: story
+    m_doodleReference: story
+    m_audioReference: D105
+    m_isFurbish: 0
+  - m_nativeReference: sun
+    m_doodleReference: sun
+    m_audioReference: D026
+    m_isFurbish: 0
+  - m_nativeReference: sweet
+    m_doodleReference: sweet
+    m_audioReference: D208
+    m_isFurbish: 0
+  - m_nativeReference: talk
+    m_doodleReference: talk
+    m_audioReference: D209
+    m_isFurbish: 0
+  - m_nativeReference: tell
+    m_doodleReference: tell
+    m_audioReference: D106
+    m_isFurbish: 0
+  - m_nativeReference: thank
+    m_doodleReference: thanks
+    m_audioReference: D036
+    m_isFurbish: 0
+  - m_nativeReference: thank you!
+    m_doodleReference: thank you
+    m_audioReference: D032
+    m_isFurbish: 0
+  - m_nativeReference: thats right!
+    m_doodleReference:
+    m_audioReference: D205
+    m_isFurbish: 0
+  - m_nativeReference: thinking
+    m_doodleReference: thinking
+    m_audioReference: D100
+    m_isFurbish: 0
+  - m_nativeReference: tickle
+    m_doodleReference: tickle
+    m_audioReference: D070
+    m_isFurbish: 0
+  - m_nativeReference: time
+    m_doodleReference: time
+    m_audioReference: D094
+    m_isFurbish: 0
+  - m_nativeReference: to be
+    m_doodleReference: to be
+    m_audioReference: D016
+    m_isFurbish: 0
+  - m_nativeReference: touching
+    m_doodleReference:
+    m_audioReference: D001
+    m_isFurbish: 0
+  - m_nativeReference: tough
+    m_doodleReference: tough
+    m_audioReference: D202
+    m_isFurbish: 0
+  - m_nativeReference: tree
+    m_doodleReference: tree
+    m_audioReference: D089
+    m_isFurbish: 0
+  - m_nativeReference: twinkle
+    m_doodleReference: twinkle
+    m_audioReference: D090
+    m_isFurbish: 0
+  - m_nativeReference: uh-oh
+    m_doodleReference: uh-oh
+    m_audioReference: D095
+    m_isFurbish: 0
+  - m_nativeReference: uncle
+    m_doodleReference: uncle
+    m_audioReference: D212
+    m_isFurbish: 0
+  - m_nativeReference: up
+    m_doodleReference: high
+    m_audioReference: D078
+    m_isFurbish: 0
+  - m_nativeReference: very
+    m_doodleReference: very
+    m_audioReference: D066
+    m_isFurbish: 0
+  - m_nativeReference: wassup?
+    m_doodleReference: wassup
+    m_audioReference: D044
+    m_isFurbish: 0
+  - m_nativeReference: water
+    m_doodleReference: water
+    m_audioReference: D096
+    m_isFurbish: 0
+  - m_nativeReference: what?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 0
+  - m_nativeReference: when?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 0
+  - m_nativeReference: where are you?
+    m_doodleReference: where are you
+    m_audioReference: D083
+    m_isFurbish: 0
+  - m_nativeReference: where?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 0
+  - m_nativeReference: why?
+    m_doodleReference: why
+    m_audioReference: D037
+    m_isFurbish: 0
+  - m_nativeReference: wise
+    m_doodleReference: wise
+    m_audioReference: D101
+    m_isFurbish: 0
+  - m_nativeReference: wisely
+    m_doodleReference: wise
+    m_audioReference: D101
+    m_isFurbish: 0
+  - m_nativeReference: wonder
+    m_doodleReference: wonder
+    m_audioReference: D104
+    m_isFurbish: 0
+  - m_nativeReference: worried
+    m_doodleReference: worried
+    m_audioReference: D017
+    m_isFurbish: 0
+  - m_nativeReference: yay
+    m_doodleReference: yay
+    m_audioReference: D109
+    m_isFurbish: 0
+  - m_nativeReference: yeah?
+    m_doodleReference: when
+    m_audioReference: D038
+    m_isFurbish: 0
+  - m_nativeReference: yes
+    m_doodleReference: yes
+    m_audioReference: D048
+    m_isFurbish: 0
+  - m_nativeReference: you
+    m_doodleReference: you
+    m_audioReference: D082
+    m_isFurbish: 0
+  - m_nativeReference: best
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: best fun
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: birth
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: birthday
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: boring
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: bottle
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: come
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: coming
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: comparative
+    m_doodleReference: like similar
+    m_audioReference: D086
+    m_isFurbish: 0
+  - m_nativeReference: cute
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: give
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: maybe
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: move
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: no
+    m_doodleReference: negative
+    m_audioReference: D019
+    m_isFurbish: 0
+  - m_nativeReference: party time
+    m_doodleReference: party
+    m_audioReference: D218
+    m_isFurbish: 0
+  - m_nativeReference: pull
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: radical
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: receive
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: tail
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: tastes good
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: yea!
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: delicious
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0
+  - m_nativeReference: dog
+    m_doodleReference:
+    m_audioReference:
+    m_isFurbish: 0

@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_Furmail02_SD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c2168cf1154280147a5c5b279cd0fe5d, type: 2}
+  sprites:
+  - name: GUI_furmail_BG_ChvHrt01
+    outer:
+      serializedVersion: 2
+      x: 277
+      y: 447
+      width: 59
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 277
+      y: 447
+      width: 59
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_ChvHrt02
+    outer:
+      serializedVersion: 2
+      x: 277
+      y: 381
+      width: 51
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 277
+      y: 381
+      width: 51
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_DotBol01
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 246
+      width: 96
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 246
+      width: 96
+      height: 96
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_DotBol02
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 205
+      width: 54
+      height: 306
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 205
+      width: 54
+      height: 306
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_PeaCub01
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 344
+      width: 96
+      height: 167
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 344
+      width: 96
+      height: 167
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_PeaCub02
+    outer:
+      serializedVersion: 2
+      x: 268
+      y: 244
+      width: 64
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 268
+      y: 244
+      width: 64
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_TriDag01
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 241
+      width: 135
+      height: 270
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 241
+      width: 135
+      height: 270
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_TriDag02
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 244
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 244
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_WavStr01
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 75
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 75
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_BG_WavStr02
+    outer:
+      serializedVersion: 2
+      x: 347
+      y: 191
+      width: 61
+      height: 320
+    inner:
+      serializedVersion: 2
+      x: 347
+      y: 191
+      width: 61
+      height: 320
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_portrait_DotBol02
+    outer:
+      serializedVersion: 2
+      x: 625
+      y: 96
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 625
+      y: 96
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_TriDag01
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 22
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 22
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_WavStr02
+    outer:
+      serializedVersion: 2
+      x: 140
+      y: 22
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 140
+      y: 22
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_PeaCub01
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 374
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 374
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_ChvHrt02
+    outer:
+      serializedVersion: 2
+      x: 347
+      y: 52
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 347
+      y: 52
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_PeaCub02
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 374
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 374
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_TriDag02
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 374
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 374
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_ChvHrt01
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 235
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 235
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_WavStr01
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 235
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 235
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_portrait_DotBol01
+    outer:
+      serializedVersion: 2
+      x: 486
+      y: 96
+      width: 137
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 96
+      width: 137
+      height: 137
+    paddingLeft: 0.02919708
+    paddingRight: 0.02919708
+    paddingTop: 0.02919708
+    paddingBottom: 0.02919708
+  - name: GUI_furmail_BlackBanner
+    outer:
+      serializedVersion: 2
+      x: 1
+      y: 161
+      width: 344
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 1
+      y: 161
+      width: 344
+      height: 78
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_furmail_whiteBox
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 107
+      width: 54
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 295
+      y: 123
+      width: 22
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,2047 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_pantry_allFoods
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 21d2140e81e8e484b862a6a87bc652fd, type: 2}
+  sprites:
+  - name: PROP_pantry_baked-potato
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 1129
+      width: 207
+      height: 217
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 1129
+      width: 207
+      height: 217
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_bubble-gum-balls
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 1790
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 1790
+      width: 256
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_carrot
+    outer:
+      serializedVersion: 2
+      x: 1453
+      y: 905
+      width: 227
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1453
+      y: 905
+      width: 227
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_burnt-toast
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 1062
+      width: 178
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 1062
+      width: 178
+      height: 163
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cup-cake
+    outer:
+      serializedVersion: 2
+      x: 1151
+      y: 1746
+      width: 160
+      height: 171
+    inner:
+      serializedVersion: 2
+      x: 1151
+      y: 1746
+      width: 160
+      height: 171
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_bottle-water
+    outer:
+      serializedVersion: 2
+      x: 1954
+      y: 1628
+      width: 84
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 1954
+      y: 1628
+      width: 84
+      height: 197
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cinnamon-bun
+    outer:
+      serializedVersion: 2
+      x: 873
+      y: 255
+      width: 149
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 873
+      y: 255
+      width: 149
+      height: 110
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_bubble-gum
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 1530
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 1530
+      width: 256
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_chips
+    outer:
+      serializedVersion: 2
+      x: 1690
+      y: 1179
+      width: 207
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1690
+      y: 1179
+      width: 207
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_asparagus
+    outer:
+      serializedVersion: 2
+      x: 1330
+      y: 1632
+      width: 111
+      height: 209
+    inner:
+      serializedVersion: 2
+      x: 1330
+      y: 1632
+      width: 111
+      height: 209
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_corn-cob
+    outer:
+      serializedVersion: 2
+      x: 1022
+      y: 644
+      width: 198
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 1022
+      y: 644
+      width: 198
+      height: 107
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_can-sardines
+    outer:
+      serializedVersion: 2
+      x: 442
+      y: 1007
+      width: 209
+      height: 151
+    inner:
+      serializedVersion: 2
+      x: 442
+      y: 1007
+      width: 209
+      height: 151
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_chicken-leg
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 905
+      width: 194
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 905
+      width: 194
+      height: 92
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cherries
+    outer:
+      serializedVersion: 2
+      x: 501
+      y: 58
+      width: 165
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 501
+      y: 58
+      width: 165
+      height: 162
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_coconut
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 1679
+      width: 204
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 1679
+      width: 204
+      height: 154
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cookie
+    outer:
+      serializedVersion: 2
+      x: 880
+      y: 511
+      width: 198
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 880
+      y: 511
+      width: 198
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_bubble-tea
+    outer:
+      serializedVersion: 2
+      x: 1315
+      y: 1845
+      width: 127
+      height: 201
+    inner:
+      serializedVersion: 2
+      x: 1315
+      y: 1845
+      width: 127
+      height: 201
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_chocolate-bar
+    outer:
+      serializedVersion: 2
+      x: 1138
+      y: 1272
+      width: 197
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 1138
+      y: 1272
+      width: 197
+      height: 119
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_burrito
+    outer:
+      serializedVersion: 2
+      x: 1160
+      y: 1588
+      width: 166
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 1160
+      y: 1588
+      width: 166
+      height: 154
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_corn-dog
+    outer:
+      serializedVersion: 2
+      x: 1446
+      y: 1847
+      width: 186
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1446
+      y: 1847
+      width: 186
+      height: 91
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cola-bottle
+    outer:
+      serializedVersion: 2
+      x: 1864
+      y: 1596
+      width: 86
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 1864
+      y: 1596
+      width: 86
+      height: 210
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_coffee
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 329
+      width: 165
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 329
+      width: 165
+      height: 215
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_baked-beans
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 200
+      width: 199
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 200
+      width: 199
+      height: 123
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cotton-candy
+    outer:
+      serializedVersion: 2
+      x: 1513
+      y: 1390
+      width: 89
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 1513
+      y: 1390
+      width: 89
+      height: 225
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_breath-mints
+    outer:
+      serializedVersion: 2
+      x: 1445
+      y: 1721
+      width: 190
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1445
+      y: 1721
+      width: 190
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cup-cocca
+    outer:
+      serializedVersion: 2
+      x: 337
+      y: 145
+      width: 160
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 337
+      y: 145
+      width: 159
+      height: 191
+    paddingLeft: 0.3
+    paddingRight: 0.3
+    paddingTop: 0.32984293
+    paddingBottom: 0.010471204
+  - name: PROP_pantry_cream-scone
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 678
+      width: 189
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 678
+      width: 189
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_banana
+    outer:
+      serializedVersion: 2
+      x: 1639
+      y: 1799
+      width: 162
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 1639
+      y: 1799
+      width: 162
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_broccoli
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 146
+      width: 161
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 146
+      width: 161
+      height: 190
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_bacon
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 1695
+      width: 226
+      height: 167
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 1695
+      width: 226
+      height: 167
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_blow-fish
+    outer:
+      serializedVersion: 2
+      x: 1513
+      y: 1284
+      width: 192
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1513
+      y: 1284
+      width: 192
+      height: 102
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_apple
+    outer:
+      serializedVersion: 2
+      x: 1174
+      y: 1122
+      width: 147
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 1174
+      y: 1122
+      width: 147
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_green-macaroon
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 1236
+      width: 194
+      height: 135
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 1236
+      width: 194
+      height: 135
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_homework
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 725
+      width: 183
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 725
+      width: 183
+      height: 197
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_hot-sauce
+    outer:
+      serializedVersion: 2
+      x: 1954
+      y: 1424
+      width: 78
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 1954
+      y: 1424
+      width: 78
+      height: 200
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_fish-egg-sushi
+    outer:
+      serializedVersion: 2
+      x: 1339
+      y: 1320
+      width: 170
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 1339
+      y: 1320
+      width: 170
+      height: 119
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_grapefruit
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 1375
+      width: 189
+      height: 149
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 1375
+      width: 189
+      height: 149
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_fortune-cookie
+    outer:
+      serializedVersion: 2
+      x: 1681
+      y: 1687
+      width: 179
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1681
+      y: 1687
+      width: 179
+      height: 108
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_grapes
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 1229
+      width: 160
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 1229
+      width: 160
+      height: 184
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_gummie-bear-red
+    outer:
+      serializedVersion: 2
+      x: 1757
+      y: 968
+      width: 76
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 1757
+      y: 968
+      width: 76
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_deviled-eggs
+    outer:
+      serializedVersion: 2
+      x: 677
+      y: 508
+      width: 199
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 677
+      y: 508
+      width: 199
+      height: 123
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_hamburger
+    outer:
+      serializedVersion: 2
+      x: 189
+      y: 750
+      width: 197
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 189
+      y: 750
+      width: 197
+      height: 172
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_grilled-cheese
+    outer:
+      serializedVersion: 2
+      x: 1445
+      y: 1619
+      width: 232
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1445
+      y: 1619
+      width: 232
+      height: 98
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_gummie-bear-blue
+    outer:
+      serializedVersion: 2
+      x: 1837
+      y: 879
+      width: 76
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 1837
+      y: 879
+      width: 76
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_ice-cream
+    outer:
+      serializedVersion: 2
+      x: 1606
+      y: 1393
+      width: 88
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 1606
+      y: 1393
+      width: 88
+      height: 222
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_fruit-tart
+    outer:
+      serializedVersion: 2
+      x: 825
+      y: 66
+      width: 154
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 825
+      y: 66
+      width: 154
+      height: 130
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_dumplin
+    outer:
+      serializedVersion: 2
+      x: 1313
+      y: 1443
+      width: 165
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 1313
+      y: 1443
+      width: 165
+      height: 141
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_dirty-sock
+    outer:
+      serializedVersion: 2
+      x: 660
+      y: 1837
+      width: 153
+      height: 209
+    inner:
+      serializedVersion: 2
+      x: 660
+      y: 1837
+      width: 153
+      height: 209
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_energy-drink
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 853
+      width: 120
+      height: 205
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 853
+      width: 120
+      height: 205
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_feather
+    outer:
+      serializedVersion: 2
+      x: 1435
+      y: 1079
+      width: 224
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 1435
+      y: 1079
+      width: 224
+      height: 78
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_gummie-bear-green
+    outer:
+      serializedVersion: 2
+      x: 1026
+      y: 260
+      width: 76
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 1026
+      y: 260
+      width: 76
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_cup-of-tea
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 548
+      width: 207
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 548
+      width: 207
+      height: 173
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_gummie-bear-orange
+    outer:
+      serializedVersion: 2
+      x: 1893
+      y: 1029
+      width: 76
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 1893
+      y: 1029
+      width: 76
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_garlic
+    outer:
+      serializedVersion: 2
+      x: 1698
+      y: 1529
+      width: 122
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 1698
+      y: 1529
+      width: 122
+      height: 154
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_donut
+    outer:
+      serializedVersion: 2
+      x: 1022
+      y: 755
+      width: 161
+      height: 135
+    inner:
+      serializedVersion: 2
+      x: 1022
+      y: 755
+      width: 161
+      height: 135
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_ginseng
+    outer:
+      serializedVersion: 2
+      x: 1709
+      y: 1243
+      width: 78
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 1709
+      y: 1243
+      width: 78
+      height: 189
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_sausageroll
+    outer:
+      serializedVersion: 2
+      x: 1187
+      y: 762
+      width: 160
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 1187
+      y: 762
+      width: 160
+      height: 131
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_worm
+    outer:
+      serializedVersion: 2
+      x: 1805
+      y: 1810
+      width: 133
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 1805
+      y: 1810
+      width: 133
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_lemon
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 1001
+      width: 176
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 1001
+      width: 176
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_meatball
+    outer:
+      serializedVersion: 2
+      x: 901
+      y: 645
+      width: 117
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 901
+      y: 645
+      width: 117
+      height: 204
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_stinky-fish
+    outer:
+      serializedVersion: 2
+      x: 677
+      y: 635
+      width: 220
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 677
+      y: 635
+      width: 220
+      height: 113
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_salmon-sushi
+    outer:
+      serializedVersion: 2
+      x: 1224
+      y: 664
+      width: 161
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 1224
+      y: 664
+      width: 161
+      height: 94
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_oyster
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 995
+      width: 221
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 995
+      width: 221
+      height: 148
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_single-peanut01
+    outer:
+      serializedVersion: 2
+      x: 1521
+      y: 1178
+      width: 165
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1521
+      y: 1178
+      width: 165
+      height: 102
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_prawn-sushi
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 879
+      width: 240
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 879
+      width: 240
+      height: 124
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pretzel
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 3
+      width: 159
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 3
+      width: 159
+      height: 108
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_tamango-sushi
+    outer:
+      serializedVersion: 2
+      x: 1082
+      y: 551
+      width: 174
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 1082
+      y: 551
+      width: 174
+      height: 89
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_milk-carton
+    outer:
+      serializedVersion: 2
+      x: 501
+      y: 224
+      width: 129
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 501
+      y: 224
+      width: 129
+      height: 213
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_ice-cube
+    outer:
+      serializedVersion: 2
+      x: 1018
+      y: 1076
+      width: 152
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 1018
+      y: 1076
+      width: 152
+      height: 156
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_single-peanut04
+    outer:
+      serializedVersion: 2
+      x: 994
+      y: 410
+      width: 161
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 994
+      y: 410
+      width: 161
+      height: 97
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_jaw-breaker
+    outer:
+      serializedVersion: 2
+      x: 989
+      y: 1546
+      width: 167
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 989
+      y: 1546
+      width: 167
+      height: 168
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_steak-tartare
+    outer:
+      serializedVersion: 2
+      x: 789
+      y: 1528
+      width: 196
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 789
+      y: 1528
+      width: 196
+      height: 147
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pants
+    outer:
+      serializedVersion: 2
+      x: 809
+      y: 369
+      width: 181
+      height: 135
+    inner:
+      serializedVersion: 2
+      x: 809
+      y: 369
+      width: 181
+      height: 135
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_mellon
+    outer:
+      serializedVersion: 2
+      x: 1030
+      y: 1921
+      width: 228
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 1030
+      y: 1921
+      width: 228
+      height: 125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_milk-shake
+    outer:
+      serializedVersion: 2
+      x: 541
+      y: 477
+      width: 132
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 541
+      y: 477
+      width: 132
+      height: 197
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pepperami
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 926
+      width: 211
+      height: 199
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 926
+      width: 211
+      height: 199
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_single-peanut03
+    outer:
+      serializedVersion: 2
+      x: 1791
+      y: 1353
+      width: 155
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1791
+      y: 1353
+      width: 155
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pillow
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 1898
+      width: 209
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 1898
+      width: 209
+      height: 148
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_sour-gummies
+    outer:
+      serializedVersion: 2
+      x: 213
+      y: 1147
+      width: 215
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 213
+      y: 1147
+      width: 215
+      height: 179
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_t-bone
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 1503
+      width: 197
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 1503
+      width: 197
+      height: 188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_snails
+    outer:
+      serializedVersion: 2
+      x: 1133
+      y: 1395
+      width: 176
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1133
+      y: 1395
+      width: 176
+      height: 147
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_jelly-mold
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 1333
+      width: 204
+      height: 166
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 1333
+      width: 204
+      height: 166
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_waffle
+    outer:
+      serializedVersion: 2
+      x: 213
+      y: 601
+      width: 227
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 213
+      y: 601
+      width: 227
+      height: 145
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_mozzarella
+    outer:
+      serializedVersion: 2
+      x: 634
+      y: 327
+      width: 171
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 634
+      y: 327
+      width: 171
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pee-pod
+    outer:
+      serializedVersion: 2
+      x: 1663
+      y: 1118
+      width: 226
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1663
+      y: 1118
+      width: 226
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pizza
+    outer:
+      serializedVersion: 2
+      x: 1446
+      y: 1942
+      width: 217
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 1446
+      y: 1942
+      width: 217
+      height: 104
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_kiwi
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 441
+      width: 195
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 441
+      width: 195
+      height: 156
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_spare-ribs
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 752
+      width: 206
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 752
+      width: 206
+      height: 123
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_mushroom
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 894
+      width: 145
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 894
+      width: 145
+      height: 164
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_popsilcle
+    outer:
+      serializedVersion: 2
+      x: 1942
+      y: 1829
+      width: 83
+      height: 217
+    inner:
+      serializedVersion: 2
+      x: 1942
+      y: 1829
+      width: 83
+      height: 217
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_icecream-sandwich
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 842
+      width: 216
+      height: 149
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 842
+      width: 216
+      height: 149
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_taco
+    outer:
+      serializedVersion: 2
+      x: 1667
+      y: 1953
+      width: 214
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1667
+      y: 1953
+      width: 214
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_sphagetti
+    outer:
+      serializedVersion: 2
+      x: 1351
+      y: 817
+      width: 168
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 1351
+      y: 817
+      width: 168
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_potato-chip
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 115
+      width: 166
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 115
+      width: 166
+      height: 210
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_rock-candy
+    outer:
+      serializedVersion: 2
+      x: 630
+      y: 1191
+      width: 142
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 630
+      y: 1191
+      width: 142
+      height: 222
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_peach
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 54
+      width: 151
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 54
+      width: 151
+      height: 142
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_onion-rings
+    outer:
+      serializedVersion: 2
+      x: 1325
+      y: 1161
+      width: 192
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 1325
+      y: 1161
+      width: 192
+      height: 107
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_stinky-cheese
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 1019
+      width: 177
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 1019
+      width: 177
+      height: 168
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_single-peanut02
+    outer:
+      serializedVersion: 2
+      x: 1591
+      y: 990
+      width: 162
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 1591
+      y: 990
+      width: 162
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_poptart
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 1538
+      width: 144
+      height: 153
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 1538
+      width: 144
+      height: 153
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_root-beer
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 340
+      width: 167
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 340
+      width: 167
+      height: 204
+    paddingLeft: 0.35329342
+    paddingRight: 0.17964073
+    paddingTop: 0.25
+    paddingBottom: 0.004901961
+  - name: PROP_pantry_sticky-buffalo-wings
+    outer:
+      serializedVersion: 2
+      x: 1698
+      y: 1436
+      width: 207
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 1698
+      y: 1436
+      width: 207
+      height: 89
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_muffin
+    outer:
+      serializedVersion: 2
+      x: 984
+      y: 1718
+      width: 163
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 984
+      y: 1718
+      width: 163
+      height: 176
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_pickle-pear
+    outer:
+      serializedVersion: 2
+      x: 1791
+      y: 1293
+      width: 212
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1791
+      y: 1293
+      width: 212
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_olive
+    outer:
+      serializedVersion: 2
+      x: 1453
+      y: 970
+      width: 134
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 1453
+      y: 970
+      width: 134
+      height: 105
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_jalapeno
+    outer:
+      serializedVersion: 2
+      x: 983
+      y: 53
+      width: 77
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 983
+      y: 53
+      width: 77
+      height: 198
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_toilet-roll
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 1866
+      width: 211
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 1866
+      width: 211
+      height: 180
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_jigsaw-pieces
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 18
+      width: 240
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 18
+      width: 240
+      height: 123
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_popcorn
+    outer:
+      serializedVersion: 2
+      x: 615
+      y: 1617
+      width: 157
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 615
+      y: 1617
+      width: 157
+      height: 204
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_tuna-sushi
+    outer:
+      serializedVersion: 2
+      x: 789
+      y: 1419
+      width: 147
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 789
+      y: 1419
+      width: 147
+      height: 105
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_rotten-egg
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 351
+      width: 143
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 351
+      width: 143
+      height: 86
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_strawberry
+    outer:
+      serializedVersion: 2
+      x: 1127
+      y: 897
+      width: 124
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 1127
+      y: 897
+      width: 124
+      height: 175
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_spicyTunaRoll
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 1162
+      width: 194
+      height: 167
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 1162
+      width: 194
+      height: 167
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_taterTots
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 1350
+      width: 203
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 1350
+      width: 203
+      height: 176
+    paddingLeft: 0.13300492
+    paddingRight: 0.12807882
+    paddingTop: 0.20454545
+    paddingBottom: 0.25
+  - name: PROP_pantry_youghurt
+    outer:
+      serializedVersion: 2
+      x: 622
+      y: 1417
+      width: 163
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 622
+      y: 1417
+      width: 163
+      height: 196
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PROP_pantry_peep
+    outer:
+      serializedVersion: 2
+      x: 213
+      y: 1330
+      width: 197
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 213
+      y: 1330
+      width: 197
+      height: 196
+    paddingLeft: 0.15228426
+    paddingRight: 0.14720812
+    paddingTop: 0.1734694
+    paddingBottom: 0.13265306
+  - name: PROP_pantry_easterCupcake
+    outer:
+      serializedVersion: 2
+      x: 492
+      y: 1825
+      width: 164
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 492
+      y: 1825
+      width: 164
+      height: 221
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

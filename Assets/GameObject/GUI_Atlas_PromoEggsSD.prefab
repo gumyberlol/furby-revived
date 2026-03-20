@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_Atlas_PromoEggsSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 18c0b76709c44234aae9cc86db7220e3, type: 2}
+  sprites:
+  - name: GUI_Shop_promoEgg_Kmart
+    outer:
+      serializedVersion: 2
+      x: 0.16992188
+      y: 0.001953125
+      width: 0.1640625
+      height: 0.22851562
+    inner:
+      serializedVersion: 2
+      x: 0.16992188
+      y: 0.001953125
+      width: 0.1640625
+      height: 0.22851562
+    paddingLeft: 0.17857143
+    paddingRight: 0.17857143
+    paddingTop: 0.07692308
+    paddingBottom: 0.11965812
+  - name: GUI_Shop_promoEgg_TRU
+    outer:
+      serializedVersion: 2
+      x: 0.33789062
+      y: 0.001953125
+      width: 0.16210938
+      height: 0.22851562
+    inner:
+      serializedVersion: 2
+      x: 0.33789062
+      y: 0.001953125
+      width: 0.16210938
+      height: 0.22851562
+    paddingLeft: 0.19277108
+    paddingRight: 0.18072289
+    paddingTop: 0.07692308
+    paddingBottom: 0.11965812
+  - name: GUI_Shop_promoEgg_Walmart
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.001953125
+      width: 0.1640625
+      height: 0.23046875
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.001953125
+      width: 0.1640625
+      height: 0.23046875
+    paddingLeft: 0.17857143
+    paddingRight: 0.17857143
+    paddingTop: 0.076271184
+    paddingBottom: 0.11016949
+  - name: GUI_Shop_promoEgg_Target
+    outer:
+      serializedVersion: 2
+      x: 0.50390625
+      y: 0.001953125
+      width: 0.16210938
+      height: 0.2265625
+    inner:
+      serializedVersion: 2
+      x: 0.50390625
+      y: 0.001953125
+      width: 0.16210938
+      height: 0.2265625
+    paddingLeft: 0.18072289
+    paddingRight: 0.19277108
+    paddingTop: 0.0862069
+    paddingBottom: 0.12068965
+  - name: GUI_Shop_promoEgg_Amazon
+    outer:
+      serializedVersion: 2
+      x: 0.171875
+      y: 0.234375
+      width: 0.1640625
+      height: 0.23046875
+    inner:
+      serializedVersion: 2
+      x: 0.171875
+      y: 0.234375
+      width: 0.1640625
+      height: 0.23046875
+    paddingLeft: 0.17857143
+    paddingRight: 0.17857143
+    paddingTop: 0.076271184
+    paddingBottom: 0.11016949
+  - name: GUI_Shop_promoEgg_mcDonalds
+    outer:
+      serializedVersion: 2
+      x: 0.34570312
+      y: 0.234375
+      width: 0.1640625
+      height: 0.234375
+    inner:
+      serializedVersion: 2
+      x: 0.34570312
+      y: 0.234375
+      width: 0.1640625
+      height: 0.234375
+    paddingLeft: 0.17857143
+    paddingRight: 0.17857143
+    paddingTop: 0.041666668
+    paddingBottom: 0.125
+  - name: GUI_Shop_promoEgg_10
+    outer:
+      serializedVersion: 2
+      x: 0.171875
+      y: 0.7109375
+      width: 0.16796875
+      height: 0.23632812
+    inner:
+      serializedVersion: 2
+      x: 0.171875
+      y: 0.7109375
+      width: 0.16796875
+      height: 0.23632812
+    paddingLeft: 0.1627907
+    paddingRight: 0.1627907
+    paddingTop: 0.041322313
+    paddingBottom: 0.11570248
+  - name: GUI_Shop_promoEgg_09
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.7109375
+      width: 0.16601562
+      height: 0.23242188
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.7109375
+      width: 0.16601562
+      height: 0.23242188
+    paddingLeft: 0.16470589
+    paddingRight: 0.1764706
+    paddingTop: 0.05042017
+    paddingBottom: 0.12605043
+  - name: GUI_Shop_promoEgg_07
+    outer:
+      serializedVersion: 2
+      x: 0.34375
+      y: 0.70703125
+      width: 0.1640625
+      height: 0.234375
+    inner:
+      serializedVersion: 2
+      x: 0.34375
+      y: 0.70703125
+      width: 0.1640625
+      height: 0.234375
+    paddingLeft: 0.17857143
+    paddingRight: 0.17857143
+    paddingTop: 0.041666668
+    paddingBottom: 0.125
+  - name: GUI_Shop_promoEgg_11
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.23632812
+      width: 0.16601562
+      height: 0.23242188
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.23632812
+      width: 0.16601562
+      height: 0.23242188
+    paddingLeft: 0.16470589
+    paddingRight: 0.1764706
+    paddingTop: 0.05042017
+    paddingBottom: 0.12605043
+  - name: GUI_Shop_promoEgg_12
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.47265625
+      width: 0.16796875
+      height: 0.234375
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.47265625
+      width: 0.16796875
+      height: 0.234375
+    paddingLeft: 0.1627907
+    paddingRight: 0.1627907
+    paddingTop: 0.041666668
+    paddingBottom: 0.125
+  - name: GUI_Shop_promoEgg_08
+    outer:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.46875
+      width: 0.16796875
+      height: 0.234375
+    inner:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.46875
+      width: 0.16796875
+      height: 0.234375
+    paddingLeft: 0.1627907
+    paddingRight: 0.1627907
+    paddingTop: 0.041666668
+    paddingBottom: 0.125
+  mCoordinates: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

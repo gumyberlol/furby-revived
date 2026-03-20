@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: SpringZigZag
+  m_EditorClassIdentifier:
+  m_adultType: 20
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 4c9aec25fba3e754f9433056f0bb4398, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    EyeColor: {fileID: 11400000, guid: e9e01175aabcbb44e8bb9d89e7da0703, type: 2}
+    EarColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    EyelidColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    FurbySpriteName: CH_furbyAdult_SpringZigZag
+  m_tribe: {fileID: 11400000, guid: 7bd724aabf921ab43bf46b674e1bcbbd, type: 2}
+  m_LastIndex_MainTribes: 17
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 17
+  m_unlockOrder: 140000001300000011000000120000000f000000100000000300000009000000050000000b0000000200000007000000080000000a0000000600000000000000040000000100000016000000150000001800000017000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 346f01b2df2543947a1213a0d8a3ef8d, type: 2}
+  - {fileID: 11400000, guid: f83d601fc254b27419df6ddc47c728b8, type: 2}
+  - {fileID: 11400000, guid: 51d5ab0197765b8499d37ce11b61851e, type: 2}
+  - {fileID: 11400000, guid: d9eb81914508ab040b20f94d4b696cf5, type: 2}
+  - {fileID: 11400000, guid: b0de1a237de111842a1032f0be1ebbd2, type: 2}
+  - {fileID: 11400000, guid: d41851ecc4346eb4cbf4cff7bae85e18, type: 2}
+  - {fileID: 11400000, guid: f8be787d94c656a4da2b136a5024d078, type: 2}
+  - {fileID: 11400000, guid: 2412d5e1ed391344e8888d53c50ff160, type: 2}
+  m_maxFurbyBabiesOfType: 5

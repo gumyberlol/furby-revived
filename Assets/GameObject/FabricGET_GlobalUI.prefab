@@ -1,0 +1,549 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  - 114: {fileID: 114618682377417806}
+  - 114: {fileID: 114703437598541787}
+  - 114: {fileID: 114884547391421755}
+  - 114: {fileID: 114099118695303065}
+  - 114: {fileID: 114243736805655561}
+  - 114: {fileID: 114061268324235159}
+  m_Layer: 0
+  m_Name: FabricGET_GlobalUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Furby.SharedGuiEvents
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 9
+      m_enumStringValue: ButtonDown
+    Action: 0
+    FabricEventName: ui_buttonPress
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 10
+      m_enumStringValue: ButtonUp
+    Action: 0
+    FabricEventName: ui_buttonClick
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 1
+      m_enumStringValue: Pause
+    Action: 2
+    FabricEventName: pause
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 4
+      m_enumStringValue: Quit
+    Action: 3
+    FabricEventName: pause
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0.5
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 3
+      m_enumStringValue: Restart
+    Action: 3
+    FabricEventName: pause
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0.5
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 2
+      m_enumStringValue: Resume
+    Action: 3
+    FabricEventName: pause
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0.5
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 21
+      m_enumStringValue: ButtonRelease
+    Action: 0
+    FabricEventName: ui_buttonRelease
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 18
+      m_enumStringValue: DialogCancel
+    Action: 0
+    FabricEventName: ui_popupOff
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.SharedGuiEvents
+      m_enumIntValue: 512
+      m_enumStringValue: DialogWasShown
+    Action: 0
+    FabricEventName: ui_popupOn
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 1709254077376921, guid: 4edfa2884c8fe49459968a68637b97c6, type: 2}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Furby.InGamePurchaseableEvent
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Furby.InGamePurchaseableEvent
+      m_enumIntValue: 0
+      m_enumStringValue: PurchaseButtonClickedEnoughFurbucks
+    Action: 0
+    FabricEventName: ui_purchasePromptOn
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.InGamePurchaseableEvent
+      m_enumIntValue: 2
+      m_enumStringValue: PurchaseCancelled
+    Action: 0
+    FabricEventName: ui_purchasePromptOff
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.InGamePurchaseableEvent
+      m_enumIntValue: 1
+      m_enumStringValue: PurchaseConfirmed
+    Action: 0
+    FabricEventName: ui_purchaseItem
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.InGamePurchaseableEvent
+      m_enumIntValue: 1
+      m_enumStringValue: PurchaseConfirmed
+    Action: 0
+    FabricEventName: ui_purchasePromptOff
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.InGamePurchaseableEvent
+      m_enumIntValue: 3
+      m_enumStringValue: PurchaseButtonClickedNotEnoughFurbucks
+    Action: 0
+    FabricEventName: ui_negative
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.InGamePurchaseableEvent
+      m_enumIntValue: 2
+      m_enumStringValue: PurchaseCancelled
+    Action: 0
+    FabricEventName: ui_popupOff
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 1709254077376921, guid: 4edfa2884c8fe49459968a68637b97c6, type: 2}
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Furby.BabyEndMinigameEvent
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 113
+      m_enumStringValue: ShowMoneyIncrease
+    Action: 0
+    FabricEventName: endscore_moneyUp
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 81
+      m_enumStringValue: ShowScoreIncrease
+    Action: 0
+    FabricEventName: endscore_pointsUp
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 129
+      m_enumStringValue: ShowXpIncrease
+    Action: 0
+    FabricEventName: endscore_xpUp
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 130
+      m_enumStringValue: ShowXpComplete
+    Action: 0
+    FabricEventName: endscore_xpComplete
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 112
+      m_enumStringValue: ShowMoneyLabel
+    Action: 0
+    FabricEventName: endscore_label
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 80
+      m_enumStringValue: ShowScoreLabel
+    Action: 0
+    FabricEventName: endscore_label
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 96
+      m_enumStringValue: ShowStarLabel
+    Action: 0
+    FabricEventName: endscore_label
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 128
+      m_enumStringValue: ShowXpLabel
+    Action: 0
+    FabricEventName: endscore_label
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 97
+      m_enumStringValue: ShowStar1
+    Action: 0
+    FabricEventName: endscore_ratingStar1
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 98
+      m_enumStringValue: ShowStar2
+    Action: 0
+    FabricEventName: endscore_ratingStar2
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 99
+      m_enumStringValue: ShowStar3
+    Action: 0
+    FabricEventName: endscore_ratingStar3
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Furby.BabyEndMinigameEvent
+      m_enumIntValue: 82
+      m_enumStringValue: ShowScoreNoIncrease
+    Action: 0
+    FabricEventName: endscore_pointsNone
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 1709254077376921, guid: 4edfa2884c8fe49459968a68637b97c6, type: 2}
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Furby.HintEvents
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Furby.HintEvents
+      m_enumIntValue: 56
+      m_enumStringValue: Hints_PrefabInstantiated
+    Action: 0
+    FabricEventName: ui_hint
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 1
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 1709254077376921, guid: 4edfa2884c8fe49459968a68637b97c6, type: 2}
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Relentless.VideoPlayerGameEvents
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Relentless.VideoPlayerGameEvents
+      m_enumIntValue: 0
+      m_enumStringValue: VideoHasStarted
+    Action: 2
+    FabricEventName: pause
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 0
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Relentless.VideoPlayerGameEvents
+      m_enumIntValue: 1
+      m_enumStringValue: VideoHasFinished
+    Action: 1
+    FabricEventName: video
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 0
+    Delay: 0
+    OverrideParameter: 0
+  - GameEvent:
+      m_fullTypeName: Relentless.VideoPlayerGameEvents
+      m_enumIntValue: 1
+      m_enumStringValue: VideoHasFinished
+    Action: 3
+    FabricEventName: pause
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 0
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 0}
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Furby.CrystalSparkleVFXTriggers
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Furby.CrystalSparkleVFXTriggers
+      m_enumIntValue: 0
+      m_enumStringValue: VFXCrystalSparkleVFXPresent
+    Action: 0
+    FabricEventName: ui_crystalShimmer
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 0}
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e7398e3743e2a2771bf6481cf055a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_gameEventType:
+    m_qualifiedTypeName: Furby.FurbyScreenSwitchEvent
+  m_eventTable:
+  - GameEvent:
+      m_fullTypeName: Furby.FurbyScreenSwitchEvent
+      m_enumIntValue: 0
+      m_enumStringValue: StartFadeDown
+    Action: 1
+    FabricEventName: ui_crystalShimmer
+    FloatParameter: 0
+    StringParameter:
+    IgnoreGameObject: 0
+    Probability: 100
+    Delay: 0
+    OverrideParameter: 0
+  m_fabricPrefab: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

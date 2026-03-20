@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_scansSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 87b63ba0301ef124d860cf1bd51cdd8c, type: 2}
+  sprites:
+  - name: GUI_scanBeam03_On
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.00390625
+      width: 0.5917969
+      height: 0.34375
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.00390625
+      width: 0.5917969
+      height: 0.34375
+    paddingLeft: 0.0033003301
+    paddingRight: 0.02310231
+    paddingTop: 0
+    paddingBottom: 0.022727273
+  - name: GUI_scanBeam03_Off
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.35546875
+      width: 0.5625
+      height: 0.2890625
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.35546875
+      width: 0.5625
+      height: 0.2890625
+    paddingLeft: 0.03125
+    paddingRight: 0.048611112
+    paddingTop: 0.0945946
+    paddingBottom: 0.12162162
+  - name: GUI_scanBeam02_Off
+    outer:
+      serializedVersion: 2
+      x: 0.5683594
+      y: 0.35546875
+      width: 0.40039062
+      height: 0.21875
+    inner:
+      serializedVersion: 2
+      x: 0.5683594
+      y: 0.35546875
+      width: 0.40039062
+      height: 0.21875
+    paddingLeft: 0.048780486
+    paddingRight: 0.06341463
+    paddingTop: 0.10714286
+    paddingBottom: 0.14285715
+  - name: GUI_scanBeam02_On
+    outer:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.65234375
+      width: 0.43554688
+      height: 0.26953125
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.65234375
+      width: 0.43554688
+      height: 0.26953125
+    paddingLeft: 0
+    paddingRight: 0.022421524
+    paddingTop: 0
+    paddingBottom: 0.014492754
+  - name: GUI_scanBeam01_On
+    outer:
+      serializedVersion: 2
+      x: 0.59765625
+      y: 0.00390625
+      width: 0.26953125
+      height: 0.2109375
+    inner:
+      serializedVersion: 2
+      x: 0.59765625
+      y: 0.00390625
+      width: 0.26953125
+      height: 0.2109375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.14814815
+  - name: GUI_scanBeam01_Off
+    outer:
+      serializedVersion: 2
+      x: 0.5683594
+      y: 0.58203125
+      width: 0.24414062
+      height: 0.14453125
+    inner:
+      serializedVersion: 2
+      x: 0.5683594
+      y: 0.58203125
+      width: 0.24414062
+      height: 0.14453125
+    paddingLeft: 0.048
+    paddingRight: 0.056
+    paddingTop: 0.24324325
+    paddingBottom: 0.43243244
+  mCoordinates: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

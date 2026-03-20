@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: FirstTimeFlowStartScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78915c7a7ed4cb7a98ef896533229ca9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_targetScreens:
+  - m_flowStage: 256
+    m_level:
+      m_path: Assets/Furby/Scenes/Utilities/Firehose.unity
+  - m_flowStage: 768
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggTransfer.unity
+  - m_flowStage: 1024
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+  - m_flowStage: 1280
+    m_level:
+      m_path: Assets/Furby/Scenes/Incubator.unity
+  - m_flowStage: 1792
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Nurture/Playroom.unity
+  - m_flowStage: 1920
+    m_level:
+      m_path: Assets/Furby/Scenes/Utilities/Blender.unity
+  - m_flowStage: 2048
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Nurture/Playroom.unity
+  - m_flowStage: 2176
+    m_level:
+      m_path: Assets/Furby/Scenes/Utilities/Salon2/Salon2.unity
+  - m_flowStage: 2304
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Neighbourhood/NeighbourhoodScene.unity
+  - m_flowStage: 2816
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+  - m_flowStage: 3072
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/FriendsBook/FriendsBook.unity
+  - m_flowStage: 3200
+    m_level:
+      m_path: Assets/Furby/Scenes/Screens/Eggs/EggCarton.unity
+  - m_flowStage: 3328
+    m_level:
+      m_path: Assets/Furby/Scenes/Incubator.unity
+  m_defaultLevel:
+    m_path: Assets/Furby/Scenes/Screens/Dashboard/Dashboard.unity
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

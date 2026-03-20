@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: CrystalPinkToPurple-CrystalYellowToOrange
+  m_EditorClassIdentifier:
+  m_name: CrystalPinkToPurple-CrystalYellowToOrange
+  m_parentA: 21
+  m_parentB: 22
+  m_tribeSet: 4
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: ab1a55ae6b1a3e24da02c17489c7d55c, type: 2}
+    - {fileID: 11400000, guid: 5212cc59f7b15de4f98cdc31f459912a, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: f57014f5e04f6aa47b917af608c1f312, type: 2}
+    - {fileID: 11400000, guid: 2a2c9a7d5450fd541aafe5b6a7e51a9b, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 4fe205a9aed402946bf8985e063fc068, type: 2}
+    - {fileID: 11400000, guid: 465a1a0f35481e545ad443c7ff055c95, type: 2}
+    - {fileID: 11400000, guid: b69475c8d65a2bb46b8cd1095a106891, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 1c588db04504905488e526e1ff85e514, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

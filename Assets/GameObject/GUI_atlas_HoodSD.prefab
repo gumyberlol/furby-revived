@@ -1,0 +1,840 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_HoodSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 440363e7f8c33e14b94f41a841b06055, type: 2}
+  sprites:
+  - name: GUI_Hood_skyline
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 693
+      width: 746
+      height: 329
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 693
+      width: 746
+      height: 329
+    paddingLeft: 0
+    paddingRight: 0.029490616
+    paddingTop: 0.11550152
+    paddingBottom: 0.0881459
+  - name: GUI_Hood_skyGradTop
+    outer:
+      serializedVersion: 2
+      x: 752
+      y: 510
+      width: 14
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 752
+      y: 510
+      width: 14
+      height: 512
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_shrub
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 113
+      width: 239
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 113
+      width: 239
+      height: 109
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_HoodPromo_Wall
+    outer:
+      serializedVersion: 2
+      x: 484
+      y: 514
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 516
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_promoButton
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 526
+      width: 67
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 526
+      width: 67
+      height: 66
+    paddingLeft: 0.104477614
+    paddingRight: 0.104477614
+    paddingTop: 0.060606062
+    paddingBottom: 0.07575758
+  - name: GUI_Hood_roof_PeaCub
+    outer:
+      serializedVersion: 2
+      x: 591
+      y: 648
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 591
+      y: 648
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_PeaCub
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 399
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 399
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_blue
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 77
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 77
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_ladder
+    outer:
+      serializedVersion: 2
+      x: 723
+      y: 582
+      width: 20
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 723
+      y: 582
+      width: 20
+      height: 107
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_balcony
+    outer:
+      serializedVersion: 2
+      x: 604
+      y: 523
+      width: 40
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 604
+      y: 523
+      width: 40
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_WavStr
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 513
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 513
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_DotBol
+    outer:
+      serializedVersion: 2
+      x: 493
+      y: 319
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 493
+      y: 319
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_TriDag
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 558
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 558
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_flag
+    outer:
+      serializedVersion: 2
+      x: 493
+      y: 231
+      width: 48
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 493
+      y: 231
+      width: 48
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_ledge
+    outer:
+      serializedVersion: 2
+      x: 470
+      y: 513
+      width: 10
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 513
+      width: 10
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_cloud
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 21
+      width: 244
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 21
+      width: 244
+      height: 88
+    paddingLeft: 0.032786883
+    paddingRight: 0.028688524
+    paddingTop: 0.045454547
+    paddingBottom: 0.09090909
+  - name: GUI_Hood_levelStrip
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 510
+      width: 31
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 510
+      width: 31
+      height: 12
+    paddingLeft: 0
+    paddingRight: 0.032258064
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_LmtEdt
+    outer:
+      serializedVersion: 2
+      x: 493
+      y: 603
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 493
+      y: 603
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_window
+    outer:
+      serializedVersion: 2
+      x: 300
+      y: 292
+      width: 98
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 292
+      width: 98
+      height: 131
+    paddingLeft: 0.010204081
+    paddingRight: 0.010204081
+    paddingTop: 0.007633588
+    paddingBottom: 0.007633588
+  - name: GUI_Hood_awning_LmtEdt
+    outer:
+      serializedVersion: 2
+      x: 578
+      y: 445
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 578
+      y: 445
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_door
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 183
+      width: 31
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 183
+      width: 31
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_WavStr
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 365
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 365
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_ChvHrt
+    outer:
+      serializedVersion: 2
+      x: 493
+      y: 648
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 493
+      y: 648
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_DotBol
+    outer:
+      serializedVersion: 2
+      x: 300
+      y: 247
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 247
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_TriDag
+    outer:
+      serializedVersion: 2
+      x: 493
+      y: 285
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 493
+      y: 285
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_ChvHrt
+    outer:
+      serializedVersion: 2
+      x: 578
+      y: 479
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 578
+      y: 479
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_skyGradBottom
+    outer:
+      serializedVersion: 2
+      x: 703
+      y: 467
+      width: 16
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 703
+      y: 467
+      width: 16
+      height: 222
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_blimp
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 353
+      width: 148
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 353
+      width: 148
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_AppPattern_HeartsFur_white
+    outer:
+      serializedVersion: 2
+      x: 191
+      y: 13
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 191
+      y: 13
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Dash_IconHood
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 255
+      width: 87
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 255
+      width: 87
+      height: 94
+    paddingLeft: 0.28735632
+    paddingRight: 0.20689656
+    paddingTop: 0.06382979
+    paddingBottom: 0
+  - name: SHARED_swatchBlack_D
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 249
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 545
+      y: 249
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_HoodPromo_GroundFloor
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 31
+      width: 185
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 31
+      width: 185
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_HoodPromo_Cornice
+    outer:
+      serializedVersion: 2
+      x: 591
+      y: 609
+      width: 108
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 609
+      width: 8
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.057142857
+    paddingBottom: 0.057142857
+  - name: GUI_HoodPromo_FloorDivider
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 518
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 654
+      y: 518
+      width: 13
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_HoodPromo_RollerCoasterTrack
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 97
+      width: 273
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 97
+      width: 273
+      height: 125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_RemovalVan
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 226
+      width: 294
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 226
+      width: 294
+      height: 165
+    paddingLeft: 0.0034013605
+    paddingRight: 0.0034013605
+    paddingTop: 0.006060606
+    paddingBottom: 0.006060606
+  - name: GUI_Hood_FlagPole
+    outer:
+      serializedVersion: 2
+      x: 680
+      y: 477
+      width: 16
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 680
+      y: 477
+      width: 16
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_houseRoof
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 432
+      width: 94
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 432
+      width: 94
+      height: 74
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_houseRoofArrow
+    outer:
+      serializedVersion: 2
+      x: 660
+      y: 547
+      width: 14
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 660
+      y: 547
+      width: 14
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_houseWall
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 57
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 57
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_houseWindow1
+    outer:
+      serializedVersion: 2
+      x: 533
+      y: 433
+      width: 41
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 533
+      y: 433
+      width: 41
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_houseWindow2
+    outer:
+      serializedVersion: 2
+      x: 604
+      y: 553
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 604
+      y: 553
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_moon
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 395
+      width: 293
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 395
+      width: 293
+      height: 294
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_sky
+    outer:
+      serializedVersion: 2
+      x: 689
+      y: 681
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 689
+      y: 681
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_web
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 427
+      width: 132
+      height: 262
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 427
+      width: 132
+      height: 262
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonHalloween_wolf
+    outer:
+      serializedVersion: 2
+      x: 435
+      y: 596
+      width: 54
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 435
+      y: 596
+      width: 54
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

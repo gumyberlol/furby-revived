@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: SpringHeart
+  m_EditorClassIdentifier:
+  m_adultType: 15
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 4c9aec25fba3e754f9433056f0bb4398, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    EyeColor: {fileID: 11400000, guid: e9e01175aabcbb44e8bb9d89e7da0703, type: 2}
+    EarColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    EyelidColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    FurbySpriteName: CH_furbyAdult_SpringHeart
+  m_tribe: {fileID: 11400000, guid: 6889528a855ad524aa20a799a46ff960, type: 2}
+  m_LastIndex_MainTribes: 17
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 0f000000100000001300000014000000110000001200000007000000020000000900000003000000050000000b0000000000000006000000080000000a000000040000000100000015000000160000001700000018000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: cb31acd0b1c6c884f8bfbe3aa8bfe74f, type: 2}
+  - {fileID: 11400000, guid: b89977c58f62be24d9ecfd9477077a7a, type: 2}
+  - {fileID: 11400000, guid: 84ba7ff6d48cf334cae438c1a3abb525, type: 2}
+  - {fileID: 11400000, guid: 29f5ba1bfc01dda418ba98b4bf27b73e, type: 2}
+  - {fileID: 11400000, guid: 5ccdd55d2352e4f479dfc911bc6b671c, type: 2}
+  - {fileID: 11400000, guid: 5d33895a4f3fae846a5b6289697849ed, type: 2}
+  - {fileID: 11400000, guid: 5e4857c61099e5542bc09ce7cc324c90, type: 2}
+  - {fileID: 11400000, guid: 92b88ab7426b73c4da9d73d8e5770470, type: 2}
+  m_maxFurbyBabiesOfType: 5

@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &-2140649424
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -2068201909}
+  m_LocalRotation: {x: 8.14603425e-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.00418592943, y: -.000186462406, z: -1.70294012e-09}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
+  m_Children: []
+  m_Father: {fileID: -1211254889}
+  m_RootOrder: 0
+--- !u!1 &-2090448999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 145643112}
+  m_Layer: 24
+  m_Name: furbyEgg_roll_JNT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &-2068201909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: -2140649424}
+  m_Layer: 24
+  m_Name: FragmentsBott_Ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &-1401428624
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176376943}
+  m_LocalRotation: {x: 8.14603425e-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .429955989, z: 1.94433336e-09}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
+  m_Children: []
+  m_Father: {fileID: -1211254889}
+  m_RootOrder: 1
+--- !u!4 &-1211254889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -1172510311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: -2140649424}
+  - {fileID: -1401428624}
+  - {fileID: 1344631889}
+  - {fileID: 1278883615}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &-1172510311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: -1211254889}
+  - 111: {fileID: 1465372154}
+  m_Layer: 24
+  m_Name: CH_furbyEggCrystal_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &-711153013
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176079881}
+  m_LocalRotation: {x: 0, y: 0, z: -1.13686851e-13, w: 1}
+  m_LocalPosition: {x: -0, y: -7.07805157e-07, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 145643112}
+  m_RootOrder: 0
+--- !u!1 &-602131378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1344631889}
+  - 137: {fileID: 1858878427}
+  m_Layer: 24
+  m_Name: FurblingEgg_whole_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &-375760329
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1641282875}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -8.18913975e-07, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 145643112}
+  m_Father: {fileID: 1278883615}
+  m_RootOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: -1172510311}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!4 &145643112
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -2090448999}
+  m_LocalRotation: {x: 4.86314457e-05, y: -.0107684238, z: -9.0244539e-06, w: .999942005}
+  m_LocalPosition: {x: -2.98023224e-08, y: 2.07913126e-06, z: 15.0186462}
+  m_LocalScale: {x: .996471465, y: .99999994, z: 1.00441802}
+  m_Children:
+  - {fileID: -711153013}
+  m_Father: {fileID: -375760329}
+  m_RootOrder: 0
+--- !u!1 &176079881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: -711153013}
+  m_Layer: 24
+  m_Name: furbyEgg_stretch_JNT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1176376943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: -1401428624}
+  m_Layer: 24
+  m_Name: FragmentsTop_Ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1278883615
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 2029340635}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.00418592943, y: -.000186465535, z: -1.70294057e-09}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
+  m_Children:
+  - {fileID: -375760329}
+  m_Father: {fileID: -1211254889}
+  m_RootOrder: 3
+--- !u!4 &1344631889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -602131378}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
+  m_Children: []
+  m_Father: {fileID: -1211254889}
+  m_RootOrder: 2
+--- !u!111 &1465372154
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -1172510311}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 777e69b36683fc9468688ee510bd38d3, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 777e69b36683fc9468688ee510bd38d3, type: 2}
+  - {fileID: 7400000, guid: 7636e95966a19ab48a05221eb86ad4b7, type: 2}
+  - {fileID: 7400000, guid: f976061dab1725c46abfe571f4458474, type: 2}
+  - {fileID: 7400000, guid: 74675bfc1887f4f4b918f6cef7fa71f4, type: 2}
+  - {fileID: 7400000, guid: e9ec2e99a0f668349b15fad429eafe7e, type: 2}
+  - {fileID: 7400000, guid: 9556a67d5a6a7684ba0dda75556dddd3, type: 2}
+  - {fileID: 7400000, guid: 880e34d11231fe24a8c4c54c149c7e20, type: 2}
+  - {fileID: 7400000, guid: 8dcc9a900b81fa24fad32cdcc1dc41f4, type: 2}
+  - {fileID: 7400000, guid: 80c6efde4e574644ebc3ab1aaec2dcdc, type: 2}
+  - {fileID: 7400000, guid: 2d587d85d64978a45981e57393bcb4a0, type: 2}
+  - {fileID: 7400000, guid: 61817d6a7f0aa9746a903640726b0b97, type: 2}
+  - {fileID: 7400000, guid: 16fab60db8d20e9429b7bc3ba55fecd2, type: 2}
+  - {fileID: 7400000, guid: 70c5e3bf9adbb584bbb71988c0034954, type: 2}
+  - {fileID: 7400000, guid: 1a3c8e989f9a9cc4eb215145b0531cdc, type: 2}
+  - {fileID: 7400000, guid: 97c45e3cbb41943408d3054483faa0da, type: 2}
+  - {fileID: 7400000, guid: 158f7f9b5744ae345bdde8b3b6b28d5c, type: 2}
+  - {fileID: 7400000, guid: 6c0b6615516f3a848917b2ebcb3e8d72, type: 2}
+  - {fileID: 7400000, guid: 47fbfccb1c63dab49a3cb55149389a5c, type: 2}
+  - {fileID: 7400000, guid: 715980074da0f974f97c76ec473bd086, type: 2}
+  - {fileID: 7400000, guid: 67d5550b14e70f249959c06f9cbf8628, type: 2}
+  - {fileID: 7400000, guid: 1f385fd0dc1421a4994176fdb312195b, type: 2}
+  - {fileID: 7400000, guid: 27ac93aee0508054180a893c03ffc0da, type: 2}
+  - {fileID: 7400000, guid: 8bcf56a87210f344e89a76410cccaa58, type: 2}
+  - {fileID: 7400000, guid: e4a5f9ebd8dada745b6c164204ace934, type: 2}
+  - {fileID: 7400000, guid: 6604ec78a38ea684386673fb6befc0d9, type: 2}
+  - {fileID: 7400000, guid: 8bbe6284226205d47800485c2dd4036b, type: 2}
+  - {fileID: 7400000, guid: f6b8208f8fc0e3545b017549167730e1, type: 2}
+  - {fileID: 7400000, guid: be855f3c8bc4a6d43a7292361b6c371f, type: 2}
+  - {fileID: 7400000, guid: d5c5f2e8bf1846942bef146e42c5b6de, type: 2}
+  - {fileID: 7400000, guid: 8b4501e2c41bda04fa1f86dad9a1119a, type: 2}
+  - {fileID: 7400000, guid: 184d262cb0b86be458e608dd43f6d24f, type: 2}
+  - {fileID: 7400000, guid: 1a978c2c3ec9ac249a0e1736ccc999ce, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!1 &1641282875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: -375760329}
+  m_Layer: 24
+  m_Name: furbyEgg_translate_JNT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!137 &1858878427
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -602131378}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 0c0298712e312074d96025ae22102bf7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 0f1ddb0c86d5e234f9d5b4ef539d38bb, type: 2}
+  m_Bones:
+  - {fileID: 145643112}
+  - {fileID: -711153013}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 145643112}
+  m_AABB:
+    m_Center: {x: .469908237, y: .000453472137, z: 6.94479132}
+    m_Extent: {x: 15.2137966, y: 15.4545918, z: 22.8203621}
+  m_DirtyAABB: 0
+--- !u!1 &2029340635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1278883615}
+  m_Layer: 24
+  m_Name: furbyEgg_ROOT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

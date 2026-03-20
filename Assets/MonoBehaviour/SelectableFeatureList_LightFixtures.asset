@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ff2102926295ea7374e0ea94ebacd3, type: 3}
+  m_Name: SelectableFeatureList_LightFixtures
+  m_EditorClassIdentifier:
+  Features:
+  - m_PlayroomFeature:
+      m_State: 0
+      m_Name: PLAYROOMITEM_LIGHT_LIGHTBULB
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_lightBulbThumb
+      m_ObjectName: ENV_playroom_lightBulb
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 0
+      m_Name: PLAYROOMITEM_LIGHT_LAMPSHADE
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_lampshadeThumb
+      m_ObjectName: ENV_playroom_lampshade
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 1
+      m_Name: PLAYROOMITEM_LIGHT_WINDCHIME
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_windChimeThumb
+      m_ObjectName: ENV_playroom_windChime
+      m_Cost: 300
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 1
+      m_Name: PLAYROOMITEM_LIGHT_LANTERN
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_lanternThumb
+      m_ObjectName: ENV_playroom_lantern
+      m_Cost: 450
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 1
+      m_Name: PLAYROOMITEM_LIGHT_SPOTLIGHTS
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_StageLightsThumb
+      m_ObjectName: ENV_playroom_stageLights
+      m_Cost: 450
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 1
+      m_Name: PLAYROOMITEM_LIGHT_DINERSIGN
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_neonSignThumb
+      m_ObjectName: ENV_playroom_neonSign
+      m_Cost: 750
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 1
+      m_Name: PLAYROOMITEM_LIGHT_CHANDELIER
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_chandelierThumb
+      m_ObjectName: ENV_playroom_chandelier
+      m_Cost: 1000
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 3
+      m_Name: PLAYROOMITEM_LIGHT_GOLDCHANDELIER
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_goldChandelierThumb
+      m_ObjectName: ENV_playroom_goldChandelier
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 818
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_PLANE
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_planeMobileThumb
+      m_ObjectName: ENV_playroom_planeMobile
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 588
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_LAVALAMP
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_lavaLampThumb
+      m_ObjectName: ENV_playroom_lavaLamp
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 584
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_DISCOBALLS
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_discoBallThumb
+      m_ObjectName: ENV_playroom_discoBall
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 585
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_PINATA
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_pinataThumb
+      m_ObjectName: ENV_playroom_pinata
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 586
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_MIC
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_microphoneThumb
+      m_ObjectName: ENV_playroom_microphone
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 587
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_PALMFAN
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_palmFanThumb
+      m_ObjectName: ENV_playroom_palmFan
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 589
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 6
+      m_Name: PLAYROOMITEM_LIGHT_PUMPKIN
+      m_UIAtlas: {fileID: 114724804207875695, guid: d70c03b39b652474aadb21679e3dc075, type: 2}
+      m_SpriteName: ENV_playroom_pumpkin_Thumb
+      m_ObjectName: env_playroom_halloween_pumpkin
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 11400000, guid: f4cbb321080967c47a17e2fe04b43de7, type: 2}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 6
+      m_Name: PLAYROOMITEM_LIGHT_WINTERLAMP
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_lampWinterThumb
+      m_ObjectName: ENV_playroom_Winter_lampWinter
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 11400000, guid: 57941745811e77d45a3551690641e2bc, type: 2}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 6
+      m_Name: PLAYROOMITEM_LIGHT_CHINESELANTERN
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_chineseLantern_Thumb
+      m_ObjectName: ENV_playroom_CNY_lantern
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 11400000, guid: 2e805370aa3e8584a9fd2c1d407e5439, type: 2}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 6
+      m_Name: PLAYROOMITEM_LIGHT_EGGLIGHTS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_easterLightThumb
+      m_ObjectName: ENV_playroom_easter_light
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 11400000, guid: 8331cbe38d0031f499dfb3d943158546, type: 2}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 6
+      m_Name: PLAYROOMITEM_LIGHT_VALENTINES
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_valentines_candleThumb
+      m_ObjectName: ENV_playroom_valentines_candle
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 11400000, guid: e792a787acac78042bdaec1cd3321974, type: 2}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_BALLOONS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_balloonsThumb
+      m_ObjectName: ENV_playroom_balloons
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 737
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_CIRCUSMOBILE
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_circusMobileThumb
+      m_ObjectName: ENV_playroom_circusMobile
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 739
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_ICE
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_iceChandelierThumb
+      m_ObjectName: ENV_playroom_iceChandelier
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 738
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_BIRDSNEST
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_nestThumb
+      m_ObjectName: ENV_playroom_nest
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 740
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_HEART
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_heartLightThumb
+      m_ObjectName: ENV_playroom_heartLight
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 732
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_HOTAIRBALLOON
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_balloonLampThumb
+      m_ObjectName: ENV_playroom_balloonLamp
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 736
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_SPACEMOBILE
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_ufoMobileThumb
+      m_ObjectName: ENV_playroom_ufoMobile
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 734
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 7
+      m_Name: PLAYROOMITEM_LIGHT_PEGACORN
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_pegacornThumb
+      m_ObjectName: ENV_playroom_pegacorn
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 7
+      m_Name: PLAYROOMITEM_LIGHT_FULLMOON
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_moonlightThumb
+      m_ObjectName: ENV_playroom_fullmoon
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 7
+      m_Name: PLAYROOMITEM_LIGHT_FIREFLYORB
+      m_UIAtlas: {fileID: 114724804207875695, guid: 65f8c1fe103c71b4585f05e8d9bba332, type: 2}
+      m_SpriteName: ENV_playroom_firefly_lightThumb
+      m_ObjectName: ENV_playroom_firefly_light
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_FISHBONES
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_mobileBonesThumb
+      m_ObjectName: ENV_playroom_Caveman_mobileBones
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 744
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_COOKINGUTENSILS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_utensilLightThumb
+      m_ObjectName: ENV_playroom_Cooking_utensils_light
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 742
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_EGYPTLAMP
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_egyptianLampThumb
+      m_ObjectName: ENV_playroom_Egyptian_lamp
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 810
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_TEAMOBILE
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_teapotLampThumb
+      m_ObjectName: env_playroom_teaparty_teapot_lamp
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 741
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_FISHMOBILE
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_FishMobileThumb
+      m_ObjectName: env_playroom_tiki_fishmobile
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 743
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 5
+      m_Name: PLAYROOMITEM_LIGHT_RAINBOW
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_crystalChandelierThumb
+      m_ObjectName: env_playroom_rainbow_chandelier
+      m_Cost: 6999
+      m_UnlockCode:
+      m_ComAirTone: 811
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 9
+      m_Name: PLAYROOMITEM_LIGHT_CRYSTALFLOWER
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_crystalPlayroom_moonPrincessChandelier_thumb
+      m_ObjectName: env_playroom_moonprincess_light
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 8
+      m_Name: PLAYROOMITEM_LIGHT_GLOWINGSTARS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_crystalPlayroom_crystalAurora_thumb
+      m_ObjectName: env_playroom_crystalaurora
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 8
+      m_Name: PLAYROOMITEM_LIGHT_TEARDROPS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_crystalPlayroom_iceChimes_thumb
+      m_ObjectName: env_playroom_icechimes
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 6
+      m_Name: PLAYROOMITEM_LIGHT_FLOODLIGHTS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_worldCupPlayroom_floodlight_thumb
+      m_ObjectName: env_playroom_worldcup_lights
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 11400000, guid: 5e73f5ec09d82c3458241a2243b5f1af, type: 2}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 8
+      m_Name: PLAYROOMITEM_LIGHT_CRYSTALCHANDELIER
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_crystalPlayroom_gemLight_thumb
+      m_ObjectName: env_playroom_gem_light
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:
+  - m_PlayroomFeature:
+      m_State: 8
+      m_Name: PLAYROOMITEM_LIGHT_MONKEYS
+      m_UIAtlas: {fileID: 114724804207875695, guid: 3d9d9a0650d7e1040a435a619a4c2c3d, type: 2}
+      m_SpriteName: ENV_playroom_monkeyMobileThumb
+      m_ObjectName: ENV_playroom_safari_monkey_mobile
+      m_Cost: 0
+      m_UnlockCode:
+      m_ComAirTone: 0
+      m_ThemePeriod: {fileID: 0}
+      m_VariantCode:

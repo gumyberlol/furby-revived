@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_CrystalHoodSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: b42acb67c87dd1542b3ee961f45b02e6, type: 2}
+  sprites:
+  - name: SHARED_AppPattern_Stars
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 71
+      width: 96
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 71
+      width: 96
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_shrub01
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 210
+      width: 159
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 210
+      width: 159
+      height: 102
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_swatchBlack_D
+    outer:
+      serializedVersion: 2
+      x: 454
+      y: 187
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 187
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SHARED_swatchWhite_D
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 203
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 203
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_HrtDia
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 3
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 3
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_HndEst
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 37
+      width: 98
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 37
+      width: 98
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_awning_StarWav
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 146
+      width: 197
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 146
+      width: 197
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_FlagPole
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 335
+      width: 8
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 335
+      width: 8
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_HndEst
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 147
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 147
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_HrtDia
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 268
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 268
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_roof_StarWav
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 223
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 223
+      width: 94
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_door
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 99
+      width: 31
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 99
+      width: 31
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_window
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 123
+      width: 49
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 123
+      width: 49
+      height: 65
+    paddingLeft: 0.020408163
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.015384615
+  - name: GUI_Hood_promoButton
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 313
+      width: 67
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 313
+      width: 67
+      height: 66
+    paddingLeft: 0.104477614
+    paddingRight: 0.104477614
+    paddingTop: 0.060606062
+    paddingBottom: 0.07575758
+  - name: GUI_Hood_levelStrip01
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 83
+      width: 76
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 83
+      width: 76
+      height: 12
+    paddingLeft: 0.013157895
+    paddingRight: 0.013157895
+    paddingTop: 0.083333336
+    paddingBottom: 0.25
+  - name: GUI_Hood_ledge01
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 313
+      width: 20
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 313
+      width: 20
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_balcony01
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 117
+      width: 40
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 117
+      width: 40
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Hood_ladder01
+    outer:
+      serializedVersion: 2
+      x: 486
+      y: 403
+      width: 20
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 403
+      width: 20
+      height: 107
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_Neighbourhood_FlagFilmstrip01
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 192
+      width: 247
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 192
+      width: 247
+      height: 120
+    paddingLeft: 0.008097166
+    paddingRight: 0.02834008
+    paddingTop: 0.016666668
+    paddingBottom: 0.05
+  - name: GUI_SpringHood_skyline_waterTower
+    outer:
+      serializedVersion: 2
+      x: 386
+      y: 383
+      width: 96
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 386
+      y: 383
+      width: 96
+      height: 127
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_SpringHood_skyline_Roof
+    outer:
+      serializedVersion: 2
+      x: 386
+      y: 325
+      width: 22
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 386
+      y: 325
+      width: 22
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GUI_SpringHood_skyline_Bridge
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 316
+      width: 380
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 316
+      width: 380
+      height: 194
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

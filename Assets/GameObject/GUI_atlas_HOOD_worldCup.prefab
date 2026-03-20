@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_HOOD_worldCup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: a3173a7c123297f4a83dba510623e091, type: 2}
+  sprites:
+  - name: ENV_hood_seasonWorldCup_sun
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 769
+      width: 127
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 769
+      width: 127
+      height: 126
+    paddingLeft: 0.007874016
+    paddingRight: 0
+    paddingTop: 0.007936508
+    paddingBottom: 0.007936508
+  - name: ENV_hood_seasonWorldCup_footBall
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 770
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 770
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonWorldCup_bunting
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 803
+      width: 128
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 803
+      width: 128
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.18518518
+    paddingBottom: 0
+  - name: ENV_hood_seasonWorldCup_ground
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 735
+      width: 512
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 735
+      width: 512
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonWorldCup_sky
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 896
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonWorldCup_stadium
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 768
+      width: 512
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 768
+      width: 512
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonWorldCup_yellowGlow
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 896
+      width: 256
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 896
+      width: 256
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ENV_hood_seasonWorldCup_shrubs
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 831
+      width: 256
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 831
+      width: 256
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: VFX_hood_seasonWorldCup_lights
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 299
+      width: 119
+      height: 468
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 299
+      width: 119
+      height: 468
+    paddingLeft: 0.042016808
+    paddingRight: 0.033613447
+    paddingTop: 0.047008548
+    paddingBottom: 0.047008548
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

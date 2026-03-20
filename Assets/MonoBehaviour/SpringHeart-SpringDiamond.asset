@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: SpringHeart-SpringDiamond
+  m_EditorClassIdentifier:
+  m_name: SpringHeart-SpringDiamond
+  m_parentA: 15
+  m_parentB: 16
+  m_tribeSet: 3
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: cb31acd0b1c6c884f8bfbe3aa8bfe74f, type: 2}
+    - {fileID: 11400000, guid: b89977c58f62be24d9ecfd9477077a7a, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 84ba7ff6d48cf334cae438c1a3abb525, type: 2}
+    - {fileID: 11400000, guid: 29f5ba1bfc01dda418ba98b4bf27b73e, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 5ccdd55d2352e4f479dfc911bc6b671c, type: 2}
+    - {fileID: 11400000, guid: 5d33895a4f3fae846a5b6289697849ed, type: 2}
+    - {fileID: 11400000, guid: 5e4857c61099e5542bc09ce7cc324c90, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 92b88ab7426b73c4da9d73d8e5770470, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

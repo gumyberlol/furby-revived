@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Christmas
+  m_EditorClassIdentifier:
+  m_adultType: 1
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 10e76229c7f4bbe4a89018285adcb606, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: c42ef4b1c346bef489ceb54348c10af4, type: 2}
+    EyeColor: {fileID: 11400000, guid: 0d6e49a2f2a748f4389d7944153cc8ed, type: 2}
+    EarColor: {fileID: 11400000, guid: c42ef4b1c346bef489ceb54348c10af4, type: 2}
+    EyelidColor: {fileID: 11400000, guid: a92e84e663287c240bba2b3d79f34d0a, type: 2}
+    FurbySpriteName: CH_furbyAdult_Christmas
+  m_tribe: {fileID: 11400000, guid: 5723278ff483cad449e4ee40331880df, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 0100000004000000000000000600000003000000090000000a000000080000000700000002000000050000000b0000000f000000100000001100000012000000130000001400000017000000180000001600000015000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 59fc20a3c1376904d9e3e8e65bfe6998, type: 2}
+  - {fileID: 11400000, guid: 3a19651ca2e46bb49a17b17fb5ed2fa5, type: 2}
+  - {fileID: 11400000, guid: 424e805d4496ca54aa97581782cea9a5, type: 2}
+  - {fileID: 11400000, guid: 61cc2828e88ea754783749aa858964c7, type: 2}
+  - {fileID: 11400000, guid: c77592ad96913d044a6f6cac86546ddd, type: 2}
+  - {fileID: 11400000, guid: 88ccbefe8ec151643bb723025344acca, type: 2}
+  - {fileID: 11400000, guid: d58be778ab9874b468bf7ef7a9b1518f, type: 2}
+  - {fileID: 11400000, guid: b5a6f9726f8c8ad44836ea4d07085ebf, type: 2}
+  m_maxFurbyBabiesOfType: 5

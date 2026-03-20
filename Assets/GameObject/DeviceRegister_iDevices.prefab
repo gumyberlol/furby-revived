@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: DeviceRegister_iDevices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740a03091a8ef701a9e147a72ede5097, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_DeviceDatabase:
+  - m_DisplayName: iPhone
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPhone 3G
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 4
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPhone 3GS
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 4
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPod Touch (1st Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 1
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 9
+      m_SpeakerLocation: 9
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPod Touch (2nd Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 9
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPod Touch (3rd Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 9
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPad (1st Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 1
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPhone 4
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 0.5
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 4
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPod Touch (4th Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 0.5
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 1
+      m_BackgroundLoadingPriority: 4
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 1
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPad (2nd Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 1
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPhone 4S
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 4
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPad (3rd Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 0.5
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 1
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPhone 5
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 4
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPod Touch (5th Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 4
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPad Mini (1st Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 1
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPad (4th Generation)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 1
+      m_SpeakerLocation: 4
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPhone (UNKNOWN)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPod Touch (UNKNOWN)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 0
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+  - m_DisplayName: iPad (UNKNOWN)
+    m_ApplicationModifiers:
+      m_ComAirVolume: 1
+      m_ResolutionMultiplier: 1
+      m_Orientation: 2
+      m_HaveBackgroundLoadingPriorityOverride: 0
+      m_BackgroundLoadingPriority: 2
+      m_RequiresDisplayFixer: 0
+      m_BannerDimension: 1
+    m_HardwareConfiguration:
+      m_MicLocation: 0
+      m_SpeakerLocation: 0
+    m_DeviceIdentifier:
+      m_AndroidSpecific:
+        m_InclusiveModels: []
+      m_IPhoneSpecific: {}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

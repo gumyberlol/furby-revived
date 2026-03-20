@@ -1,0 +1,79 @@
+{
+  "iOSSKU": "com.relentless.furby.iap",
+  "androidBillingPlatform": "GooglePlay",
+  "GooglePlayPublicKey": "[Your key]",
+  "useAmazonSandbox": true,
+  "UseWP8MockingFramework": false,
+  "useHostedConfig": false,
+  "hostedConfigUrl": null,
+  "UseWin8_1Sandbox": true,
+  "samsungAppsMode": "PRODUCTION",
+  "samsungAppsItemGroupId": "",
+  "purchasableItems": {
+    "com.relentless.furby.iap.bundle1": {
+      "@id": "com.relentless.furby.iap.bundle1",
+      "@purchaseType": "Consumable",
+      "name": "Fast Forward Pack (small)",
+      "description": "Speed up incubation of your Furbling egg",
+      "platforms": {
+        "GooglePlay": {},
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {},
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.relentless.furby.iap.bundle2": {
+      "@id": "com.relentless.furby.iap.bundle2",
+      "@purchaseType": "Consumable",
+      "name": "Fast Forward Pack (medium)",
+      "description": "Speed up incubation of your Furbling egg",
+      "platforms": {
+        "GooglePlay": {},
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {},
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.relentless.furby.iap.bundle3": {
+      "@id": "com.relentless.furby.iap.bundle3",
+      "@purchaseType": "Consumable",
+      "name": "Fast Forward Pack (large)",
+      "description": "Speed up incubation of your Furbling egg",
+      "platforms": {
+        "GooglePlay": {},
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {},
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.relentless.furby.iap.themecrystal": {
+      "@id": "com.relentless.furby.iap.themecrystal",
+      "@purchaseType": "NonConsumable",
+      "name": "Crystal Look",
+      "description": "Crystal Look (desc)",
+      "platforms": {
+        "GooglePlay": {},
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {},
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    }
+  },
+  "currencies": {}
+}

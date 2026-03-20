@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  - 114: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: GiftList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071c99e297c328c3e7c9cbcb54a274b4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_NoteSequence:
+    m_Notes:
+    - m_CreationTime: 11/12/2013 11:15 AM
+      m_LastUpdateTime: 11/21/2013 2:35 PM
+      m_Body: "This is the RAW data, there is no implied order.\n\nIdeally, this would reference the SelectableFeature ScriptableObjects directly but it can't!\nIf it did we would end up having a bunch of atlases in memory permanently...\n\n* The ScriptableObjects contain references to the atlases.\n* Any reference to it will then cause the atlas to be loaded.\n* This Object sits in globals, and so is always loaded.\n\nWe could really do with a weak reference system...."
+      m_LastEditUsername: swoollard
+    - m_CreationTime: 11/12/2013 12:48 PM
+      m_LastUpdateTime: 11/21/2013 2:35 PM
+      m_Body: "It references the actual Playroom/Pantry items BY NAME.\n\nWhich is a bit ropey, but will work if we're careful :s\n\nAnything *about* the item is stored *in the item* data itself..."
+      m_LastEditUsername: swoollard
+    - m_CreationTime: 11/21/2013 2:33 PM
+      m_LastUpdateTime: 11/21/2013 2:35 PM
+      m_Body: "NOTE:  This list IS TEMPORARY.\n\nThe actual (or indeed placeholder) items have not been created yet\nThe whole gifting system requires gifts to exist.\n\nSo, I've just pointed at some random playroom items.\n\nUse dual Inspector tabs to edit effectively =)"
+      m_LastEditUsername: swoollard
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a9355399c39731cf495ddda8400ece, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_GiftItemData:
+  - m_GiftID: PLAYROOMITEM_PROP_CARDINALEGG
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_CARRIAGE
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_DINOSAUR
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_WATERFALL
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_HOTTUB
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_STONEFOUNTAIN
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_ZEBRABEAR
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_MUSHROOM
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_SOCCERBALL
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_POTOFGOLD
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_PROP_SEASHELLBED
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_LIGHT_PEGACORN
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_LIGHT_FULLMOON
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_LIGHT_FIREFLYORB
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_WALL_GOLDMOOSE
+    m_GiftType: 0
+  - m_GiftID: PLAYROOMITEM_WALL_UNDERWATERPORTHOLE
+    m_GiftType: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

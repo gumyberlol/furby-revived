@@ -1,0 +1,2370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GUI_atlas_Furblings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: d66641ce5c0fe9d4f8c118de0881dd48, type: 2}
+  sprites:
+  - name: 1_Bolt_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 12
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 12
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_ToughGirl-SweetBelle-Tiara
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 52
+      width: 115
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 52
+      width: 115
+      height: 41
+    paddingLeft: 0.6173913
+    paddingRight: 0.6086956
+    paddingTop: 3.097561
+    paddingBottom: 2.1463416
+  - name: 3_Limit-Ed_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Gold_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_Tri-Diag_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 84
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 84
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Chev-Heart_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_8_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Chev-Heart_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Tri-Diag_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Chev-Heart_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_Dot-Bolt_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Pea-Cube_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Limit-Ed_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Tri_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Kooky-SweetBelle-Boppers
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 881
+      width: 136
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 881
+      width: 136
+      height: 76
+    paddingLeft: 0.44852942
+    paddingRight: 0.43382353
+    paddingTop: 0.9868421
+    paddingBottom: 1.3815789
+  - name: FLAIR_ToughGirl-Gobbler-Earmuffs
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 934
+      width: 159
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 934
+      width: 159
+      height: 90
+    paddingLeft: 0.3144654
+    paddingRight: 0.2955975
+    paddingTop: 1.4
+    paddingBottom: 0.44444445
+  - name: 3_Wave-Stripe_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Rockstar-ToughGirl-Gobbler-Sombrero
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 93
+      width: 123
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 93
+      width: 123
+      height: 40
+    paddingLeft: 0.024390243
+    paddingRight: 0.016260162
+    paddingTop: 1.05
+    paddingBottom: 1.15
+  - name: Promo_Baby_4_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Wave-Stripe_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Dot_coloring
+    outer:
+      serializedVersion: 2
+      x: 883
+      y: 733
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 883
+      y: 733
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Level4_FancySpecs
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 885
+      width: 139
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 885
+      width: 139
+      height: 49
+    paddingLeft: 0.42446044
+    paddingRight: 0.4172662
+    paddingTop: 3.1632652
+    paddingBottom: 1.0612245
+  - name: 3_Limit-Ed_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Rockstar-Gobbler-Headphones
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 939
+      width: 159
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 939
+      width: 159
+      height: 85
+    paddingLeft: 0.3081761
+    paddingRight: 0.3018868
+    paddingTop: 1.4235294
+    paddingBottom: 0.5882353
+  - name: FLAIR_Kooky-Feather
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 952
+      width: 47
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 952
+      width: 47
+      height: 72
+    paddingLeft: 2.7021277
+    paddingRight: 1.7446809
+    paddingTop: 1.0972222
+    paddingBottom: 1.4583334
+  - name: FLAIR_Gobbler-Meatball
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 518
+      width: 64
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 518
+      width: 64
+      height: 48
+    paddingLeft: 1.765625
+    paddingRight: 1.234375
+    paddingTop: 2.2291667
+    paddingBottom: 2.1041667
+  - name: FLAIR_Toughgirl-Kooky-Arrow
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 957
+      width: 229
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 957
+      width: 229
+      height: 67
+    paddingLeft: 0.10043668
+    paddingRight: 0.01746725
+    paddingTop: 1.9104477
+    paddingBottom: 0.9104478
+  - name: Promo_Baby_5_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Pea-Cube_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Chev_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Level4_Snorkel
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 905
+      width: 148
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 905
+      width: 148
+      height: 119
+    paddingLeft: 0.4864865
+    paddingRight: 0.24324325
+    paddingTop: 0.7815126
+    paddingBottom: 0.3697479
+  - name: FLAIR_Level4_Aviators
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 177
+      width: 123
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 177
+      width: 123
+      height: 51
+    paddingLeft: 0.54471546
+    paddingRight: 0.5365854
+    paddingTop: 3.1568627
+    paddingBottom: 0.8627451
+  - name: 2_Wave-Stripe_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_Wave-Stripe_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 84
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 84
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_Pea-Cube_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_ToughGirl-Kooky-SweetBelle-Fez
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 467
+      width: 60
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 467
+      width: 60
+      height: 51
+    paddingLeft: 2
+    paddingRight: 1.2666667
+    paddingTop: 1.9803921
+    paddingBottom: 2.0392158
+  - name: 3_Pea-Cube_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_SweetBelle-Flower
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 566
+      width: 74
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 566
+      width: 74
+      height: 48
+    paddingLeft: 1.6081082
+    paddingRight: 0.8513514
+    paddingTop: 2.5208333
+    paddingBottom: 1.8125
+  - name: FLAIR_Rockstar-ToughGirl-Kooky-Headdress
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 677
+      width: 85
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 677
+      width: 85
+      height: 81
+    paddingLeft: 0.24705882
+    paddingRight: 0.25882354
+    paddingTop: 0.43209878
+    paddingBottom: 0.14814815
+  - name: 3_Tri-Diag_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Dot-Bolt_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Stripe_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Dot-Bolt_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Pea-Cube_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_9_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_Limit-Ed_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_ToughGirl-Kooky-SweetBelle-BaroqueWig
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 878
+      width: 146
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 878
+      width: 146
+      height: 146
+    paddingLeft: 0.42465752
+    paddingRight: 0.32876712
+    paddingTop: 0.55479455
+    paddingBottom: 0.19863014
+  - name: Promo_Baby_6_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Pea_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Limit-Ed_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 84
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 84
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Cube_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Diag_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Limit_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Wave-Stripe_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Tri-Diag_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_RockStar-Kooky-Horns
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 810
+      width: 110
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 810
+      width: 110
+      height: 68
+    paddingLeft: 0.6727273
+    paddingRight: 0.6545454
+    paddingTop: 1.0441177
+    paddingBottom: 1.7205882
+  - name: FLAIR_Level4_ZorroMask
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 891
+      width: 141
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 891
+      width: 141
+      height: 48
+    paddingLeft: 0.47517732
+    paddingRight: 0.34042552
+    paddingTop: 3.2916667
+    paddingBottom: 1.0416666
+  - name: Promo_Baby_11_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Level4_StarShades
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 747
+      width: 113
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 747
+      width: 113
+      height: 58
+    paddingLeft: 0.63716817
+    paddingRight: 0.6283186
+    paddingTop: 2.6551723
+    paddingBottom: 0.7586207
+  - name: 2_Wave-Stripe_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 430
+      y: 885
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 430
+      y: 885
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Pea-Cube_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Dot-Bolt_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_7_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_12_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: Promo_Baby_10_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Tri-Diag_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Ed_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_Tri-Diag_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 84
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 84
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_Level4_ShutterShades
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 133
+      width: 113
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 133
+      width: 113
+      height: 44
+    paddingLeft: 0.63716817
+    paddingRight: 0.6283186
+    paddingTop: 3.6818182
+    paddingBottom: 1.1363636
+  - name: 3_Dot-Bolt_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Chev-Heart_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Heart_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 12
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 12
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Limit-Ed_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_Wave_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_Dot-Bolt_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_Chev-Heart_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_RockStar-Mohawk
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 903
+      width: 27
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 903
+      width: 27
+      height: 39
+    paddingLeft: 4.148148
+    paddingRight: 4.3333335
+    paddingTop: 2.6666667
+    paddingBottom: 2.897436
+  - name: 2_Chev-Heart_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: FLAIR_ToughGirl-SkullClip
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 425
+      width: 65
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 425
+      width: 65
+      height: 42
+    paddingLeft: 1.1076924
+    paddingRight: 1.8307692
+    paddingTop: 3.0714285
+    paddingBottom: 2.0238094
+  - name: FLAIR_RockStar-ToughGirl-Headband
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 893
+      width: 137
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 893
+      width: 137
+      height: 49
+    paddingLeft: 0.3138686
+    paddingRight: 0.55474454
+    paddingTop: 2.857143
+    paddingBottom: 1.3673469
+  - name: furblingThumb_eyes
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 880
+      width: 77
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 880
+      width: 77
+      height: 25
+    paddingLeft: 1.1688311
+    paddingRight: 1.1558442
+    paddingTop: 6.88
+    paddingBottom: 2.36
+  - name: FLAIR_Rockstar-ToughGirl-Kooky-AviatorHat
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 614
+      width: 88
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 614
+      width: 88
+      height: 63
+    paddingLeft: 0.25
+    paddingRight: 0.20454545
+    paddingTop: 0.8888889
+    paddingBottom: 0.14285715
+  - name: FLAIR_Rockstar-ToughGirl-Gobbler-FruitHat
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 942
+      width: 132
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 942
+      width: 132
+      height: 82
+    paddingLeft: 0.4318182
+    paddingRight: 0.50757575
+    paddingTop: 1.1219512
+    paddingBottom: 1
+  - name: 3_SpringStar-SpringRainbow_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 84
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 84
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringStar-SpringRainbow_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 12
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 12
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_SpringStar-SpringRainbow_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_SpringHound-SpringZigZag_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 444
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 444
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_SpringStar-SpringRainbow_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_SpringHeart-SpringDiamond_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_SpringStar_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringHound-SpringZigZag_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 228
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 228
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringHeart-SpringDiamond_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 300
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 300
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_SpringStar-SpringRainbow_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 12
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 12
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_SpringZigZag_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringHound-SpringZigZag_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_SpringHound-SpringZigZag_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 85
+      width: 91
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 85
+      width: 91
+      height: 71
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7605634
+    paddingBottom: 0.04225352
+  - name: 1_SpringRainbow_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 12
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 12
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_SpringHound-SpringZigZag_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 156
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 156
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_SpringHound_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_SpringHeart_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 516
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 516
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringHeart-SpringDiamond_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 372
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 372
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 1_SpringDiamond_coloring
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_SpringHeart-SpringDiamond_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 564
+      y: 12
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 564
+      y: 12
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringHeart-SpringDiamond_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringStar-SpringRainbow_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 84
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 84
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 4_SpringHeart-SpringDiamond_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 291
+      y: 588
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 291
+      y: 588
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 3_SpringHound-SpringZigZag_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 655
+      y: 660
+      width: 91
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 660
+      width: 91
+      height: 72
+    paddingLeft: 0.20879121
+    paddingRight: 0.1978022
+    paddingTop: 0.7361111
+    paddingBottom: 0.041666668
+  - name: 2_CrystalGreenToBlue-CrystalPinkToBlue_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 732
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 732
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalPinkToPurple-CrystalYellowToOrange_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 299
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 299
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 2_CrystalOrangeToPink-CrystalRainbow_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 737
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 737
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 1_CrystalRainbow_coloring
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalPinkToPurple-CrystalYellowToOrange_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 732
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 732
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalOrangeToPink-CrystalRainbow_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 372
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 372
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 1_CrystalOrangeToPink_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 445
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 445
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalGreenToBlue-CrystalPinkToBlue_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 732
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 732
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 1_CrystalPinkToBlue_coloring
+    outer:
+      serializedVersion: 2
+      x: 865
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 865
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 2_CrystalOrangeToPink-CrystalRainbow_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 295
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 295
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalPinkToPurple-CrystalYellowToOrange_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 153
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 153
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 2_CrystalPinkToPurple-CrystalYellowToOrange_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 2_CrystalPinkToPurple-CrystalYellowToOrange_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 295
+      y: 732
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 295
+      y: 732
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 4_CrystalGreenToBlue-CrystalPinkToBlue_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 580
+      y: 732
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 580
+      y: 732
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 1_CrystalGreenToBlue_coloring
+    outer:
+      serializedVersion: 2
+      x: 580
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 580
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 4_CrystalPinkToPurple-CrystalYellowToOrange_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 226
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 226
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalGreenToBlue-CrystalPinkToBlue_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 1_CrystalYellowToOrange_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 732
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 732
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 1_CrystalPinkToPurple_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 7
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 7
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalGreenToBlue-CrystalPinkToBlue_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalOrangeToPink-CrystalRainbow_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 80
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 80
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 3_CrystalOrangeToPink-CrystalRainbow_3_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 591
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 591
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 2_CrystalGreenToBlue-CrystalPinkToBlue_2_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 518
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 518
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: 4_CrystalOrangeToPink-CrystalRainbow_1_coloring
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 805
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 805
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  - name: PLAYROOMITEM_THEME_FURBYPATTERN
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 758
+      width: 90
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 758
+      width: 90
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 1_CrystalGold_coloring
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 664
+      width: 95
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 664
+      width: 95
+      height: 73
+    paddingLeft: 0.16842106
+    paddingRight: 0.17894737
+    paddingTop: 0.72602737
+    paddingBottom: 0.02739726
+  mCoordinates: 0
+  mPixelSize: 0.5
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

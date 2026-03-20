@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d685997358458d05f8b5a22e91d7e11, type: 3}
+  m_Name: 1 LotionStage
+  m_EditorClassIdentifier:
+  m_name: SPA_STAGEHEADER_WASH
+  m_items: {fileID: 11400000, guid: b317fc9b779cb9343b6aeb37031fa6d2, type: 2}
+  m_initialContactEvents: 09000000
+  m_rubStartEvents: 07000000
+  m_rubStopEvents: 08000000
+  m_rubEvents: 0a000000
+  m_progressionEvents:
+  m_rubCompleteEvents: 0b000000
